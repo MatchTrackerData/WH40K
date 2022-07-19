@@ -1,0 +1,195 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge the Enemy",
+            "id": "bringitdownnachmund",
+            "missionName": "Bring it down",
+            "shortDescription": "Kill big monster of enemy. 1-9 wounds (1pt), 10-14 wounds (2pts), 15+ (3pts)",
+            "scoringPhase": "After each kill or end of game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill monster or vehicle 1-9 wounds",
+                    "score": 1
+                },
+                {
+                    "description": "Kill monster or vehicle 10-14 wounds",
+                    "score": 2
+                },
+                {
+                    "description": "Kill monster or vehicle 15+ wounds",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "assasination",
+            "missionName": "Assasination",
+            "shortDescription": "Kill enemy characters (3pts). Kill the enemy warlord (4pts)",
+            "scoringPhase": "After each kill or end of game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill a character",
+                    "score": 3
+                },
+                {
+                    "description": "Kill the warlord",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "bringitdown",
+            "missionName": "Bring it down",
+            "shortDescription": "Kill big monster of enemy. 1-10 wounds (1pt), 11-19 wounds (2pts), 20+ (3pts)",
+            "scoringPhase": "After each kill or end of game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill monster or vehicle <= 10 wounds",
+                    "score": 1
+                },
+                {
+                    "description": "Kill monster or vehicle 11-19 wounds",
+                    "score": 2
+                },
+                {
+                    "description": "Kill monster or vehicle >= 20 wounds",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "titanhunter",
+            "missionName": "Titan Hunter",
+            "shortDescription": "Kill titanic models: 1 (4 pts) 2 (9 pts) 3 (15 pts)",
+            "scoringPhase": "End of game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "First titanic model killed",
+                    "score": 4
+                },
+                {
+                    "description": "Second titanic model killed (9pts with the previous)",
+                    "score": 5
+                },
+                {
+                    "description": "Third titanic model killed (15 pts with the others)",
+                    "score": 6
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "assasinate",
+            "missionName": "Assasinate",
+            "shortDescription": "Destroy enemy character (3 pts each)",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill a character",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "bringitdown_old",
+            "missionName": "Bring it down",
+            "shortDescription": "Kill monster of enemy: <= 10 wounds (2pts), >10 w (3pts) each",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill monster or vehicle <= 10 wounds",
+                    "score": 2
+                },
+                {
+                    "description": "Kill monster or vehicle >= 11 wounds",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "slaythewarlord",
+            "missionName": "Slay the warlord",
+            "shortDescription": "Kill Warlord (6pts)",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": true,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill Warlord",
+                    "score": 6
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "titanslayers",
+            "shortDescription": "Kill a Titanic enemy (10pts each)",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill a Titanic enemy",
+                    "score": 10
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,632 @@
+{
+    "sizes": [
+        {
+            "id": "combatpatrol",
+            "gameSizeName": "Combat Patrol",
+            "description": "up to 500 pts",
+            "descriptionSize": "44'' x 30''",
+            "missionsIds": [
+                "incisiveattack",
+                "outriders",
+                "encircle"
+            ],
+            "commandPointsGiven": 3
+        },
+        {
+            "id": "incursion",
+            "gameSizeName": "Incursion",
+            "description": "up to 1000 pts",
+            "descriptionSize": "44'' x 30''",
+            "missionsIds": [
+                "divideandconquer",
+                "crossfire",
+                "centreground",
+                "forwardpush",
+                "ransack",
+                "shiftingfront"
+            ],
+            "commandPointsGiven": 6
+        },
+        {
+            "id": "strikeforce",
+            "gameSizeName": "Strike Force",
+            "description": "up to 2000 pts",
+            "descriptionSize": "44'' x 60''",
+            "missionsIds": [
+                "retrievalmission",
+                "frontlinewarfare",
+                "thefourpillars",
+                "nomansland",
+                "scorchedearth",
+                "vitalintelligence"
+            ],
+            "commandPointsGiven": 12
+        }
+    ],
+    "missions": [
+        {
+            "id": "retrievalmission",
+            "missionName": "Retrieval Mission",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "minimiselosses"
+            ],
+            "map": ""
+        },
+        {
+            "id": "frontlinewarfare",
+            "missionName": "Front-Line Warfare",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "vitalground"
+            ],
+              "map": ""
+        },
+        {
+            "id": "thefourpillars",
+            "missionName": "The Four Pillars",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "siphonpower"
+            ],
+            "map": ""
+        },
+        {
+            "id": "nomansland",
+            "missionName": "No Man's Land",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "securenomansland"
+            ],
+             "map": ""
+        },
+        {
+            "id": "scorchedearth",
+            "missionName": "Scorched Earth",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "raze"
+            ],
+            "map": ""
+        },
+        {
+            "id": "vitalintelligence",
+            "missionName": "Vital Intelligence",
+            "primaryId": "domination",
+            "secondaryIds": [
+                "dataintercept"
+            ],
+            "map": ""
+        },
+        {
+            "id": "shiftingfront",
+            "missionName": "Shifting Front",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "testtheirline"
+            ],
+            "map": ""
+        },
+        {
+            "id": "forwardpush",
+            "missionName": "Forward Push",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "forwardpush"
+            ],
+            "map": ""
+        },
+        {
+            "id": "ransack",
+            "missionName": "Ransack",
+            "primaryId": "domination",
+            "secondaryIds": [
+                "ransack"
+            ],
+            "map": ""
+        },
+        {
+            "id": "centreground",
+            "missionName": "Centre Ground",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "centreground"
+            ],
+            "map": ""
+        },
+        {
+            "id": "crossfire",
+            "missionName": "Crossfire",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "outflank"
+            ],
+            "map": ""
+        },
+        {
+            "id": "divideandconquer",
+            "missionName": "Divide And Conquer",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "linesofdemarcation"
+            ],
+            "map": ""
+        },
+        {
+            "id": "encircle",
+            "missionName": "Encircle",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "encircle"
+            ],
+            "map": ""
+        },
+        {
+            "id": "outriders",
+            "missionName": "Outriders",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "survey"
+            ],
+            "map": ""
+        },
+        {
+            "id": "incisiveattack",
+            "missionName": "Incisive Attack",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "surgicalassault"
+            ],
+            "map": ""
+        }
+    ],
+    "missionSecondaries": [
+        {
+            "type": "Mission Secondary",
+            "id": "centreground",
+            "missionName": "Centre Ground",
+            "shortDescription": "Score 3 points if you perform the action on one A objective or 5 points if you perform the action on both A objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Perform Centre Ground on 1 A objective",
+                    "score": 3
+                },
+                {
+                    "description": "Perform Centre Ground on 2 A objectives",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "encircle",
+            "missionName": "Encircle",
+            "shortDescription": "Control the map edges (yours and enemy's) (3pts)",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Units 6\" fully withing both edges (yours and enemy's)",
+                    "score": 3
+                },
+                {
+                    "description":  "Units 6\" fully withing both edges (yours and enemy's) and one of your unit wholly within enemy's deployment",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "forwardpush",
+            "missionName": "Forward Push",
+            "shortDescription": "Perform the Forward Push action on each objective gain more points the furthest they are from you deployment zone. (1,2,4,8 pts)",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Closest Objective (A/D)",
+                    "score": 1
+                },
+                {
+                    "description": "Second Closest Objective (B/C)",
+                    "score": 2
+                },
+                {
+                    "description": "Second Farthest Objective (C/B)",
+                    "score": 4
+                },
+                {
+                    "description": "Farthest Objective (D/A)",
+                    "score": 8
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "linesofdemarcation",
+            "missionName": "Lines of Demarcation",
+            "shortDescription": "Control both A (4pts) or B (2pts) objectives",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control both A objectives",
+                    "score": 4
+                },
+                {
+                    "description": "Control both B objectives",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "outflank",
+            "missionName": "Outflank",
+            "shortDescription": "Score 3 points if you control both objectives A or 5 points if you control both objectives B and there an enemy 9\" from the centre.",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control both A objectives",
+                    "score": 3
+                },
+                {
+                    "description": "Control both B objectives and enemy in the centre",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "ransack",
+            "missionName": "Ransack",
+            "shortDescription": "Score a number of victory points at your command phase dependeing on how many Objectives you control in enemy's side: 1 (2pts), 2 (3pts), 3 (5pts)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "1 Objective in Enemy's territory",
+                    "score": 2
+                },
+                {
+                    "description": "2 Objective in Enemy's territory",
+                    "score": 3
+                },
+                {
+                    "description": "3 Objective in Enemy's territory",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "surgicalassault",
+            "missionName": "Surgical Assault",
+            "shortDescription": "Control enemy deployment's objective (5pts)",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control enemy deployment's objective",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "survey",
+            "missionName": "Survey",
+            "shortDescription": "Control both noman land objectives (5pts)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control BOTH no-man land objectives",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "testtheirline",
+            "missionName": "Test Their Line",
+            "shortDescription": "Score point if within enemy's edge.",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "3 Points if two units in enemy's deployment and two different edges (sides, wholly within 6\")",
+                    "score": 3
+                },
+                {
+                    "description": "5 Points if two units in enemy's deployment and on two different edges, one edge's enemy's edge (wholly within 6\") ",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "minimiselosses",
+            "missionName": "Minimise Losses",
+            "shortDescription": "Points based on your army % remaining at the end of battle. 75%+ (15 points), 50%+ (10 pts), 25%+ (5pts)",
+            "scoringPhase": "End of game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "+75% army (Unit count)",
+                    "score": 15
+                },
+                {
+                    "description": "+50% army (Unit count)",
+                    "score": 10
+                },
+                {
+                    "description": "+25% army (Unit count)",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "vitalground",
+            "missionName": "Vital Ground",
+            "shortDescription": "Score points in objectives out of your deployment: opponents (3pts), no-man's land (2pts each)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control opponent's objective",
+                    "score": 3
+                },
+                {
+                    "description": "Control no man's objective A",
+                    "score": 2
+                },
+                {
+                    "description": "Control no man's objective B",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "siphonpower",
+            "missionName": "Siphon Power",
+            "shortDescription": "Perform the siphon action with as many units as you can (1, 3, 4, 10 pts)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "1 siphon action",
+                    "score": 1
+                },
+                {
+                    "description": "2 siphon action (2 different objectives)",
+                    "score": 3
+                },
+                {
+                    "description": "3 siphon action (3 different objectives)",
+                    "score": 6
+                },
+                {
+                    "description": "4 siphon action (4 different objectives)",
+                    "score": 10
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "securenomansland",
+            "missionName": "Secure no man's land",
+            "shortDescription": "Get points in the center objective based on the turn number (1,2,3,4,5)",
+            "scoringPhase": "End of turn",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Control central on turn 1",
+                    "score": 1
+                },
+                {
+                    "description": "Control central on turn 2",
+                    "score": 2
+                },
+                {
+                    "description": "Control central on turn 3",
+                    "score": 3
+                },
+                {
+                    "description": "Control central on turn 4",
+                    "score": 4
+                },
+                {
+                    "description": "Control central on turn 5",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "raze",
+            "missionName": "Raze",
+            "shortDescription": "Destroy the opponents objectives (Raze action) (6pts each)",
+            "scoringPhase": "On action completion or end of game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Razed FIRST objective (action on opponent objective if there's no enemy units, it destroys de objective, completed end of turn)",
+                    "score": 6
+                },
+                {
+                    "description": "Razed SECOND objectives (action on opponent objective if there's no enemy units, it destroys de objective, completed end of turn)",
+                    "score": 6
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "dataintercept",
+            "missionName": "Data Intercept",
+            "shortDescription": "Complete the action (Data intercept), win one point per objective controlled",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Data intercept (action, completed on next command phase, within objective marker, score depending on objectives under control)",
+                    "score": 1
+                }
+            ]
+        }
+    ],
+    "missionPrimaries": [
+        {
+            "type": "Mission Primary",
+            "id": "domination",
+            "missionName": "Domination",
+            "description": "",
+            "shortDescription": "Control 2, 3 or more objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control two or more objectives",
+                    "score": 5
+                },
+                {
+                    "description": "Control three or more objectives",
+                    "score": 5
+                },
+                {
+                    "description": "Control more objectives than opponent",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "takeandhold",
+            "missionName": "TakeAndHold",
+            "shortDescription": "Control 1, 2 or more objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control one or more objectives ",
+                    "score": 5
+                },
+                {
+                    "description": "Control two or more objectives ",
+                    "score": 5
+                },
+                {
+                    "description": "Control more objectives than the opponent ",
+                    "score": 5
+                }
+            ]
+        }
+    ]
+}

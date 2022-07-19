@@ -1,0 +1,112 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge the Enemy",
+            "id": "glorykills",
+            "missionName": "Glory Kills",
+            "shortDescription": "Score: (2pts) killed a CHARACTER or (1pt) do 3+ wounds to a character, (3pts) killed monster or (1pts) 3+ wounds to a monsters",
+            "scoringPhase": "On kill",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed a non-monster CHARACTER",
+                    "score": 2
+                },
+                {
+                    "description": "dealt 3+ wounds to a non-monster CHARACTER (if it didn't die)",
+                    "score": 1
+                },
+                {
+                    "description": "Killed a MONSTER",
+                    "score": 3
+                },
+                {
+                    "description": "dealt 3+ wounds to a MONSTER (if it didn't die)",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "heroicchallenge",
+            "missionName": "Heroic Challenge",
+            "shortDescription": "Player and opponent choose challenger CHARACTERS (or warlord, one each). Score: (5pts)opponent challenger is destroyed, (+5pts) killed in melee attack, (+5pts) killed in melee by your challenger",
+            "scoringPhase": "On kill",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Enemy challenger killed",
+                    "score": 5
+                },
+                {
+                    "description": "Enemy challenger killed on melee",
+                    "score": 10
+                },
+                {
+                    "description": "Enemy challenger killed on melee by your challenger",
+                    "score": 15
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "amightysaga",
+            "missionName": "A Mighty Saga",
+            "shortDescription": "Score (2pts) if(max 5pts per turn): wound VEHICLE or MONSTER on melee by warlord, kill VEHICLE or MONSTER on melee by warlord, kill CHARACTER on melee by warlord, Kill 5 models on melee by warlord, warlord on enemy's objective on command phase ",
+            "scoringPhase": "End of battle round",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Warlord killed MONSTER or VEHICLE or CHARACTER or 5+ models",
+                    "score": 2
+                },
+                {
+                    "description": "Warlord wounded MONSTER or VEHICLE",
+                    "score": 2
+                },
+                {
+                    "description": "Warlord in range of enemy's objective in command phase ",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "warriorpride",
+            "missionName": "Warrior Pride",
+            "shortDescription": "(3pts) if 2 units are in engagement range or completed a charge this turn",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "2 units are in engagement range or completed a charge this turn.",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "secondaries": [
+        {
+            "type": "Warpcraft",
+            "id": "mutatelandscape",
+            "missionName": "Mutate Landscape",
+            "shortDescription": "Psychic action (warp ch. 4 ,increase +1 every success), one psyker per turn, different objective each time (3pts per success)",
+            "scoringPhase": "Psychicw phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Psychic action (warp ch. 4 ,increase +1 every success), by one psyker per turn, different objective each time.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "wrathofmagnus",
+            "missionName": "Wrath of Magnus",
+            "shortDescription": "Choose only if enemy has psykers. Kill more models than the enemy with psychic powers this round. (3 pts)",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kiledl more models than the enemy with psychic powers this round.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "burnempires",
+            "missionName": "Burn Empires",
+            "shortDescription": "Infantry only action. Each unit in different not burned objective and not within your deployment zone. (4 pts per completed action)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Burned (action by Infantry) a new objective marker.",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "sorcerousprowess",
+            "missionName": "Sorcerous Prowess",
+            "shortDescription": "Kill enemy psyker units in the psychic phase: character (5pts), any other (3pts)",
+            "scoringPhase": "Psychic Phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed enemy psyker unit in the psychic phase.",
+                    "score": 3
+                },
+                {
+                    "description": "Killed enemy psyker CHARACTER in the psychic phase.",
+                    "score": 5
+                }
+            ]
+        }
+    ]
+}

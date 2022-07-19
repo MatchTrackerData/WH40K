@@ -1,0 +1,406 @@
+{
+    "sizes": [
+        {
+            "id": "combatpatrol",
+            "gameSizeName": "Combat Patrol",
+            "description": "up to 500 pts (using incursion missions)",
+            "descriptionSize": "44'' x 30''",
+            "missionsIds": [
+                "takeandholdmission",
+                "directassaultmission",
+                "prioritytargetsmission",
+                "vitalgroundmission",
+                "burnandrazemission",
+                "claimthebattlefieldmission"
+            ],
+            "commandPointsGiven": 3
+        },
+        {
+            "id": "incursion",
+            "gameSizeName": "Incursion",
+            "description": "up to 1000 pts",
+            "descriptionSize": "44'' x 30''",
+            "missionsIds": [
+                "takeandholdmission",
+                "directassaultmission",
+                "prioritytargetsmission",
+                "vitalgroundmission",
+                "burnandrazemission",
+                "claimthebattlefieldmission"
+            ],
+            "commandPointsGiven": 6
+        },
+        {
+            "id": "strikeforce",
+            "gameSizeName": "Strike Force",
+            "description": "up to 2000 pts",
+            "descriptionSize": "44'' x 60''",
+            "missionsIds": [
+                "takeandholdmission",
+                "directassaultmission",
+                "prioritytargetsmission",
+                "vitalgroundmission",
+                "burnandrazemission",
+                "claimthebattlefieldmission"
+            ],
+            "commandPointsGiven": 12
+        }
+    ],
+    "missions": [
+        {
+            "id": "takeandholdmission",
+            "missionName": "Take and hold",
+            "primaryId": "takeandhold",
+            "map": ""
+        },
+        {
+            "id": "directassaultmission",
+            "missionName": "Direct Assault",
+            "primaryId": "directassault",
+            "subPrimariesIds": 
+            [
+                "directassaultsub"
+            ],
+            "map": ""
+        },
+        {
+            "id": "prioritytargetsmission",
+            "missionName": "Priority Targets",
+            "primaryId": "prioritytargets",
+            "subPrimariesIds":
+            [
+                "prioritytargetssub"
+            ],
+            "map": ""
+        },
+        {
+            "id": "vitalgroundmission",
+            "missionName": "Vital Ground",
+            "primaryId": "vitalground",
+            "subPrimariesIds":
+            [
+                "vitalgroundsub"
+            ],
+            "map": ""
+        },
+        {
+            "id": "burnandrazemission",
+            "missionName": "Burn and Raze",
+            "primaryId": "burnandraze",
+            "subPrimariesIds":
+            [
+                "burnandrazesub"
+            ],
+            "map": ""
+        },
+        {
+            "id": "claimthebattlefieldmission",
+            "missionName": "Claim the battlefield",
+            "primaryId": "claimthebattlefield",
+            "subPrimariesIds":
+            [
+                "claimthebattlefieldsub"
+            ],
+            "map": ""
+        }
+    ],
+    "missionSubPrimary": 
+    [
+        {
+            "type": "Mission Primary",
+            "id": "directassaultsub",
+            "missionName": "Direct Assault",
+            "shortDescription": "End of each turn, score 2 if satisfy control every objective marker on the battlefield/control one objective the control wasn't theirs OR if destroyed 1+ enemy unit in range of an objective marker",
+            "scoringPhase": "Progressive",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Control one objective which wasn't yours at the start of the turn",
+                    "score": 2
+                },
+                {
+                    "description": "Destroyed 1+ enemy unit within the range of an objective marker",
+                    "score": 2
+                },
+                {
+                    "description": "Satisfy the previous 2 conditions (control and destroy enemy)",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "prioritytargetssub",
+            "missionName": "Priority Targets",
+            "shortDescription": "",
+            "scoringPhase": "End of game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTurnPoints": 20,
+            "maxTotalPoints": 20,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "5 points per objective you control",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "vitalgroundsub",
+            "missionName": "Kill Units",
+            "shortDescription": "",
+            "scoringPhase": "End of round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Killed 1 enemy unit",
+                    "score": 1
+                },
+                {
+                    "description": "Killed 2 enemy unit",
+                    "score": 2
+                },
+                {
+                    "description": "Killed 3+ enemy unit",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "burnadnrazesub",
+            "missionName": "Raze Objective",
+            "shortDescription": "",
+            "scoringPhase": "End of round",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTurnPoints": 20,
+            "maxTotalPoints": 20,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Razed objective action(remove from battlefield)",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "burnandrazesub",
+            "missionName": "Raze Objective",
+            "shortDescription": "",
+            "scoringPhase": "End of round",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTurnPoints": 20,
+            "maxTotalPoints": 20,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Razed objective action(remove from battlefield)",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "claimthebattlefieldsub",
+            "missionName": "Claim Objective",
+            "shortDescription": "",
+            "scoringPhase": "Command phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 20,
+            "maxTotalPoints": 45,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Claimed objective",
+                    "score": 2
+                }
+            ]
+        }
+    ],
+
+
+    "missionPrimaries": [
+        {
+            "type": "Mission Primary",
+            "id": "takeandhold",
+            "missionName": "Take and Hold",
+            "shortDescription": "Control 1, 2 or more objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control one or more objectives ",
+                    "score": 5
+                },
+                {
+                    "description": "Control two or more objectives ",
+                    "score": 5
+                },
+                {
+                    "description": "Control more objectives than the opponent ",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "prioritytargets",
+            "missionName": "Priority Targets",
+            "shortDescription": "Control 1 or more objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 12,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control one or more objectives ",
+                    "score": 5
+                },
+                {
+                    "description": "Control more objectives than the opponent ",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "directassault",
+            "missionName": "Direct Assault",
+            "shortDescription": "Control 1, 2 or more objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 12,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control one or more objectives ",
+                    "score": 4
+                },
+                {
+                    "description": "Control two or more objectives ",
+                    "score": 4
+                },
+                {
+                    "description": "Control more objectives than the opponent ",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "vitalground",
+            "missionName": "Vital Ground",
+            "shortDescription": "Control objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 12,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control the objective in your deployment",
+                    "score": 3
+                },
+                {
+                    "description": "Control 1+ objectives in no man's lands",
+                    "score": 4
+                },
+                {
+                    "description": "Control the objective in your opponent's deployment ",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "burnandraze",
+            "missionName": "Burn and Raze",
+            "shortDescription": "Control and burn objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 12,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control one or more objectives",
+                    "score": 5
+                },
+                {
+                    "description": "Control more objectives than the opponent",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "claimthebattlefield",
+            "missionName": "Claim the Battlefield",
+            "shortDescription": "Control 1 or 2 objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 12,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control one or more objectives",
+                    "score": 5
+                },
+                {
+                    "description": "Control two or more objectives",
+                    "score": 5
+                }
+            ]
+        }
+    ]
+}

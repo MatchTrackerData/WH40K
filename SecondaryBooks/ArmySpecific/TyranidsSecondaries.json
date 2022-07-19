@@ -1,0 +1,72 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "synapticinsight",
+            "missionName": "Synaptic Insight",
+            "shortDescription": "Score Synaptic Kill (reset at the start of each battle round) tally when a friend SYNAPSE model kills an enemy model with 3 to 5 wounds (1); 6 to 9 (2); 10+ (3) and win 3 points if the tally is 4+.",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You have 4+ Synpatic Tally Kill",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Purge The Enemy",
+            "id": "cranialfeasting",
+            "missionName": "Cranial Feasting",
+            "shortDescription": "When an enemy CHARACTER model or unit is destroyed by melee by a HIVE TENDRIL Roll a D6, gain a command point on a 6 and score 1 or 3 depending on specific conditions. Max 1 Command point per round",
+            "scoringPhase": "End of Round or End of Game",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 100,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "For each command point you gained by this secondary",
+                    "score": 3
+                },
+                {
+                    "description": "For each enemy CHARACTER model destroyed by a melee attack by a HIVE TENDRIL",
+                    "score": 1
+                },
+                {
+                    "description": "You killed the enemy WARLORD with a melee attack made by a HIVE TENDRIL model",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "sporenodes",
+            "missionName": "Spore Nodes",
+            "shortDescription": "Score 4 every time a unit from the army complete the Seed Spore Node action. (1 unit, 2nd+ battle round, 6'' within enemy deployment zone, 6'' away from another spore token)",
+            "scoringPhase": "End of turn",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You placed a Spore Node successfully",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

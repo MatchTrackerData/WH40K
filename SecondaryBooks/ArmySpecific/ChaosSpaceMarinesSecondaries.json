@@ -1,0 +1,28 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "thelongwar",
+            "missionName": "The Long War",
+            "shortDescription": "Score 1 for each enemy unit in range of an objective marker at the start of that turn destroyed by a HERETIC ASTARTES, score 2 if you control 1+ objective that were controlled by your opponent at the start of the turn.",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed 1 ennemy unit within range of an objective marker at the start of that turned with a HERETIC ASTARTES unit",
+                    "score": 1
+                },
+                {
+                    "description": "Control 1+ objective that were controlled by your opponent at the start of that turn with a HERETIC ASTARTES fully within the range of the objective",
+                    "score": 2
+                }
+            ]
+        }
+    ]
+}

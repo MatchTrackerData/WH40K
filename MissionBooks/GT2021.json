@@ -1,0 +1,773 @@
+{
+    "sizes": [
+        {
+            "id": "combatpatrol",
+            "gameSizeName": "Combat Patrol",
+            "description": "up to 500 pts (using incursion missions)",
+            "descriptionSize": "44'' x 30''",
+            "missionsIds": [
+                "crossfire",
+                "resupply",
+                "centreground",
+                "ascension",
+                "forwardpush",
+                "riseofthemachinespirit",
+                "showofforce",
+                "reconnaisancemission"
+            ],
+            "commandPointsGiven": 3
+        },
+        {
+            "id": "incursion",
+            "gameSizeName": "Incursion",
+            "description": "up to 1000 pts",
+            "descriptionSize": "44'' x 30''",
+            "missionsIds": [
+                "crossfire",
+                "resupply",
+                "raid",
+                "centreground",
+                "ascension",
+                "forwardpush",
+                "riseofthemachinespirit",
+                "showofforce",
+                "reconnaisancemission"
+            ],
+            "commandPointsGiven": 6
+        },
+        {
+            "id": "strikeforce",
+            "gameSizeName": "Strike Force",
+            "description": "up to 2000 pts",
+            "descriptionSize": "44'' x 60''",
+            "missionsIds": [
+                "retrievalmission",
+                "scorchedearth",
+                "vitalintelligence",
+                "surroundanddestroy",
+                "battlelines",
+                "thescouring",
+                "overrun",
+                "sweepandclear",
+                "prioritytarget"
+            ],
+            "commandPointsGiven": 12
+        }
+    ],
+    "missions": [
+        {
+            "id": "crossfire",
+            "missionName": "Crossfire",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "outflank"
+            ],
+            "map": ""
+        },
+        {
+            "id": "resupply",
+            "missionName": "Resuply",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "securelandingsites"
+            ],
+            "map": ""
+        },
+        {
+            "id": "raid",
+            "missionName": "Raid",
+            "primaryId": "domination",
+            "secondaryIds": [
+                "raidsupplylines"
+            ],
+            "map": ""
+        },
+        {
+            "id": "centreground",
+            "missionName": "Centre Ground",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "centreground"
+            ],
+           "map": ""
+        },
+        {
+            "id": "ascension",
+            "missionName": "Ascension",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "ascend"
+            ],
+            "map": ""
+        },
+        {
+            "id": "forwardpush",
+            "missionName": "Forward Push",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "forwardpush"
+            ],
+            "map": ""
+        },
+        {
+            "id": "riseofthemachinespirit",
+            "missionName": "Rise of the machine spirit",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "inloaddatapsalm"
+            ],
+            "map": ""
+        },
+        {
+            "id": "showofforce",
+            "missionName": "Show Force",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "minimiselosses"
+            ],
+            "map": ""
+        },
+        {
+            "id": "reconnaisancemission",
+            "missionName": "Reconnaisance mission",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "reconsweep"
+            ],
+            "map": ""
+        },
+        {
+            "id": "retrievalmission",
+            "missionName": "Retrieval Mission",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "minimiselosses"
+            ], 
+            "map": ""
+        },
+        {
+            "id": "scorchedearth",
+            "missionName": "Scorched Earth",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "raze"
+            ],
+            "map": ""
+        },
+        {
+            "id": "vitalintelligence",
+            "missionName": "Vital Intelligence",
+            "primaryId": "domination",
+            "secondaryIds": [
+                "dataintercept"
+            ],
+             "map": ""
+        },
+        {
+            "id": "surroundanddestroy",
+            "missionName": "Souround and destroy",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "surroundthem"
+            ],
+            "map": ""
+        },
+        {
+            "id": "battlelines",
+            "missionName": "Battle lines",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "vitalground"
+            ],
+            "map": ""
+        },
+        {
+            "id": "thescouring",
+            "missionName": "The Scouring",
+            "primaryId": "domination",
+            "secondaryIds": [
+                "strategicscan"
+            ],
+            "map": ""
+        },
+        {
+            "id": "thescouring",
+            "missionName": "The Scouring",
+            "primaryId": "domination",
+            "secondaryIds": [
+                "strategicscan"
+            ],
+            "map": ""
+        },
+        {
+            "id": "overrun",
+            "missionName": "Overrun",
+            "primaryId": "domination",
+            "secondaryIds": [
+                "overrun"
+            ],
+            "map": ""
+        },
+        {
+            "id": "sweepandclear",
+            "missionName": "Sweep and Clear",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "directassault"
+            ],
+            "map": ""
+        },
+        {
+            "id": "prioritytarget",
+            "missionName": "Priority target",
+            "primaryId": "takeandhold",
+            "secondaryIds": [
+                "prioritytargets"
+            ],
+            "map": ""
+        }
+    ],
+    "missionSecondaries": [
+        {
+            "type": "Mission Secondary",
+            "id": "outflank",
+            "missionName": "Outflank",
+            "shortDescription": "Score 3 points if you control both objectives A or 5 points if there's an enemy 9\" from the centre.",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Control both A objectives",
+                    "score": 3
+                },
+                {
+                    "description": "Control both A objectives and there's an enemy unit within 9\" from centre",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "centreground",
+            "missionName": "Centre Ground",
+            "shortDescription": "Score 3 points if you perform the action (Centre Ground) on one A objective or 5 points if you perform the action and control both A objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Perform Centre Ground on 1 A objective",
+                    "score": 3
+                },
+                {
+                    "description": "Perform Centre Ground on an A objectives and control both A objectives",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "forwardpush",
+            "missionName": "Forward Push",
+            "shortDescription": "Perform the Push action on each objective gain more points the furthest they are from you deployment zone. (1,2,4,8pts)",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Action in the closest Objective (A/D)",
+                    "score": 1
+                },
+                {
+                    "description": "Action in the second Closest Objective (B/C)",
+                    "score": 2
+                },
+                {
+                    "description": "Action in the second Farthest Objective (C/B)",
+                    "score": 4
+                },
+                {
+                    "description": "Action in the farthest Objective (D/A)",
+                    "score": 8
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "minimiselosses",
+            "missionName": "Minimise Losses",
+            "shortDescription": "Points based on your army % remaining at the end of battle. 75%+ (15 points), 50%+ (10 pts), 25%+ (5pts)",
+            "scoringPhase": "End of game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "+75% army (Unit count)",
+                    "score": 15
+                },
+                {
+                    "description": "+50% army (Unit count)",
+                    "score": 10
+                },
+                {
+                    "description": "+25% army (Unit count)",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "raze",
+            "missionName": "Raze",
+            "shortDescription": "Destroy the opponents objectives (Raze action) (6pts each)",
+            "scoringPhase": "On action completion or end of game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Razed FIRST objective (action on opponent objective if there's no enemy units, it destroys de objective, completed end of turn)",
+                    "score": 6
+                },
+                {
+                    "description": "Razed SECOND objectives (action on opponent objective if there's no enemy units, it destroys de objective, completed end of turn)",
+                    "score": 6
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "dataintercept",
+            "missionName": "Data Intercept",
+            "shortDescription": "Complete the action (Data intercept), win one point per objective controlled",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Data intercept (action, completed on next command phase, within objective marker, score depending on objectives under control)",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "vitalground",
+            "missionName": "Vital Ground",
+            "shortDescription": "Score points in objectives out of your deployment: opponents (3pts), no-man's land (2pts each)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control opponent's objective",
+                    "score": 3
+                },
+                {
+                    "description": "Control no man's objective A",
+                    "score": 2
+                },
+                {
+                    "description": "Control no man's objective B",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "strategicscan",
+            "missionName": "Strategic Scan",
+            "shortDescription": "One or more unit can perform Strategic scan in a different objective with no enemies, completes in your next command phase or end of battle. Points on ammount of completion 1 (3pts), 2 (6pts), 3 (10 pts), 4+ (15pts)   ",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "FIRST Strategic scan action done",
+                    "score": 3
+                },
+                {
+                    "description": "SECOND Strategic scan action done (6pts)",
+                    "score": 3
+                },
+                {
+                    "description": "THIRD Strategic scan action done (10pts)",
+                    "score": 4
+                },
+                {
+                    "description": "FOURTH Strategic scan action done (15pts)",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "overrun",
+            "missionName": "Overrun",
+            "shortDescription": "Score victory points on your command phase by the number of objectives you control in enemy's territory: 1 (2pts), 2 (3pts), 3 (5pts)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Control 1 objective in enemy's territory",
+                    "score": 2
+                },
+                {
+                    "description": "Control 2 objective in enemy's territory",
+                    "score": 3
+                },
+                {
+                    "description": "Control 3 objective in enemy's territory",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "directassault",
+            "missionName": "Direct Assault",
+            "shortDescription": "3 pts for controlling center or enemy's objective, 5pts for both, at end of turn",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Control 1 objective in enemy's deployment OR center",
+                    "score": 3
+                },
+                {
+                    "description": "Control 2 objective, enemy's deployment AND center",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "prioritytargets",
+            "missionName": "Priority targets",
+            "shortDescription": "3 pts for controlling either priority objectives, 5 for both. End of turn.",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Control 1 priority target objective",
+                    "score": 3
+                },
+                {
+                    "description": "Control both priority target objectives.",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "surroundthem",
+            "missionName": "Surround them",
+            "shortDescription": "End of command phase. 4 pts for control objectives: 2 in your deployment + 1 in enemy's deployment. Or 8pts for controlling all the objectives in each deployment.",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Control objectives: 2 in your deployment + 1 in enemy's deployment ",
+                    "score": 4
+                },
+                {
+                    "description": "Control objectives: all the objectives in all deployments (4 in total)",
+                    "score": 8
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "reconsweep",
+            "missionName": "Recon Sweep",
+            "shortDescription": "Recon each table quarter (action, end of turn). 1 quarter (3pts), 2 (6pts), 3 (10pts), 4 (15pts)",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "FIRST Recon Sweep action done (9\" from center)",
+                    "score": 3
+                },
+                {
+                    "description": "SECOND Recon Sweep action action done in new quarter (6pts)",
+                    "score": 3
+                },
+                {
+                    "description": "THIRD Recon Sweep action action done in new quarter(10pts)",
+                    "score": 4
+                },
+                {
+                    "description": "FOURTH Recon Sweep action action done in new quarter(15pts)",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "securelandingsites",
+            "missionName": "Secure Landing site",
+            "shortDescription": "Score points each round depending on how many objectives in No man lands you control. Round 2 (2pts) Round 3 (2pts) Round 4 (3pts) Round 5 (6pts)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Round 2. Control no man's land objective",
+                    "score": 2,
+                    "turnLimit": [2,2]
+                },
+                {
+                    "description": "Round 3. Control no man's land objective",
+                    "score": 2,
+                    "turnLimit": [3,3]
+                },
+                {
+                    "description": "Round 4. Control no man's land objective",
+                    "score": 3,
+                    "turnLimit": [4,4]
+                },
+                {
+                    "description": "Round 5. Control no man's land objective",
+                    "score": 6,
+                    "turnLimit": [5,5]
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "raidsupplylines",
+            "missionName": "Raid Supply Lines",
+            "shortDescription": "3 pts for 1 objective in enemy's deployment, 5 pts for both",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Control 1 objective in enemy's deployment",
+                    "score": 3
+                },
+                {
+                    "description": "Control 2 objective in enemy's deployment",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "ascend",
+            "missionName": "Ascend",
+            "shortDescription": "Control central objective, earn points equal to battle round. +1 point if warlord is in range of the central obj.",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Warlord in range of central objective",
+                    "score": 1
+                },
+                {
+                    "description": "Control central objective in Round 1",
+                    "score": 1,
+                    "turnLimit": [1,1]
+                },
+                {
+                    "description": "Control central objective in Round 2",
+                    "score": 2,
+                    "turnLimit": [2,2]
+                },
+                {
+                    "description": "Control central objective in Round 3",
+                    "score": 3,
+                    "turnLimit": [3,3]
+                },
+                {
+                    "description": "Control central objective in Round 4",
+                    "score": 4,
+                    "turnLimit": [4,4]
+                },
+                {
+                    "description": "Control central objective in Round 5",
+                    "score": 5,
+                    "turnLimit": [5,5]
+                }
+            ]
+        },
+        {
+            "type": "Mission Secondary",
+            "id": "inloaddatapsalm",
+            "missionName": "Inload Data Plasm",
+            "shortDescription": "Perform Inload Psalm action. One or more units, each one in different obj, completed next command phase. Earn point per action completed in the phase: 1 (1pt), 2 (3pts), 3 (6pts), 4 (10pts)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "1 In-load action completed this phase",
+                    "score": 1
+                },
+                {
+                    "description": "2 In-load actions completed in different objectives this phase",
+                    "score": 3
+                },
+                {
+                    "description": "3 In-load actions completed in different objectives  this phase",
+                    "score": 6
+                },
+                {
+                    "description": "4 In-load actions completed in different objectives  this phase",
+                    "score": 10
+                }
+            ]
+        }
+        
+    ],
+    "missionPrimaries": [
+        {
+            "type": "Mission Primary",
+            "id": "domination",
+            "missionName": "Domination",
+            "description": "",
+            "shortDescription": "Control 2, 3 or more objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control two or more objectives",
+                    "score": 5
+                },
+                {
+                    "description": "Control three or more objectives",
+                    "score": 5
+                },
+                {
+                    "description": "Control more objectives than opponent",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "takeandhold",
+            "missionName": "TakeAndHold",
+            "shortDescription": "Control 1, 2 or more objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control one or more objectives ",
+                    "score": 5
+                },
+                {
+                    "description": "Control two or more objectives ",
+                    "score": 5
+                },
+                {
+                    "description": "Control more objectives than the opponent ",
+                    "score": 5
+                }
+            ]
+        }
+    ]
+}

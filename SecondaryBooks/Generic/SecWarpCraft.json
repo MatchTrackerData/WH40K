@@ -1,0 +1,180 @@
+{
+    "secondaries": [
+        {
+            "type": "Warpcraft",
+            "id": "psychihcinterrogationnachmund",
+            "missionName": "Psychic Interrogation",
+            "shortDescription": "Psychic action: Warp charge of 4 at 24\" from enemy character (3 points each)",
+            "scoringPhase": "Psychic phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Interrogate: Warp charge of 4, 24\" from enemy character",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "abhorthewitch",
+            "missionName": "Abhor the Witch",
+            "shortDescription": "Kill enemy psychers: characteres (3pts), any other (2pts)",
+            "scoringPhase": "Any time or end of game",
+            "fromRound": 2,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed an enemy psyker CHARACTER",
+                    "score": 3
+                },
+                {
+                    "description": "Killed any other enemy psyker",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "psychihcinterroagtion",
+            "missionName": "Psychic Interrogation",
+            "shortDescription": "Psychic action: Warp charge of 4 at 24\" from visible enemy character (3 points each)",
+            "scoringPhase": "Psychic phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Interrogate: Warp charge of 4, 24\" from visible enemy character.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "warpritual",
+            "missionName": "Warp Ritual",
+            "shortDescription": "Execute psychic ritual 3 times (6\" from the center). Tally: 1 (3pts), 2 (7pts), 3 (12pts)",
+            "scoringPhase": "End of game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Executed ritual action FIRST time 6\" from the center",
+                    "score": 3
+                },
+                {
+                    "description": "Executed ritual action SECOND time 6\" from the center (7pts)",
+                    "score": 7
+                },
+                {
+                    "description": "Executed ritual action THIRD time 6\" from the center (12 pts)",
+                    "score": 12
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "piercetheveil",
+            "missionName": "Pierce the Veil",
+            "shortDescription": "Execute the psychic action Veil (warp charge 4) withing 6\" from the enemy's deployment line. Tally 2 (8pts) 4 (15pts)" ,
+            "scoringPhase": "Psychic phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Veil FIRST 2 times (warp charge 4) withing 6\" from the enemy's deployment line",
+                    "score": 8
+                },
+                {
+                    "description": "Veil another 2 times (warp charge 4) withing 6\" from the enemy's deployment line (15 pts total)",
+                    "score": 7
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "mentalinterrogation",
+            "missionName": "Mental Interrogation",
+            "shortDescription": "Warp charge of 4 18\" from enemy character (3pts)",
+            "scoringPhase": "Psychic phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Warp charge of 4 18\" from enemy character",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "psychicritual",
+            "missionName": "Psychic Ritual",
+            "shortDescription": "Execute psychic ritual 3 times (6\" from the center) (15pts)",
+            "scoringPhase": "Psychic phase",
+            "fromRound": 3,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": true,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Executed ritual action 3 times (6\" from the center)",
+                    "score": 15
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "abhorthewitch_old",
+            "missionName": "Abhor the Witch",
+            "shortDescription": "Kill enemy psykers (3 pts each)",
+            "scoringPhase": "Any phase",
+            "fromRound": 3,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed an enemy psyker",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

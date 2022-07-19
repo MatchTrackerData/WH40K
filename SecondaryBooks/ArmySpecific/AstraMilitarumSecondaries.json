@@ -1,0 +1,24 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge the Enemy",
+            "id": "fortheemperor!",
+            "missionName": "For The Emperor",
+            "shortDescription": "1 point per enemy unit in that battle round by an ASTRA MILITARUM unit from your army",
+            "scoringPhase": "Any tinme",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed an ennemy unit with an ASTRA MILITARUM unit",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}

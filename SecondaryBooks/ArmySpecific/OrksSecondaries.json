@@ -1,0 +1,100 @@
+{
+    "secondaries": [
+        {
+            "type": "No mercy, no respite",
+            "id": "stopemgood",
+            "missionName": "Stomp'em Good",
+            "shortDescription": "Kill more enemy units in melee than grechin units get killed (3pts), +1 pts if at least 2 units killed it doubles the number of killed gretchin units",
+            "scoringPhase": "End of round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Killed more enemy units in melee than grechin units got killed in melee",
+                    "score": 3
+                },
+                {
+                    "description": "Killed at least 2 enemy units in melee and doubled the gretchin units got killed in melee",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "getdagoodbitz",
+            "missionName": "Get da Good Bitz",
+            "shortDescription": "Pick up to 3 Good Bitz objectives out of deployments. Action from 1+ Orc Core units: completed on command phase in different Good Bitz objectives. (3pts)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Completed action in a different Good Bits (out of deployment) objective marker",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "dabiggestanddabest",
+            "missionName": "Da Biggest and da Best",
+            "shortDescription": "3 pts each time your warlord kill in melee(cap 5pts per round): monster, vehicle, character, 5 enemy models",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed VEHICLE or MONSTER in melee by your warlord",
+                    "score": 3
+                },
+                {
+                    "description": "Killed CHARACTER in melee by your warlord",
+                    "score": 3
+                },
+                {
+                    "description": "Killed 5 models in melee by your warlord",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "greentide",
+            "missionName": "Green Tide",
+            "shortDescription": "Divide the board in 4 equals parts. Have units of 11 or more models on them. 2+ quarters (3pts), 4 quarters (5pts)",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "2 or more quarters have units of 11 models or more (end of round)",
+                    "score": 3
+                },
+                {
+                    "description": "2 or more quarters have units of 11 models or more (end of game)",
+                    "score": 5
+                }
+            ]
+        }
+    ]
+}

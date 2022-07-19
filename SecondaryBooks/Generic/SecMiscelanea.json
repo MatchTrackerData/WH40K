@@ -1,0 +1,76 @@
+{
+    "secondaries": [
+        {
+            "type": "A",
+            "id": "a",
+            "missionName": "A",
+            "shortDescription": "Generic mission A for Tempest of War",
+            "scoringPhase": "-",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 100,
+            "maxTurnPoints": 100,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Score 5",
+                    "score": 5
+                },
+                {
+                    "description": "Score 2",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "B",
+            "id": "b",
+            "missionName": "B",
+            "shortDescription": "Generic mission B for Tempest of War",
+            "scoringPhase": "-",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 100,
+            "maxTurnPoints": 100,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Score 5",
+                    "score": 5
+                },
+                {
+                    "description": "Score 2",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "C",
+            "id": "c",
+            "missionName": "C",
+            "shortDescription": "Generic mission C for Tempest of War",
+            "scoringPhase": "-",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 100,
+            "maxTurnPoints": 100,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Score 5",
+                    "score": 5
+                },
+                {
+                    "description": "Score 2",
+                    "score": 2
+                }
+            ]
+        }
+    ]
+}

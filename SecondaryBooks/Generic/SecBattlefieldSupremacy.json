@@ -1,0 +1,136 @@
+{
+    "secondaries": [
+        {
+            "type": "Battlefield Supremacy",
+            "id": "engageonallfrontsnachmund",
+            "missionName": "Engage on all fronts",
+            "shortDescription": "Units wholly within 3 (2pts) or 4 (3pts) quarters and 6\" from the center. Only units with 3+ models, monsters or vehicles",
+            "scoringPhase": "End of your turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Units wholly within 3 quarters and 6 \" from the center. (3+ models, monster or vehicle)",
+                    "score": 2
+                },
+                {
+                    "description": "Units wholly within 4 quarters and 6\" from the center. (3+ models, monster or vehicle)",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "engageonallfronts",
+            "missionName": "Engage on all fronts",
+            "shortDescription": "Units wholly within 3 (2pts) or 4 (3pts) quarters and 6\" from the center",
+            "scoringPhase": "End of your turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Units wholly within 3 quarters and 6 \" from the center",
+                    "score": 2
+                },
+                {
+                    "description": "Units wholly within 4 quarters and 6\" from the center",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "behindenemylines",
+            "missionName": "Behind enemy lines",
+            "shortDescription": " 1 (2pts) or 2 (4pts) units wholly within enemy's deployment (excluding AIRCRAFT)",
+            "scoringPhase": "End of your turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "1 unit wholly within enemy's deployment (excluding AIRCRAFT)",
+                    "score": 2
+                },
+                {
+                    "description": "2 units wholly within enemy's deployment (excluding AIRCRAFT)",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "strangehold",
+            "missionName": "Strangehold",
+            "shortDescription": "Control 3 or more objectives and more objectives than the opponent (3 pts)",
+            "scoringPhase": "End of your turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control 3 or more objectives and more objectives than the opponent",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "domination",
+            "missionName": "Domination",
+            "shortDescription": "Control more than half objectives",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control more than half objectives",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "linebreaker",
+            "missionName": "Line Breaker",
+            "shortDescription": "2 wholly within units in enemy's deployment (4 pts) (excluding Aircraft)",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "2 wholly within units in enemy's deployment (excluding Aircraft)",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

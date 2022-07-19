@@ -1,0 +1,28 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "maleficterror",
+            "missionName": "Malefic Terror",
+            "shortDescription": "Score 1 every time an enemy model flees the battlefield, score 1 every time a enemy unit is destroyed by a CHAOS DEAMONS AND you rolled higher or equal than the leadership of that model with 2D6",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Enemy model flees the battlefield",
+                    "score": 1
+                },
+                {
+                    "description": "You rolled 2D6 with higher Leadership than the enemy unit destroyed by a CHAOS DEAMONS",
+                    "score": 2
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge the Enemy",
+            "id": "detroythedaemon",
+            "missionName": "Destroy the Daemon",
+            "shortDescription": "Get points for killing Daemons units: Primarch (5pts), Monster (3pts), Vehicle (3ps), other (1pts)",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed Daemon Primarch",
+                    "score": 5
+                },
+                {
+                    "description": "Killed Daemon Monster or Vehicle",
+                    "score": 3
+                },
+                {
+                    "description": "Killed any other Daemon unit",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "teleportassault",
+            "missionName": "Teleport Assault",
+            "shortDescription": "Kill an unit after Teleport Strike, Teleportation Shunt or Gate Of Infinity (3pts)",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed an unit with an unit that teleported this round (with T.Strike, T.Shunt or Gate of Infinity)",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "purifyingritual",
+            "missionName": "Purifying Ritual",
+            "shortDescription": "Warp charge 5 - 3\" from an unique objective",
+            "scoringPhase": "Psychich phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Purified 1 objective (warp charge 5) this turn",
+                    "score": 1
+                },
+                {
+                    "description": "Purified 2 objective (warp charge 5) this turn",
+                    "score": 2
+                },
+                {
+                    "description": "Purified 3 objective (warp charge 5) this turn",
+                    "score": 4
+                },
+                {
+                    "description": "Purified 4+ objective (warp charge 5) this turn",
+                    "score": 6
+                }
+            ]
+        }
+    ]
+}

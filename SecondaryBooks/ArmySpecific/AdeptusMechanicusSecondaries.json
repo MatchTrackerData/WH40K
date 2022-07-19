@@ -1,0 +1,90 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge the Enemy",
+            "id": "accretionofknowledge",
+            "missionName": "Accretion of Knowledge",
+            "shortDescription": "3pts for killing: model with relic or model with warlords trait or vehicle with 14+ wounds",
+            "scoringPhase": "Any tinme",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed model with RELIC or model with WARLORD TRAIT or VEHICLE with 14+ wounds",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "eradicationofflesh",
+            "missionName": "Eradication of Flesh",
+            "shortDescription": "3pts if: vehicle alive and killed more infantry units than enemy killed vehicle",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "There's a vehicle alive and killed more enemy INFANTRY units than enemy killed VEHICLE units",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "unchartedsequencing",
+            "missionName": "Uncharted Sequencing",
+            "shortDescription": "Assign in objective to each round. 3pts if you control the right objective the right round",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control the right objective at the end of this round",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "hiddenarcheovault",
+            "missionName": "Hidden Archeovault",
+            "shortDescription": "Enemy chose objective (not in his deployment), earn pts for controlling it (3pts) end of round (5pts) end of game",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control enemy chosen objective at end of round",
+                    "score": 3,
+                    "turnLimit": [1,5]
+                },
+                {
+                    "description": "Control enemy chosen objective at end of game",
+                    "score": 5,
+                    "turnLimit": [6,6]
+                }
+            ]
+        }
+    ]
+}

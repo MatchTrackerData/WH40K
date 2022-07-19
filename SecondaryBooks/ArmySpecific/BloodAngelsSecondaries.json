@@ -1,0 +1,96 @@
+{
+  "secondaries": [
+    {
+      "type": "Purge the Enemy",
+      "id": "bladeofsanguinius",
+      "missionName": "Blade of Sanguinius",
+      "shortDescription": "At your first command phase, target on of your Blood Angel CHARACTER, opponent target one of his CHARACTER (if no character then the warlord). 5pts when the opponent model targeted is destroyed, +5pts if it was by a melee attack, +5pts if the melee attack came from your own targeted unit",
+      "scoringPhase": "Anytime",
+      "fromRound": 1,
+      "untilRound": 5,
+      "maxTotalPoints": 15,
+      "maxTurnPoints": 15,
+      "multiScore": false,
+      "scoreOnce": false,
+      "exclusive": false,
+      "subObjectives": [
+        {
+          "description": "Unit opponent targeted is killed",
+          "score": 5
+        },
+        {
+          "description": "Unit opponent targeted is killed by melee attack",
+          "score": 5
+        },
+        {
+          "description": "Unit opponent targeted is killed by melee attack by your own targeted unit",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "type": "No Mercy, No Respite",
+      "id": "furyofthelost",
+      "missionName": "Fury of the Lost",
+      "shortDescription": "Score 3 points at the end of your turn if 1+ enemy units have been destroyed by one of your Death Company unit",
+      "scoringPhase": "End of turn",
+      "fromRound": 1,
+      "untilRound": 5,
+      "maxTotalPoints": 15,
+      "maxTurnPoints": 3,
+      "multiScore": false,
+      "scoreOnce": false,
+      "exclusive": false,
+      "subObjectives": [
+        {
+          "description": "You destroyed 1+ enemy units with one of your Death Company unit",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "type": "No Mercy, No Respite",
+      "id": "deathfromabove",
+      "missionName": "Death From Above",
+      "shortDescription": "(2 pts) is enemy unit killed by a Blood Angels unit that was set up during the reinforcement step of any movement phase. If it was CHARACTER (3pts).",
+      "scoringPhase": "Any time",
+      "fromRound": 1,
+      "untilRound": 5,
+      "maxTotalPoints": 15,
+      "maxTurnPoints": 3,
+      "multiScore": false,
+      "scoreOnce": false,
+      "exclusive": true,
+      "subObjectives": [
+        {
+          "description": "1+ enemy unit destroyed by a unit placed during reinforcement step this turn",
+          "score": 2
+        },
+        {
+          "description": "At least 1 CHARACTER destroyed by a unit placed during reinforcement step this turn",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "type": "Battlefield Supremacy",
+      "id": "relentlessassault",
+      "missionName": "Relentless Assault",
+      "shortDescription": "Score 4 points at the end of the round if you have more Blood Angels units in the enemy deployment zone than there are enemy units in yours",
+      "scoringPhase": "End of Round",
+      "fromRound": 1,
+      "untilRound": 5,
+      "maxTotalPoints": 15,
+      "maxTurnPoints": 4,
+      "multiScore": false,
+      "scoreOnce": false,
+      "exclusive": false,
+      "subObjectives": [
+        {
+          "description": "You have more units in the enemy deployment zone than the enemy has in your deployment",
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

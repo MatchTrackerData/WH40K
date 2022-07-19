@@ -1,0 +1,132 @@
+{
+    "secondaries": [
+        {
+            "type": "Battlefield Supremacy",
+            "id": "yieldnoground",
+            "missionName": "Yield No Ground",
+            "shortDescription": "End of Turn, score 2 if you control half or more than the total number of objectives AND 1+ Imperial Knights unit are in range of one of those; Score 2 if there are no enemy unit (NO AIRCRAFT) within your deployment zone; score 1 if no IMPERIAL KNIGHTS ended up closer to your battlefield edge than where they started AND no IMPERIAL KNIGHTS fell back during that battle round",
+            "scoringPhase": "End of Turn",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control half or more the number of objectives with AT LEAST 1+ Imperial knights within range of one of them",
+                    "score": 2
+                },
+                {
+                    "description": "There are no enemy units (NO AIRCRAFT) within your deployment zone",
+                    "score": 2
+                },
+                {
+                    "description": "No IMPERIAL KNIGHTS fell back nor ended closer to your edge of the battlefield than where they started",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Purge The Enemy",
+            "id": "duelofhonor",
+            "missionName": "Duel Of Honor",
+            "shortDescription": "At the start of the game, target the Warlord of your Enemy and the 2 most expensive units. Gain 3 to 5 points depending on how you killed them",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "The targeted unit was destroyed by a melee attack made by your WARLORD",
+                    "score": 5
+                },
+                {
+                    "description": "The unit was destroyed by melee attack made by any IMPERIAL KNIGHT model from your army",
+                    "score": 4
+                },
+                {
+                    "description": "The unit wasn't on the battlefield AT THE END OF THE GAME, does not apply if embarked in a transport on the battlefield",
+                    "score": 4
+                },
+                {
+                    "description": "The unit was destroyed by any other means",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "No Mercy No Respite",
+            "id": "honourofthehouse",
+            "missionName": "Honour Of The House",
+            "shortDescription": "If you have 6 Honour points or more than at the start of the battle round, gain 2 points. Gain more at the end of the battle depending on your honour points",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "You have 6 Honour Points or more than at the start of your turn",
+                    "score": 2,
+                    "turnLimit" : [1,5]
+                },
+                {
+                    "description": "Your army is Virtuous",
+                    "score": 3,
+                    "turnLimit" : [6,6]
+                },
+                {
+                    "description": "Your army is Honoured",
+                    "score": 2,
+                    "turnLimit" : [6,6]
+                },
+                {
+                    "description": "Your army is Dishonoured",
+                    "score": -3,
+                    "turnLimit" : [6,6]
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "renewtheoaths",
+            "missionName": "Renew The Oaths",
+            "shortDescription": "IMPERIAL KNIGHTS can perform an action Renew the Oaths at the end of the movement phase at 6'' of the center and complete at the end of turn, 6'' from the center",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "A non-TITANIC model completed the action",
+                    "score": 3
+                },
+                {
+                    "description": "A TITANIC model completed the action",
+                    "score": 4
+                },
+                {
+                    "description": "The action was completed by a CHARACTER",
+                    "score": 1
+                },
+                {
+                    "description": "Do not forget to roll a D6, on a 4+ gain 1 Honour point ;)",
+                    "score": 0
+                }
+            ]
+        }
+    ]
+}

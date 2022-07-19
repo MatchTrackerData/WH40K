@@ -1,0 +1,85 @@
+{
+  "secondaries": [
+    {
+      "type": "Purge the Enemy",
+      "id": "martialinterdiction",
+      "missionName": "Martial Interdiction",
+      "shortDescription": "Before the first turn (But after deployment), opponent target one CHARACTER model he owns (if no character, then a WARLORD). (6 pts) if the targeted model is killed by a melee attack made by a Dark Angels model, (+3pts) if the melee attack came from an Inner Circle or Deathwing model, (+6pts) if the unit that destroyed the targeted opponent model survives",
+      "scoringPhase": "Anytime",
+      "fromRound": 1,
+      "untilRound": 6,
+      "maxTotalPoints": 15,
+      "maxTurnPoints": 15,
+      "multiScore": false,
+      "scoreOnce": false,
+      "exclusive": false,
+      "subObjectives": [
+        {
+          "description": "Opponent model targeted (CHAR. or WARLORD) is killed by a melee attack",
+          "score": 6
+        },
+        {
+          "description": "The melee attack is made by an Inner Circle or Deathwing model from your army",
+          "score": 3
+        },
+        {
+          "description": "Your Dark Angels unit that destroyed the targeted opponent survives",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "type": "No Mercy, No Respite",
+      "id": "deathonthewind",
+      "missionName": "Death On The Wind",
+      "shortDescription": "2 points each time enemy unit is destroyed by a Ravenwing model from your army that moved 12\" or more OR made a charge move that turn",
+      "scoringPhase": "Anytime",
+      "fromRound": 1,
+      "untilRound": 5,
+      "maxTotalPoints": 15,
+      "maxTurnPoints": 15,
+      "multiScore": true,
+      "scoreOnce": false,
+      "exclusive": false,
+      "subObjectives": [
+        {
+          "description": "Killed a unit with a Ravenwing that moved 12\" or OR did a charge",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "type": "Battlefield Supremacy",
+      "id": "stubborndefiance",
+      "missionName": "Stubborn Defiance",
+      "shortDescription": "At your first command phase, select an objective. For each consecutive command phase that control that selected objective, make more points (turns/pts: 2/2 3/3 4/5 5/5)",
+      
+      "scoringPhase": "End of Command Phase",
+      "fromRound": 2,
+      "untilRound": 5,
+      "maxTotalPoints": 15,
+      "maxTurnPoints": 15,
+      "multiScore": false,
+      "scoreOnce": false,
+      "exclusive": true,
+      "subObjectives": [
+        {
+          "description": "You controlled the objective for 2 consecutive turns",
+          "score": 2
+        },
+        {
+          "description": "You controlled the objective for 3 consecutive turns",
+          "score": 3
+        },
+        {
+          "description": "You controlled the objective for 4 consecutive turns",
+          "score": 5
+        },
+        {
+          "description": "You controlled the objective for 5 consecutive turns",
+          "score": 5
+        }
+      ]
+    }
+  ]
+}

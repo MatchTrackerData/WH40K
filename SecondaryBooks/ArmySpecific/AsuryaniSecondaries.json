@@ -1,0 +1,117 @@
+{
+    "secondaries": [
+        {
+            "type": "Warpcraft",
+            "id": "scryfutures",
+            "missionName": "Scry Futures",
+            "shortDescription": "Psychic action. Once per objective, 3pts. Warp of 4, increase +1 in every use.",
+            "scoringPhase": "Psychic phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Scry Futures in a new objective marker",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "scouttheenemy",
+            "missionName": "Scout The Enemy",
+            "shortDescription": "Action, 6\" from your own deployment zone, (2pts) in no man's land, (4pts) in enemy's deployment. Rangers complete it at end of turn.",
+            "scoringPhase": "End of Turn (rangers) or Command Phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+		        {
+                    "description": "Action completed in no man's land (6\" from your deployment)",
+                    "score": 2
+                },
+                {
+                    "description": "Action completes in enemy's deployment",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "wrathofkhaine",
+            "missionName": "Wrath of Khaine",
+            "shortDescription": "Kill enemy unit with aspect warriors: melee (1pts), ranged (1pts),  melee and ranged with different aspects (2pts)",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill one or more enemy units in melee by aspect warriors",
+                    "score": 1
+                },
+                {
+                    "description": "Kill one or more enemy units with ranged weapon by aspect warriors",
+                    "score": 1
+                },
+                {
+                    "description": "Kill enemy units in ranged and melee by different aspect warriors",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "thehiddenpath",
+            "missionName": "The Hidden Path",
+            "shortDescription": "Win points equal to the round if [you have an unit in your webay gate and no enemies closeby] or [you control a selected objective out of deployment]",
+            "scoringPhase": "Command phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "You control the selected objective OR you have an unit within 3\" of a webay gate and no enemies within it",
+                    "score": 1,
+                    "turnLimit": [1,1]
+                },
+                {
+                    "description": "You control the selected objective OR you have an unit within 3\" of a webay gate and no enemies within it",
+                    "score": 2,
+                    "turnLimit": [2,2]
+                },
+                {
+                    "description": "You control the selected objective OR you have an unit within 3\" of a webay gate and no enemies within it",
+                    "score": 3,
+                    "turnLimit": [3,3]
+                },
+                {
+                    "description": "You control the selected objective OR you have an unit within 3\" of a webay gate and no enemies within it",
+                    "score": 4,
+                    "turnLimit": [4,4]
+                },
+                {
+                    "description": "You control the selected objective OR you have an unit within 3\" of a webay gate and no enemies within it",
+                    "score": 5,
+                    "turnLimit": [5,5]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "mightofterra",
+            "missionName": "Might Of Terra",
+            "shortDescription": "4 points at the end of the round if 1+ enemy units destroyed and no ADEPTOS CUSTODS or ANTHEMA PSYKNA were destroyed during that battle round",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1+ enemy units killed, but no ADEPTOS CUSTODS nor ANTHEMA PSYKNA ",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Purge The Enemy",
+            "id": "auricmortalis",
+            "missionName": "Auric Mortalis",
+            "shortDescription": "Target an opponent's PRIMARCH or SUP. COMMANDER (If none, highest point). Win points depending on how you destroyed it (up to 15pts), -2pts for each unit that targeted enemy has destroyed",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "The targeted unit has been destroyed",
+                    "score": 5
+                },
+                {
+                    "description": "The targeted unit has been destroyed in melee bt ADEPTOS CUSTODS or ANTHEMA PSYKNA unit from your army",
+                    "score": 5
+                },
+                {
+                    "description": "Previous 2 conditions are true AND the targeted unit dies more than 6\" away from your deployment zone",
+                    "score": 5
+                },
+                {
+                    "description": "The targeted unit destroyed a unit in your army (Can repeat)",
+                    "score": -2
+                },
+                {
+                    "description": "The targeted unit destroyed a unit in your army (Can repeat)",
+                    "score": -2
+                },
+                {
+                    "description": "The targeted unit destroyed 2 units in your army (Can repeat)",
+                    "score": -4
+                },
+                {
+                    "description": "The targeted unit destroyed 2 units in your army (Can repeat)",
+                    "score": -4
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "standvigil",
+            "missionName": "Stand Vigil",
+            "shortDescription": "3 points at the end of the battle round if you control more objective not within either player's deployment zone than your opponent",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control more objectives NOT in deployment zones of players than your opponent",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

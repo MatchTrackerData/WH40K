@@ -1,0 +1,84 @@
+{
+    "secondaries": [
+        {
+            "type": "No mercy, no respite",
+            "id": "thelongwigil",
+            "missionName": "The Long Vigil",
+            "shortDescription": "Command phase, no enemies within 6\" of your deployment (exc. Aircraft), and 1+ Death Watch unit fully within your deployment",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "No enemies within 6\" of your deployment and 1+ Deatch Watch units fully within your deployment",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Purge the enemy",
+            "id": "cullorder",
+            "missionName": "Cull Order",
+            "shortDescription": "Choose 3 roles (HQ, troops..),alternate with opponent, starting they,. (5pts) for each role fully killed.",
+            "scoringPhase": "As you kill",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Fully killed one selected role.",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "cripplesstronghold",
+            "missionName": "Criplles Stronghold",
+            "shortDescription": "Opponemt choose an objective. Action by Infantry in chosen objective (no enemy units on it) completed next command phase. (6pts)",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Completed cripple action by infantry in chosen objective.",
+                    "score": 6
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "suffernotthealien",
+            "missionName": "Suffer not the Alien",
+            "shortDescription": "Kill XENOS unit. (1pts each)",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed a XENO unit",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}

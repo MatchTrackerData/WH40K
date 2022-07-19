@@ -1,0 +1,102 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge the Enemy",
+            "id": "ambush",
+            "missionName": "Ambush",
+            "shortDescription": "Score at the end of your turn 1 point if : 1+ enemy units were destroyed with crossfire marker; 1+ enemy units were destroyed from an ambushed or underground friendly unit; 1+ enemy Exposed units desotryed as a result of aranged attack",
+            "scoringPhase": "Any tinme",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1+ enemy units were destroyed with crossfire marker",
+                    "score": 1
+                },
+
+                {
+                    "description": "1+ enemy units were destroyed from an ambushed or underground friendly unit",
+                    "score": 1
+                },
+
+                {
+                    "description": "1+ enemy units were destroyed while being Exposed (must have been exposed rather by any other means)",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "sabotagecriticallocation",
+            "missionName": "Sabotage Critical Location",
+            "shortDescription": "Your opponent place two critical location markers on the battlefield, more than 9\" from any edge or the other marker. Score sabotage action of INFANTRY or BIKER within 3\" of the marke, completed at the end of the turn!",
+            "scoringPhase": "End of Round",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+		        {
+                    "description": "You did the sabotage, REMOVE THE MARKER NOW",
+                    "score": 9,
+                    "turnLimit": [2,2]
+                },
+                {
+                    "description": "You did the sabotage, REMOVE THE MARKER NOW",
+                    "score": 7,
+                    "turnLimit": [3,3]
+                },
+                {
+                    "description": "You did the sabotage, REMOVE THE MARKER NOW",
+                    "score": 5,
+                    "turnLimit": [4,4]
+                },
+                {
+                    "description": "You did the sabotage, REMOVE THE MARKER NOW",
+                    "score": 3,
+                    "turnLimit": [5,5]
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "broodswarm",
+            "missionName": "Broodswarm",
+            "shortDescription": "Score (1 pts) for each of : more models within enemy's deployment; more model in your own deployment; more models not within deployment zone; all of them",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You have more models than your opponent in their deployment zone",
+                    "score": 1
+                },
+                {
+                    "description": "You have more models than your opponent in your deployment zone",
+                    "score": 1
+                },
+                {
+                    "description": "You have more models than your opponent in non-deployment zone (so the battlefield)",
+                    "score": 1
+                },
+                {
+                    "description": "All the above (bonus point)",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "secondaries": [
+        {
+            "type": "No mercy, no respite",
+            "id": "noprisionersnachmund",
+            "missionName": "No prisioners",
+            "shortDescription": "1 point every 10 wounds you inflict.  Exclude VEHICLE, MONSTER, CHARACTER",
+            "scoringPhase": "End of the game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Tally wounds inflicted and add (1 point every 10 wounds). Exclude VEHICLE, MONSTER, CHARACTER",
+                    "score": 1
+                },
+                {
+                    "description": "Tally wounds inflicted and add (1 point every 10 wounds). Exclude VEHICLE, MONSTER, CHARACTER",
+                    "score": 5
+                },
+                {
+                    "description": "Bonus for killing 50+ wounds",
+                    "score": 1
+                },
+                {
+                    "description": "Bonus for killing 100+ wounds",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "grindthemdown",
+            "missionName": "Grind them down",
+            "shortDescription": "Kill more units than the opponent during the battle round (3pts)",
+            "scoringPhase": "End of battle round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed more units than the enemy this battle round.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "noprisioners",
+            "missionName": "No prisioners",
+            "shortDescription": "1 point every 10 wounds you inflict. Exclude VEHICLE, MONSTER, CHARACTER",
+            "scoringPhase": "End of the game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Tally wounds inflicted and add (1 point every 10 wounds). Exclude VEHICLE, MONSTER, CHARACTER",
+                    "score": 1
+                },
+                {
+                    "description": "Tally wounds inflicted and add (1 point every 10 wounds). Exclude VEHICLE, MONSTER, CHARACTER",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "tothelast",
+            "missionName": "To the last",
+            "shortDescription": "Pick 3 highest point value models. 5 points for each one surviving at the end of the game",
+            "scoringPhase": "End of the game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Survived model A",
+                    "score": 5
+                },
+                {
+                    "description": "Survived model B",
+                    "score": 5
+                },
+                {
+                    "description": "Survived model C",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "attrition",
+            "missionName": "Attrition",
+            "shortDescription": "Kill more units than the enemy",
+            "scoringPhase": "End of round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed more units than the enemy this round",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "firststrike",
+            "missionName": "First Strike",
+            "shortDescription": "Kill first turn and kill more than enemy first turn. (5/ +3 pts)",
+            "scoringPhase": "End of round",
+            "fromRound": 1,
+            "untilRound": 1,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed an enemy unit this turn.",
+                    "score": 5
+                },
+                {
+                    "description": "Killed more units than enemy this turn",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "thintheirranks",
+            "missionName": "Think their tanks",
+            "shortDescription": "1 point every 10 models killed",
+            "scoringPhase": "End of game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1 point every 10 models killed (Calculate and add)",
+                    "score": 1
+                },
+                {
+                    "description": "Calculate and add",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "whilewestandwefight",
+            "missionName": "While we stand, we fight",
+            "shortDescription": "Survive 3 models (5 pts each)",
+            "scoringPhase": "End of game",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Survived model A",
+                    "score": 5
+                },
+                {
+                    "description": "Survived model B",
+                    "score": 5
+                },
+                {
+                    "description": "Survived model C",
+                    "score": 5
+                }
+            ]
+        }
+    ]
+}

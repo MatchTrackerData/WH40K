@@ -1,0 +1,80 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge the Enemy",
+            "id": "codexwarfare",
+            "missionName": "Codex Warfare",
+            "shortDescription": "Score points for: (1pt) unit killed by heavy or grenade during Devastator doctrine, (1pt) unit killed by Assault or Rapid F. on tactical doctrine, (1pt) unit killed by pistol or melee in assault doctrine",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Unit killed by HEAVY or GRENADE during the Devastator Doctrine",
+                    "score": 1
+                },
+                {
+                    "description": "Unit killed by ASSAULT or RAPID F. during the Tactical Doctrine",
+                    "score": 1
+                },
+                {
+                    "description": "Unit killed by MELEE or PISTOL during the Assault Doctrine",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "shocktactics",
+            "missionName": "Shock tactics",
+            "shortDescription": "Score 3 pts if you took and objective from an enemy this round",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control an objective that was controlled by the enemy at the start of the battle round",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "oathsofmoment",
+            "missionName": "Oaths of Moment",
+            "shortDescription": "Get points for doing with Adeptos Astartus: (1pts) kill VEHICLE, CHAR, MONSTER, (1pt) No fail morale and no fall back, (2pts) 1 unit wholly within 6\" form center",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed VEHICLE, CHAR or MONSTER with Adeptos Astartus unit",
+                    "score": 1
+                },
+                {
+                    "description": "No failed morale and no fall back with Adeptos Astartus unit",
+                    "score": 1
+                },
+                {
+                    "description": "One Adeptos Astartus unit wholly within 6\" from center",
+                    "score": 2
+                }
+            ]
+        }
+    ]
+}

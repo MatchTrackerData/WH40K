@@ -1,0 +1,112 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge the Enemy",
+            "id": "takethemalive",
+            "missionName": "Take them alive",
+            "shortDescription": "3 pts for killing  CHaracter or Monster in melee, 1pts for killing any other unit",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed  Character or Monster in melee",
+                    "score": 3
+                },
+                {
+                    "description": "Killed any other unit on melee",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
+            "id": "beastsforthearenas",
+            "missionName": "Beasts for the Arenas",
+            "shortDescription": "3 pts for killing a MONSTER, CALVAR or BEAST unit by a Wytch Cult. 5pts if it was TITANIC",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed a MONSTER, CALVARY or BEAST unit by a Wytch Cult",
+                    "score": 3
+                },
+                {
+                    "description": "Killed a (TITANIC) MONSTER, CALVARY or BEAST unit by a Wytch Cult",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "fearandterror",
+            "missionName": "Fear and Terror",
+            "shortDescription": "1 pts per enemy that fled",
+            "scoringPhase": "Morale phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1 enemy fled this turn (mix and add)",
+                    "score": 1
+                },
+                {
+                    "description": "3 enemies fled this turn (mix and add)",
+                    "score": 2
+                },
+                {
+                    "description": "5 enemies fled this turn (mix and add)",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "herdtheprey",
+            "missionName": "Herd the prey",
+            "shortDescription":  "2 pts for each table quarter with no enemy units on it (excluding Aircraft). No score in the first battle round.",
+            "scoringPhase": "End of round",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1 quarter with no enemy units wholly within it (excluding Aircraft)",
+                    "score": 2
+                },
+                {
+                    "description": "2 quarters with no enemy units wholly within it (excluding Aircraft)",
+                    "score": 4
+                },
+                {
+                    "description": "3 quarters with no enemy units wholly within it (excluding Aircraft)",
+                    "score": 6
+                }
+                ,{
+                    "description": "All quarters with no enemy units wholly within it (excluding Aircraft)",
+                    "score": 8
+                }
+            ]
+        }
+    ]
+}

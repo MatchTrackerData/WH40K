@@ -1,0 +1,78 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "batheyourblade",
+            "missionName": "Bathe your blade",
+            "shortDescription": "Select challengers in each team (character or warlord). Killed challenged (5pts), Killed challenged in melee (10pts), Killed challenged in melee by challenger (15pts) ",
+            "scoringPhase": "Any phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Challenged character killed.",
+                    "score": 5
+                },
+                {
+                    "description": "Challenged character killed in melee.",
+                    "score": 10
+                },
+                {
+                    "description": "Challenged character killed in melee by the challenger (yours).",
+                    "score": 15
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "allownottheworship",
+            "missionName": "Allow not the worship",
+            "shortDescription": " Control at end of turn objective previously controlled by the enemy, and a BT Chaplain is in range of it. (4 pts)",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control an objective previously controlled by the enemy and, a BT Chaplain is in range of it.",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "carryyourvows",
+            "missionName": "Carry your vows",
+            "shortDescription": "Kill more enemy units in melee that friendly unit die in the battle round (4pts). At end of game (3pts) for completing your vow.",
+            "scoringPhase": "Enf of round and End of game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill more enemy units in melee that friendly unit die in the battle round (max 12 pts).",
+                    "score": 4,
+                    "turnLimit": [1,5]
+                },
+                {
+                    "description": "Accomplish your vow.",
+                    "score": 3,
+                    "turnLimit": [6,6]
+                }
+            ]
+        }
+    ]
+}

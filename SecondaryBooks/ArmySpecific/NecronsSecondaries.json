@@ -1,0 +1,112 @@
+{
+    "secondaries": [
+        {
+            "type": "No mercy, no respite",
+            "id": "codeofcombat",
+            "missionName": "Code of combat",
+            "shortDescription": "3 points for each unit killed by a Necronis Noble",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Unit killed by a Necronis Noble (from your army)",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "purgethevermin",
+            "missionName": "Purge the vermin",
+            "shortDescription": "2 pts for each table quarter with no enemy units on it (excluding Aircraft).No score in the first battle round.",
+            "scoringPhase": "End of turn",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "1 quarter with no enemy units wholly within it (excluding Aircraft)",
+                    "score": 2
+                },
+                {
+                    "description": "2 quarters with no enemy units wholly within it (excluding Aircraft)",
+                    "score": 4
+                },
+                {
+                    "description": "3 quarters with no enemy units wholly within it (excluding Aircraft)",
+                    "score": 6
+                }
+                ,{
+                    "description": "All quarters with no enemy units wholly within it (excluding Aircraft)",
+                    "score": 8
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "thetreasuresofaeons",
+            "missionName": "The treasures of Aeones",
+            "shortDescription": "Opponent choose 3 objectives, score on control: 1 (2pts), 2 (3pts), 3 (5pts)",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Control 1 treasure objective",
+                    "score": 2
+                },
+                {
+                    "description": "Control 2 treasure objectives",
+                    "score": 3
+                },
+                {
+                    "description": "Control 3 treasure objectives",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "ancientmachineries",
+            "missionName": "Ancient machineries",
+            "shortDescription": "Choose 3 ancient objectives alternating with the opponent (opponent starts), up to three. Earn 3 pts per action in those objectives (completed in next command phase). It can be perform by Necronis Core and Canoptekis.",
+            "scoringPhase": "Command phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Completed 1 action in Ancient objective this turn.",
+                    "score": 3
+                },
+                {
+                    "description": "Completed 2 action in Ancient objectives this turn.",
+                    "score": 6
+                },
+                {
+                    "description": "Completed 3 action in Ancient objectives this turn.",
+                    "score": 9
+                }
+            ]
+        }
+    ]
+}

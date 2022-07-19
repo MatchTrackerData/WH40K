@@ -1,0 +1,98 @@
+{
+    "secondaries": [
+        {
+            "type": "Shadow Operations",
+            "id": "aerospacetargetingrelays",
+            "missionName": "Aerospace Targeting Relays",
+            "shortDescription": "Put 1 aerospace marker along each battlefield edge, score based on the number of relays installed",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": true,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Installed 1 relay",
+                    "score": 2
+                },
+                {
+                    "description": "Installed 2 relays",
+                    "score": 6
+                },
+                {
+                    "description": "Installed 3 relay",
+                    "score": 9
+                },
+                {
+                    "description": "Installed 4 relay",
+                    "score": 15
+                }
+            ]
+        },
+        {
+            "type": "No mercy, no respite",
+            "id": "acleanvictory",
+            "missionName": "A Clean Victory",
+            "shortDescription": "Depending on your philosophy, score point at the end of the battle round if your destroy ennemy units. 1 for 1 point and 3+ for 3 points.",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You selected Mont'ka and destroyed 1+ enemy units",
+                    "score": 1,
+                    "turnLimit" : [1,3]
+                },
+                {
+                    "description": "You selected Mont'ka and destroyed 3+ enemy units",
+                    "score": 3,
+                    "turnLimit" : [1,3]
+                },
+                {
+                    "description": "You selected Kauyon and destroyed 1+ enemy units",
+                    "score": 1,
+                    "turnLimit" : [3,5]
+                },
+                {
+                    "description": "You selected Kauyon and destroyed 3+ enemy units",
+                    "score": 3,
+                    "turnLimit" : [3,5]
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "decisiveaction",
+            "missionName": "Decisive Action",
+            "shortDescription": "Score 4 points at the end of your turn if you control half or more of the total number of objective markers on the battlefield based on your philosophy",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "You selected Mont'ka and control half of more of all the objectives",
+                    "score": 4,
+                    "turnLimit" : [1,3]
+                },
+                {
+                    "description": "You selected Kauyon and control half of more of all the objectives",
+                    "score": 4,
+                    "turnLimit" : [3,5]
+                }
+            ]
+        }
+    ]
+}

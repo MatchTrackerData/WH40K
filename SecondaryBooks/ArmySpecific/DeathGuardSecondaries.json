@@ -1,0 +1,80 @@
+{
+    "secondaries": [
+        {
+            "type": "No mercy, no respite",
+            "id": "Fleeing Vectors",
+            "missionName": "Fleeing Vectors",
+            "shortDescription": "3 points for kill one or more moled with plague weapon or enemy unit failer morale",
+            "scoringPhase": "End of round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Model killed by a plague weapon or enemy unit failed morale test",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "despoiledground",
+            "missionName": "Despoiled Ground",
+            "shortDescription": "Win point for completing this with Bobonic Astartus units (BA): (4pts) BA on enemy deploy zone, (4pts/6pts) BA wholy within 3/4 quaters, (4pts) control +half objectives with BA, (4pt) all objectives within contagion range",
+            "scoringPhase": "End of battle",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Bobonic Astartus wholly within enemy deployment zone",
+                    "score": 4
+                },
+                {
+                    "description": "Bobonic Astartus wholly within 3 quaters and 6\" form center",
+                    "score": 4
+                },
+                {
+                    "description": "Bobonic Astartus wholly ALSO within 4th quater and 6\" form center",
+                    "score": 2
+                },
+                {
+                    "description": "Bobonic Astartus control MORE than half the objective",
+                    "score": 4
+                },
+                {
+                    "description": "ALL the objectives within contagion range",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "spreadthesickness",
+            "missionName": "Spread the sickness",
+            "shortDescription": "3 pts for each contaminated objective. Action contaminate: completed at end of turn on a 4+ or losing 3 wounds.",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Contaminated objective action: finished at the end of your turn. Success on 4+ or losing 3 mortal wounds (on the action unit)",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

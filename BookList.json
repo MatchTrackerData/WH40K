@@ -1,0 +1,316 @@
+{
+    "missionBooks": [
+        {
+            "name": "Tempest Of War Missions",
+            "file": "MissionBooks/TempestOfWar",
+            "autoChoose": "Tempest Of War Secondaries"
+        },
+        {
+            "name": "GT 2022 Nochmund Missions",
+            "file": "MissionBooks/GT2022WarzoneNachmund",
+            "autoChoose": "Warzone Nachmun Secondaries"
+        },
+        {
+            "name": "GT 2021 Missions",
+            "file": "MissionBooks/GT2021",
+            "autoChoose": "GT 2021 Secondaries"
+        },
+        {
+            "name": "Core Book Missions",
+            "file": "MissionBooks/CoreBook",
+            "autoChoose": "Core Book Secondaries"
+        }
+    ],
+    "secondaryPools": 
+    [
+        {
+            "file": "SecondaryBooks/Generic/SecBattlefieldSupremacy"
+        },
+        {
+            "file": "SecondaryBooks/Generic/SecNoMercyNoRespite"
+        },
+        {
+            "file": "SecondaryBooks/Generic/SecPurgeTheEnemy"
+        },
+        {
+            "file": "SecondaryBooks/Generic/SecShadowOperations"
+        },
+        {
+            "file": "SecondaryBooks/Generic/SecWarpCraft"
+        },
+        {
+            "file": "SecondaryBooks/Generic/SecMiscelanea"
+        }
+    ],
+    "secondaryBooks": [
+        {
+            "name": "Warzone Nachmun Secondaries",
+            "file": "SecondaryBooks/Generic/GT2022WarzoneNachmundSecondaries",
+            "hide": true
+        },
+        {
+            "name": "GT 2021 Secondaries",
+            "file": "SecondaryBooks/Generic/GT2021Secondaries",
+            "hide": true
+        },
+        {
+            "name": "Core Book Secondaries",
+            "file": "SecondaryBooks/Generic/CoreBookSecondaries",
+            "hide": true
+        },
+        {
+            "name": "Tempest Of War Secondaries",
+            "file": "SecondaryBooks/Generic/GTempestOfWarSecondaries",
+            "hide": true
+        },
+        {
+            "name": "Adeptus Custodians Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/AdeptusCustodesSecondaries",
+            "army": "A. Custod.",
+            "color": [
+                153,
+                153,
+                0
+            ]
+        },
+        {
+            "name": "Adeptus Mechanica Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/AdeptusMechanicusSecondaries",
+            "army": "A. Mech.",
+            "color": [
+                255, 
+                82,
+                82
+            ]
+        },
+        {
+            "name": "Adeptas Sortitas Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/AdeptasSororitasSecondaries",
+            "army": "A. Sor.",
+            "color": [
+                150,
+                150,
+                150
+            ]
+        },
+        {
+            "name": "Astral militarum Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/AstraMilitarumSecondaries",
+            "army": "A. Militarum",
+            "color": [
+                96,
+                96,
+                96
+            ]
+        },
+        {
+            "name": "Asuryan (Eldar) Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/AsuryaniSecondaries",
+            "army": "Eldar",
+            "color": [
+                0,
+                153,
+                0
+            ]
+        },
+        {
+            "name": "Black Templaris Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/BlackTemplarsSecondaries",
+            "army": "B. Templars",
+            "color": [
+                50,
+                50,
+                50
+            ]
+        },
+        {
+            "name": "Blood Angelus Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/BloodAngelsSecondaries",
+            "army": "B. Angels",
+            "color": [
+                255,
+                26,
+                26
+            ]
+        },
+        {
+            "name": "Chaos Daemons",
+            "file": "SecondaryBooks/ArmySpecific/ChaosDaemonsSecondaries",
+            "army": "Chaos Daemons",
+            "color": [
+                153,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "Chaos Knights",
+            "file": "SecondaryBooks/ArmySpecific/ChaosKnightsSecondaries",
+            "army": "Chaos Knights",
+            "color": [
+                51,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "Chaos Marines",
+            "file": "SecondaryBooks/ArmySpecific/ChaosSpaceMarinesSecondaries",
+            "army": "Chaos Marines",
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "Dark Angelus Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/DarkAngelsSecondaries",
+            "army": "D. Angels",
+            "color": [
+                92,
+                214,
+                92
+            ]
+        },
+        {
+            "name": "Dark Space Elves Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/DrukhariSecondaries",
+            "army": "Dark Elves",
+            "color": [
+                94,
+                53,
+                177
+            ]
+        },
+        {
+            "name": "Death Guardians Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/DeathGuardSecondaries",
+            "army": "Death G.",
+            "color": [
+                51,
+                105,
+                30
+            ]
+        },
+        {
+            "name": "Death Watchers Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/DeathWatchSecondaries",
+            "army": "D. Watch",
+            "color": [
+                217,
+                217,
+                217
+            ]
+        },
+        {
+            "name": "Grey Knights Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/GreyKnightsSecondaries",
+            "army": "Grey K.",
+            "color": [
+                144,
+                164,
+                174
+            ]
+        },
+        {
+            "name": "Harlequins Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/HarlequinsSecondaries",
+            "army": "Harlequins",
+            "color": [
+                76,
+                0,
+                153
+            ]
+        },
+        {
+            "name": "Imperium Knights",
+            "file": "SecondaryBooks/ArmySpecific/ImperialKnightsSecondaries",
+            "army": "I. Knights",
+            "color": [
+                0,
+                51,
+                102
+            ]
+        },
+        {
+            "name": "Genlastir Cult Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/GenestealersSecondaries",
+            "army": "G. Cult.",
+            "color": [
+                102,
+                0,
+                204
+            ]
+        },
+        {
+            "name": "Necronis Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/NecronsSecondaries",
+            "army": "Necronis",
+            "color": [
+                100,
+                221,
+                23
+            ]
+        },
+        {
+            "name": "Orcs Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/OrksSecondaries",
+            "army": "Orcs",
+            "color": [
+                67,
+                160,
+                71
+            ]
+        },
+        {
+            "name": "Space marines Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/SpaceMarinesSecondaries",
+            "army": "S.Marines",
+            "color": [
+                2,
+                119,
+                189
+            ]
+        },{
+            "name": "Space Wolf Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/SpaceWolvesSecondaries",
+            "army": "S. Wolves",
+            "color": [
+                217,
+                198,
+                255
+            ]
+        },
+        {
+            "name": "TAU-E Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/TauSecondaries",
+            "army": "TAU-E",
+            "color": [
+                230,
+                230,
+                230
+            ]
+        },
+        {
+            "name": "Thounsand children",
+            "file": "SecondaryBooks/ArmySpecific/ThousandSonsSecondaries",
+            "army": "Thousand",
+            "color": [
+                30,
+                30,
+                255
+            ]
+        },
+        {
+            "name": "Tyranidons Secondaries",
+            "file": "SecondaryBooks/ArmySpecific/TyranidsSecondaries",
+            "army": "Tyranidons",
+            "color": [
+                204,
+                0,
+                0
+            ]
+        }
+    ]
+}

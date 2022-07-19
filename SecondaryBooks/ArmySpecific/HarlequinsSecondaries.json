@@ -1,0 +1,68 @@
+{
+    "secondaries": [
+        {
+            "type": "No mercy, no respite",
+            "id": "adeadlyperformance",
+            "missionName": "A deadly performance",
+            "shortDescription": "Score (3pts) if accomplish 2+: control new objective, being on enemy's deployment, kill 2 enemy units on shooting, kill 3 enemy units on melee",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Accomplish 2 or more conditions: control new objective; being on enemy's deployment; kill 2 enemy units on shooting; kill 3 enemy units on melee",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "takeyourplaces",
+            "missionName": "Take your places",
+            "shortDescription": "Place 3 special objectives - control 2 (2pts), control 3 (4pts) end of turn.",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+		        {
+                    "description": "Control 2 Harlequins objectives",
+                    "score": 2
+                },
+                {
+                    "description": "Control 3 Harlequins objectives",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "weaveveil",
+            "missionName": "Weave Veil",
+            "shortDescription": "Psychic action. Veil enemy units (once per unit)- 3pts per action. Warp charge of 4, increase +1 every use.",
+            "scoringPhase": "Psychic phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "New enemy unit veiled",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}
