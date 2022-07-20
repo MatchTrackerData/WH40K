@@ -1,3 +1,4 @@
 {
-    "version" : 1 
+    "dataVersion" : 1 ,
+    "minAppVersion" : "0.4.3"
 }
