@@ -70,7 +70,8 @@
             [
                 "preciousartefact"
             ],
-            "map": ""
+            "map": "",
+            "link": ""
         },
         {
             "id": "recovertherelics",
