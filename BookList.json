@@ -2,7 +2,7 @@
     "missionBooks": [
         {
             "name": "GT 2022 Niphilim Missions",
-            "file": "MissionBooks/GT2022WarzoneNephilimSecondaries",
+            "file": "MissionBooks/GT2022WarzoneNephilim",
             "autoChoose": "Warzone Niphilim Secondaries"
         },
         {
