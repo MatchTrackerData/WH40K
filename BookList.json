@@ -1,6 +1,11 @@
 {
     "missionBooks": [
         {
+            "name": "GT 2022 Niphilim Missions",
+            "file": "MissionBooks/GT2022WarzoneNephilimSecondaries",
+            "autoChoose": "Warzone Niphilim Secondaries"
+        },
+        {
             "name": "Tempest Of War Missions",
             "file": "MissionBooks/TempestOfWar",
             "autoChoose": "Tempest Of War Secondaries"
@@ -8,7 +13,7 @@
         {
             "name": "GT 2022 Nochmund Missions",
             "file": "MissionBooks/GT2022WarzoneNachmund",
-            "autoChoose": "Warzone Nachmun Secondaries"
+            "autoChoose": "Warzone Nochmund Secondaries"
         },
         {
             "name": "GT 2021 Missions",
@@ -44,7 +49,12 @@
     ],
     "secondaryBooks": [
         {
-            "name": "Warzone Nachmun Secondaries",
+            "name": "Warzone Niphilim Secondaries",
+            "file": "SecondaryBooks/Generic/GT2022WarzoneNephilimSecondaries",
+            "hide": true
+        },
+        {
+            "name": "Warzone Nochmund Secondaries",
             "file": "SecondaryBooks/Generic/GT2022WarzoneNachmundSecondaries",
             "hide": true
         },

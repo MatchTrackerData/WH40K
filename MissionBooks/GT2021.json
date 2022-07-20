@@ -15,7 +15,8 @@
                 "showofforce",
                 "reconnaisancemission"
             ],
-            "commandPointsGiven": 3
+            "commandPointsGivenStart": 3,
+            "commandPointsGivenYourTurn": 1
         },
         {
             "id": "incursion",
@@ -33,7 +34,8 @@
                 "showofforce",
                 "reconnaisancemission"
             ],
-            "commandPointsGiven": 6
+            "commandPointsGivenStart": 6,
+            "commandPointsGivenYourTurn": 1
         },
         {
             "id": "strikeforce",
@@ -51,7 +53,8 @@
                 "sweepandclear",
                 "prioritytarget"
             ],
-            "commandPointsGiven": 12
+            "commandPointsGivenStart": 12,
+            "commandPointsGivenYourTurn": 1
         }
     ],
     "missions": [

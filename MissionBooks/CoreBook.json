@@ -10,7 +10,8 @@
                 "outriders",
                 "encircle"
             ],
-            "commandPointsGiven": 3
+            "commandPointsGivenStart": 3,
+            "commandPointsGivenYourTurn": 1
         },
         {
             "id": "incursion",
@@ -25,7 +26,8 @@
                 "ransack",
                 "shiftingfront"
             ],
-            "commandPointsGiven": 6
+            "commandPointsGivenStart": 6,
+            "commandPointsGivenYourTurn": 1
         },
         {
             "id": "strikeforce",
@@ -40,7 +42,8 @@
                 "scorchedearth",
                 "vitalintelligence"
             ],
-            "commandPointsGiven": 12
+            "commandPointsGivenStart": 12,
+            "commandPointsGivenYourTurn": 1
         }
     ],
     "missions": [

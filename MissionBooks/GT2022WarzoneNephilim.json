@@ -16,8 +16,9 @@
                 "displayofspiritualmight",
                 "reconnaissancemission"
             ],
-            "commandPointsGivenStart": 3,
-            "commandPointsGivenYourTurn": 1
+            "commandPointsGivenStart": 2,
+            "commandPointsGivenYourTurn": 1,
+            "commandPointsGivenTheirTurn": 1
         },
         {
             "id": "incursion",
@@ -35,8 +36,9 @@
                 "displayofspiritualmight",
                 "reconnaissancemission"
             ],
-            "commandPointsGivenStart": 6,
-            "commandPointsGivenYourTurn": 1
+            "commandPointsGivenStart": 3,
+            "commandPointsGivenYourTurn": 1,
+            "commandPointsGivenTheirTurn": 1
         },
         {
             "id": "strikeforce",
@@ -54,8 +56,9 @@
                 "tideofconviction",
                 "deathandzeal"
             ],
-            "commandPointsGivenStart": 12,
-            "commandPointsGivenYourTurn": 1
+            "commandPointsGivenStart": 6,
+            "commandPointsGivenYourTurn": 1,
+            "commandPointsGivenTheirTurn": 1
         }
     ],
     "missions": [
