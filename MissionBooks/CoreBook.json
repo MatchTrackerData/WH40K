@@ -46,6 +46,26 @@
             "commandPointsGivenYourTurn": 1
         }
     ],
+    "selectableSecondaries":
+    [
+        "domination",
+        "engageonallfronts",
+        "linebreaker",
+        "attrition",
+        "firststrike",
+        "thintheirranks",
+        "whilewestandwefight",
+        "assasinate",
+        "bringitdown_old",
+        "slaythewarlord",
+        "titanslayers",
+        "investigatesites",
+        "raisethebannershigh",
+        "repairteleporthomer",
+        "mentalinterrogation",
+        "psychicritual",
+        "abhorthewitch_old"
+    ],
     "missions": [
         {
             "id": "retrievalmission",

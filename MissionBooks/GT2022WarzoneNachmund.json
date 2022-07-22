@@ -58,6 +58,26 @@
             "commandPointsGivenYourTurn": 1
         }
     ],
+    "selectableSecondaries":
+    [
+        "engageonallfrontsnachmund",
+        "behindenemylines",
+        "strangehold",
+        "grindthemdown",
+        "noprisionersnachmund",
+        "tothelast",
+        "assasination",
+        "bringitdownnachmund",
+        "titanhunter",
+        "investigatesignalnachmund",
+        "raisethebannershigh",
+        "deployteleporthomersnachmund",
+        "retrievenachmunddata",
+        "abhorthewitch",
+        "psychihcinterrogationnachmund",
+        "warpritual",
+        "piercetheveil"
+    ],
     "missions": [
         {
             "id": "securemissingartefacts",
@@ -294,7 +314,7 @@
             "map": ""
         }
     ],
-    "missionSubPrimary": 
+    "missionSubPrimaries": 
     [
         {
             "type": "Mission Primary",

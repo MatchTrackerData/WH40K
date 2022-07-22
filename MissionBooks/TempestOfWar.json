@@ -46,6 +46,12 @@
             "commandPointsGiven": 12
         }
     ],
+    "selectableSecondaries":
+    [
+        "a",
+        "b",
+        "c"
+    ],
     "missions": [
         {
             "id": "takeandholdmission",

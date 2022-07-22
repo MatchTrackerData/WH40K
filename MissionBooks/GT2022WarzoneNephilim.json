@@ -61,6 +61,10 @@
             "commandPointsGivenTheirTurn": 1
         }
     ],
+    "selectableSecondaries": 
+    [
+        
+    ],
     "missions": [
         {
             "id": "securemissingartefacts",
@@ -298,7 +302,7 @@
             "map": ""
         }
     ],
-    "missionSubPrimary": 
+    "missionSubPrimaries": 
     [
         {
             "type": "Mission Primary",
