@@ -44,31 +44,6 @@
     ],
     "secondaryBooks": [
         {
-            "name": "Warzone Niphilim Secondaries",
-            "file": "SecondaryBooks/Generic/GT2022WarzoneNephilimSecondaries",
-            "hide": true
-        },
-        {
-            "name": "Warzone Nochmund Secondaries",
-            "file": "SecondaryBooks/Generic/GT2022WarzoneNachmundSecondaries",
-            "hide": true
-        },
-        {
-            "name": "GT 2021 Secondaries",
-            "file": "SecondaryBooks/Generic/GT2021Secondaries",
-            "hide": true
-        },
-        {
-            "name": "Core Book Secondaries",
-            "file": "SecondaryBooks/Generic/CoreBookSecondaries",
-            "hide": true
-        },
-        {
-            "name": "Tempest Of War Secondaries",
-            "file": "SecondaryBooks/Generic/GTempestOfWarSecondaries",
-            "hide": true
-        },
-        {
             "name": "Adeptus Custodians Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AdeptusCustodesSecondaries",
             "army": "A. Custod.",
