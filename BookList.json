@@ -46,126 +46,176 @@
         {
             "name": "Adeptus Custodians Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AdeptusCustodesSecondaries",
-            "factionName": "A. Custod."
+            "factionName": "A. Custod.",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "Adeptus Mechanica Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AdeptusMechanicusSecondaries",
-            "factionName": "A. Mech."
+            "factionName": "A. Mech.",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "Adeptas Sortitas Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AdeptasSororitasSecondaries",
-            "factionName": "A. Sor."
+            "factionName": "A. Sor.",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "Astral militarum Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AstraMilitarumSecondaries",
-            "factionName": "A. Militarum"
+            "factionName": "A. Militarum",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "Asuryan (Eldar) Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AsuryaniSecondaries",
-            "factionName": "Eldar"
+            "factionName": "Eldar",
+            "group": "Aeldari",
+            "info": "CODEX"
         },
         {
             "name": "Black Templaris Secondaries",
             "file": "SecondaryBooks/ArmySpecific/BlackTemplarsSecondaries",
-            "factionName": "B. Templars"
+            "factionName": "B. Templars",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "Blood Angelus Secondaries",
             "file": "SecondaryBooks/ArmySpecific/BloodAngelsSecondaries",
-            "factionName": "B. Angels"
+            "factionName": "B. Angels",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "Chaos Daemons",
             "file": "SecondaryBooks/ArmySpecific/ChaosDaemonsSecondaries",
-            "factionName": "Chaos Daemons"
+            "factionName": "Chaos Daemons",
+            "group": "Chaos",
+            "info": "CODEX"
         },
         {
             "name": "Chaos Knights",
             "file": "SecondaryBooks/ArmySpecific/ChaosKnightsSecondaries",
-            "factionName": "Chaos Knights"
+            "factionName": "Chaos Knights",
+            "group": "Chaos",
+            "info": "CODEX"
         },
         {
             "name": "Chaos Marines",
             "file": "SecondaryBooks/ArmySpecific/ChaosSpaceMarinesSecondaries",
-            "factionName": "Chaos Marines"
+            "factionName": "Chaos Marines",
+            "group": "Chaos",
+            "info": "CODEX"
         },
         {
             "name": "Dark Angelus Secondaries",
             "file": "SecondaryBooks/ArmySpecific/DarkAngelsSecondaries",
-            "factionName": "D. Angels"
+            "factionName": "D. Angels",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "Dark Space Elves Secondaries",
             "file": "SecondaryBooks/ArmySpecific/DrukhariSecondaries",
-            "factionName": "Dark Elves"
+            "factionName": "Dark Elves",
+            "group": "Aeldari",
+            "info": "CODEX"
         },
         {
             "name": "Death Guardians Secondaries",
             "file": "SecondaryBooks/ArmySpecific/DeathGuardSecondaries",
-            "factionName": "Death G."
+            "factionName": "Death G.",
+            "group": "Chaos",
+            "info": "CODEX"
         },
         {
             "name": "Death Watchers Secondaries",
             "file": "SecondaryBooks/ArmySpecific/DeathWatchSecondaries",
-            "factionName": "D. Watch"
+            "factionName": "D. Watch",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "Grey Knights Secondaries",
             "file": "SecondaryBooks/ArmySpecific/GreyKnightsSecondaries",
-            "factionName": "Grey K."
+            "factionName": "Grey K.",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "Harlequins Secondaries",
             "file": "SecondaryBooks/ArmySpecific/HarlequinsSecondaries",
-            "factionName": "Harlequins"
+            "factionName": "Harlequins",
+            "group": "Aeldari",
+            "info": "CODEX"
         },
         {
             "name": "Imperium Knights",
             "file": "SecondaryBooks/ArmySpecific/ImperialKnightsSecondaries",
-            "factionName": "I. Knights"
+            "factionName": "I. Knights",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "Genlastir Cult Secondaries",
             "file": "SecondaryBooks/ArmySpecific/GenestealersSecondaries",
-            "factionName": "G. Cult."
+            "factionName": "G. Cult.",
+            "group": "Xenos",
+            "info": "CODEX"
         },
         {
             "name": "Necronis Secondaries",
             "file": "SecondaryBooks/ArmySpecific/NecronsSecondaries",
-            "factionName": "Necronis"
+            "factionName": "Necronis",
+            "group": "Xenos",
+            "info": "CODEX"
         },
         {
             "name": "Orcs Secondaries",
             "file": "SecondaryBooks/ArmySpecific/OrksSecondaries",
-            "factionName": "Orcs"
+            "factionName": "Orcs",
+            "group": "Xenos",
+            "info": "CODEX"
         },
         {
             "name": "Space marines Secondaries",
             "file": "SecondaryBooks/ArmySpecific/SpaceMarinesSecondaries",
-            "factionName": "S.Marines"
+            "factionName": "S.Marines",
+            "group": "Imperium",
+            "info": "CODEX"
         },{
             "name": "Space Wolf Secondaries",
             "file": "SecondaryBooks/ArmySpecific/SpaceWolvesSecondaries",
-            "factionName": "S. Wolves"
+            "factionName": "S. Wolves",
+            "group": "Imperium",
+            "info": "CODEX"
         },
         {
             "name": "TAU-E Secondaries",
             "file": "SecondaryBooks/ArmySpecific/TauSecondaries",
-            "factionName": "TAU-E"
+            "factionName": "TAU-E",
+            "group": "Xenos",
+            "info": "CODEX"
         },
         {
             "name": "Thounsand children",
             "file": "SecondaryBooks/ArmySpecific/ThousandSonsSecondaries",
-            "factionName": "Thousand S"
+            "factionName": "Thousand S",
+            "group": "Chaos",
+            "info": "CODEX"
         },
         {
             "name": "Tyranidons Secondaries",
             "file": "SecondaryBooks/ArmySpecific/TyranidsSecondaries",
-            "factionName": "Tyranidons"
+            "factionName": "Tyranidons",
+            "group": "Xenos",
+            "info": "CODEX"
         }
     ]
 }
