@@ -1,0 +1,112 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "bladeofsanguinius",
+            "missionName": "Blade of Sanguinius",
+            "shortDescription": "Select one BLOOD ANGELS CHARACTER from your army, one CHARACTER from the opponent's one. Score 5 if enemy model is destroyed, 5 more if it was at the result of a melee attack, 5 more if it was from your target model",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Enemy model is destroyed",
+                    "score": 5
+                },
+                {
+                    "description": "Enemy model is destroyed by a melee attack",
+                    "score": 5
+                },
+                {
+                    "description": "Enemy model is destroyed by your targeted unit",
+                    "score": 5
+                },
+                {
+                    "description": "All three conditions are satisfied... Your oponent loose 1 CP",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "furyofthelost",
+            "missionName": "Fury Of The Lost",
+            "shortDescription": "Score 3 if 1 enemy unit was destryoed by a DEATH COMPANY unit. 4 if it's 2+ instead. Score 1 more if 1+ DEATH COMPANY units were destryoed by opponent this turn",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1 Enemy Unit was destroyed by a DEATH COMPANY this battle round",
+                    "score": 3
+                },
+                {
+                    "description": "Score this INSTEAD of it's 2+",
+                    "score": 4
+                },
+                {
+                    "description": "One of your DEATH COMPANY unit has been destroyed by the enemy",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "deathfromabove",
+            "missionName": "Death From Above",
+            "shortDescription": "At the end of your turn, score 3 victory points if any enemy units were destroyed by a BLOOD ANGELS unit from your army that was set up on the battlefield in the Reinforcements step of any of your Movement phases during the battle. If any of those enemy units were destroyed in the same turn in which that BLOOD ANGELS unit was set up, score 1 additional victory point. If any of those enemy units were CHARACTER units, score 1 additional victory point.",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": " any enemy units were destroyed by a BLOOD ANGELS unit from your army that was set up on the battlefield in the Reinforcements step of any of your Movement phases during the battle.",
+                    "score": 3
+                },
+                {
+                    "description": "If any of those enemy units were destroyed in the same turn in which that BLOOD ANGELS unit was set up, score 1 additional victory point.",
+                    "score": 1
+                },
+                {
+                    "description": "If any of those enemy units were CHARACTER units, score 1 additional victory point.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "deathfromabove",
+            "missionName": "Death From Above",
+            "shortDescription": "At the end of your turn, score 4 victory points if there are more BLOOD ANGELS units from your army in your opponent’s deployment zone than there are enemy units in your deployment zone.",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": " there are more BLOOD ANGELS units from your army in your opponent’s deployment zone than there are enemy units in your deployment zone.",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

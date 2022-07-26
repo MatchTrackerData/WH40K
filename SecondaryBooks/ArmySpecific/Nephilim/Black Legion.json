@@ -1,0 +1,28 @@
+{
+    "secondaries": [
+        {
+            "type": "Shadow Operations",
+            "id": "despoildominions",
+            "missionName": "Despoil Dominions",
+            "shortDescription": "BLACK LEGION INFANTRY and BLACK LEGION BIKER can attempt Despoil Dominions action (start of movement, completed at next command phase)",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Action has been completed with the objective marker wholly within your deployment zone",
+                    "score": 1
+                },
+                {
+                    "description": "Action has been completed with the objective marker NOT within your deployment zone",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

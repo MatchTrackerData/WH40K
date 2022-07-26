@@ -1,0 +1,120 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "codexwarfare",
+            "missionName": "Codex Warfare",
+            "shortDescription": "Score points based on how your killed the enemy units this turn",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": true,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Enemy unit that was destroyed as the result of an attack made with a Heavy or Grenade weapon by an ADEPTUS ASTARTES unit from your army while the Devastator Doctrine was active for your army.",
+                    "score": 2
+                },
+                {
+                    "description": "Enemy unit that was destroyed as the result of an attack made with a Heavy or Grenade weapon by an ADEPTUS ASTARTES unit from your army while the Devastator Doctrine was active for your army.",
+                    "score": 2
+                },
+                {
+                    "description": "Enemy unit that was destroyed as the result of an attack made with a Heavy or Grenade weapon by an ADEPTUS ASTARTES unit from your army while the Devastator Doctrine was active for your army.",
+                    "score": 1
+                },
+                {
+                    "description": "enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.",
+                    "score": 1
+                },
+                {
+                    "description": "enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.",
+                    "score": 1
+                },
+                {
+                    "description": "enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.",
+                    "score": 1
+                },
+                {
+                    "description": "enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.",
+                    "score": 1
+                },
+                {
+                    "description": "enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.",
+                    "score": 1
+                },
+                {
+                    "description": "enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an ADEPTUS ASTARTES unit from your army while the Assault Doctrine was active for your army.",
+                    "score": 1
+                },
+                {
+                    "description": "enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an ADEPTUS ASTARTES unit from your army while the Assault Doctrine was active for your army.",
+                    "score": 1
+                },
+                {
+                    "description": "enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an ADEPTUS ASTARTES unit from your army while the Assault Doctrine was active for your army.",
+                    "score": 1
+                },
+                {
+                    "description": "enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an ADEPTUS ASTARTES unit from your army while the Assault Doctrine was active for your army.",
+                    "score": 1
+                },
+                {
+                    "description": "enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an ADEPTUS ASTARTES unit from your army while the Assault Doctrine was active for your army.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "oathsofmoment",
+            "missionName": "Oaths Of Moment",
+            "shortDescription": "Score victory points for achieving 3 oaths (destroy, moral tests and wholly within 6'' from center)",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Oath of Valour: Score 1 victory point if any CHARACTER, VEHICLE or MONSTER unit was destroyed by an ADEPTUS ASTARTES unit from your army this battle round.",
+                    "score": 1
+                },
+                {
+                    "description": "Oath of Honour: Score 1 victory point provided no ADEPTUS ASTARTES units from your army failed a Morale test this battle round, and no ADEPTUS ASTARTES units from your army Fell Back this battle round.",
+                    "score": 1
+                },
+                {
+                    "description": "Oath of Duty: Score 1 victory point if an ADEPTUS ASTARTES CORE or ADEPTUS ASTARTES CHARACTER unit from your army is wholly within 6'' of the centre of the battlefield.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "BattleField Supremacy",
+            "id": "shocktactics",
+            "missionName": "Shock Tactics",
+            "shortDescription": "Sscore 3 victory points if you control one or more objective markers that were controlled by your opponent at the start of that turn, and an ADEPTUS ASTARTES unit from your army is within range of that objective marker.",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control half or more of the total number of objective markers on the battlefield, and one or more IMPERIAL KNIGHTS models from your army are within range of each of those objective markers.",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

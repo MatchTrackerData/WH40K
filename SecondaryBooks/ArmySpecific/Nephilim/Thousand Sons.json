@@ -1,0 +1,100 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "sorcerousprowess",
+            "missionName": "Sorcerous Prowess",
+            "shortDescription": "Score points at the end of battle depending on what units the Thousand Sons PSYKER killed",
+            "scoringPhase": "End of Round",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "For each enemy PSYKER CHARACTER unit that was destroyed in the Psychic phase by a THOUSAND SONS PSYKER unit from your army.",
+                    "score": 5
+                },
+                {
+                    "description": " for each other enemy PSYKER unit that was destroyed in the Psychic phase by a THOUSAND SONS PSYKER unit from your army.",
+                    "score": 3
+                },
+                {
+                    "description": "for each other enemy unit that was destroyed in the Psychic phase by a THOUSAND SONS PSYKER unit from your army",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "wrathofmagnus",
+            "missionName": "Wrath Of Magnus",
+            "shortDescription": "Only if your opponent's army includes 1+ PSYKER unit. Block his actions.",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "THOUSAND SONS PSYKER units from your army manifested at least one Witchfire power this battle round, and manifested more Witchfire powers than enemy units did this battle round.",
+                    "score": 1
+                },
+                {
+                    "description": "THOUSAND SONS PSYKER units from your army manifested at least one Blessing power this battle round, and manifested more Blessing powers than enemy units did this battle round.",
+                    "score": 1
+                },
+                {
+                    "description": "THOUSAND SONS PSYKER units from your army manifested at least one Malediction power this battle round, and manifested more Malediction powers than enemy units did this battle round.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "mutatelandscape",
+            "missionName": "Mutate Landscape",
+            "shortDescription": "THOUSAND SONS PSYKER units can attempt Mutate Landscape (Psychic Action - Warp charge 4)",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "each time a unit from your army completes this psychic action.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "mutatelandscape",
+            "missionName": "Mutate Landscape",
+            "shortDescription": "THOUSAND SONS INFANTRY units can attempt Burn Empires (From end of Movement phase to next command phase)",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "each time a unit from your army completes this action.",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

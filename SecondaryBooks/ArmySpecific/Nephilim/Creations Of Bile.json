@@ -1,0 +1,33 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "specimentsforthespider",
+            "missionName": "Specimens For The Spider",
+            "shortDescription": "Score points if you destroy units in a melee attack, the bigger the beast, the bigger the points!",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "one or more CHARACTER or MONSTER units were destroyed by a melee attack made by a CREATIONS OF BILE model from your army this battle round.",
+                    "score": 3
+                },
+                {
+                    "description": " one or more units (excluding CHARACTER, MONSTER or VEHICLE units) were destroyed by a melee attack made by a CREATIONS OF BILE model from your army this battle round.",
+                    "score": 2
+                },
+                {
+                    "description": "if one or more ADEPTUS ASTARTES, SANCTIC ASTARTES or HERETIC ASTARTES units were destroyed by a melee attack made by a CREATIONS OF BILE model from your army during the battle",
+                    "score": 1,
+                    "turnLimit":[6,6]
+                }
+            ]
+        }
+    ]
+}

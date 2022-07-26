@@ -1,0 +1,32 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "lightningstrike",
+            "missionName": "Lightning Strike",
+            "shortDescription": "Score points based on units destroyed or wounded after your units charged or advanced",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "for each enemy CHARACTER or MONSTER unit that was destroyed by a melee attack made by a WHITE SCARS unit from your army that made a charge move this turn.",
+                    "score": 3
+                },
+                {
+                    "description": "for each other enemy unit that was destroyed by a melee attack made by a WHITE SCARS unit from your army that made a charge move this turn.",
+                    "score": 1
+                },
+                {
+                    "description": "for each enemy unit that was destroyed by a ranged attack made by a WHITE SCARS unit from your army that Advanced this turn.",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}

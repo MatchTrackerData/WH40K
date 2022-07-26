@@ -1,0 +1,45 @@
+{
+    "secondaries": [
+        {
+            "type": "Shadow Operations",
+            "id": "raidandreave",
+            "missionName": "Raid And Reave",
+            "shortDescription": "RED CORSAIRS INFANTRY and BIKERS can attempt Raid and Rave Action (end of movement up to next command phase)",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Each time a unit from your army completes this action, if the objective marker that was raided as a result was wholly within your deployment zone",
+                    "score": 1,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "Each time a unit from your army completes this action, if the objective marker that was raided as a result was wholly within your OPPONENT deployment zone",
+                    "score": 3,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "Each time a unit from your army completes this action, if the objective marker that was raided as a result was wholly within your deployment zone",
+                    "score": 2,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": " for each RED CORSAIRS unit from your army that is carrying spoils of war",
+                    "score": 1,
+                    "turnLimit":[6,6]
+                },
+                {
+                    "description": "For each RED CORSAIRS unit WHOLLY within your deployment zone from your army that is carrying spoils of war",
+                    "score": 1,
+                    "turnLimit":[6,6]
+                }
+            ]
+        }
+    ]
+}

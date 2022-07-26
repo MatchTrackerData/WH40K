@@ -1,0 +1,24 @@
+{
+    "secondaries": [
+        {
+            "type": "Shadow Operations",
+            "id": "wemarchformarcragge",
+            "missionName": "We March For Macragge",
+            "shortDescription": "ULTRAMARINES CORE INFANTRY units can attempt to CLAIMED FOR MACRAGGE (completed at the end of your next command phase)",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "A unit from your army completes this action.",
+                    "score": 2
+                }
+            ]
+        }
+    ]
+}
