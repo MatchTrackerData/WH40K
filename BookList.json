@@ -46,251 +46,126 @@
         {
             "name": "Adeptus Custodians Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AdeptusCustodesSecondaries",
-            "army": "A. Custod.",
-            "color": [
-                153,
-                153,
-                0
-            ]
+            "factionName": "A. Custod."
         },
         {
             "name": "Adeptus Mechanica Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AdeptusMechanicusSecondaries",
-            "army": "A. Mech.",
-            "color": [
-                255, 
-                82,
-                82
-            ]
+            "factionName": "A. Mech."
         },
         {
             "name": "Adeptas Sortitas Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AdeptasSororitasSecondaries",
-            "army": "A. Sor.",
-            "color": [
-                150,
-                150,
-                150
-            ]
+            "factionName": "A. Sor."
         },
         {
             "name": "Astral militarum Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AstraMilitarumSecondaries",
-            "army": "A. Militarum",
-            "color": [
-                96,
-                96,
-                96
-            ]
+            "factionName": "A. Militarum"
         },
         {
             "name": "Asuryan (Eldar) Secondaries",
             "file": "SecondaryBooks/ArmySpecific/AsuryaniSecondaries",
-            "army": "Eldar",
-            "color": [
-                0,
-                153,
-                0
-            ]
+            "factionName": "Eldar"
         },
         {
             "name": "Black Templaris Secondaries",
             "file": "SecondaryBooks/ArmySpecific/BlackTemplarsSecondaries",
-            "army": "B. Templars",
-            "color": [
-                50,
-                50,
-                50
-            ]
+            "factionName": "B. Templars"
         },
         {
             "name": "Blood Angelus Secondaries",
             "file": "SecondaryBooks/ArmySpecific/BloodAngelsSecondaries",
-            "army": "B. Angels",
-            "color": [
-                255,
-                26,
-                26
-            ]
+            "factionName": "B. Angels"
         },
         {
             "name": "Chaos Daemons",
             "file": "SecondaryBooks/ArmySpecific/ChaosDaemonsSecondaries",
-            "army": "Chaos Daemons",
-            "color": [
-                153,
-                0,
-                0
-            ]
+            "factionName": "Chaos Daemons"
         },
         {
             "name": "Chaos Knights",
             "file": "SecondaryBooks/ArmySpecific/ChaosKnightsSecondaries",
-            "army": "Chaos Knights",
-            "color": [
-                51,
-                0,
-                0
-            ]
+            "factionName": "Chaos Knights"
         },
         {
             "name": "Chaos Marines",
             "file": "SecondaryBooks/ArmySpecific/ChaosSpaceMarinesSecondaries",
-            "army": "Chaos Marines",
-            "color": [
-                0,
-                0,
-                0
-            ]
+            "factionName": "Chaos Marines"
         },
         {
             "name": "Dark Angelus Secondaries",
             "file": "SecondaryBooks/ArmySpecific/DarkAngelsSecondaries",
-            "army": "D. Angels",
-            "color": [
-                92,
-                214,
-                92
-            ]
+            "factionName": "D. Angels"
         },
         {
             "name": "Dark Space Elves Secondaries",
             "file": "SecondaryBooks/ArmySpecific/DrukhariSecondaries",
-            "army": "Dark Elves",
-            "color": [
-                94,
-                53,
-                177
-            ]
+            "factionName": "Dark Elves"
         },
         {
             "name": "Death Guardians Secondaries",
             "file": "SecondaryBooks/ArmySpecific/DeathGuardSecondaries",
-            "army": "Death G.",
-            "color": [
-                51,
-                105,
-                30
-            ]
+            "factionName": "Death G."
         },
         {
             "name": "Death Watchers Secondaries",
             "file": "SecondaryBooks/ArmySpecific/DeathWatchSecondaries",
-            "army": "D. Watch",
-            "color": [
-                217,
-                217,
-                217
-            ]
+            "factionName": "D. Watch"
         },
         {
             "name": "Grey Knights Secondaries",
             "file": "SecondaryBooks/ArmySpecific/GreyKnightsSecondaries",
-            "army": "Grey K.",
-            "color": [
-                144,
-                164,
-                174
-            ]
+            "factionName": "Grey K."
         },
         {
             "name": "Harlequins Secondaries",
             "file": "SecondaryBooks/ArmySpecific/HarlequinsSecondaries",
-            "army": "Harlequins",
-            "color": [
-                76,
-                0,
-                153
-            ]
+            "factionName": "Harlequins"
         },
         {
             "name": "Imperium Knights",
             "file": "SecondaryBooks/ArmySpecific/ImperialKnightsSecondaries",
-            "army": "I. Knights",
-            "color": [
-                0,
-                51,
-                102
-            ]
+            "factionName": "I. Knights"
         },
         {
             "name": "Genlastir Cult Secondaries",
             "file": "SecondaryBooks/ArmySpecific/GenestealersSecondaries",
-            "army": "G. Cult.",
-            "color": [
-                102,
-                0,
-                204
-            ]
+            "factionName": "G. Cult."
         },
         {
             "name": "Necronis Secondaries",
             "file": "SecondaryBooks/ArmySpecific/NecronsSecondaries",
-            "army": "Necronis",
-            "color": [
-                100,
-                221,
-                23
-            ]
+            "factionName": "Necronis"
         },
         {
             "name": "Orcs Secondaries",
             "file": "SecondaryBooks/ArmySpecific/OrksSecondaries",
-            "army": "Orcs",
-            "color": [
-                67,
-                160,
-                71
-            ]
+            "factionName": "Orcs"
         },
         {
             "name": "Space marines Secondaries",
             "file": "SecondaryBooks/ArmySpecific/SpaceMarinesSecondaries",
-            "army": "S.Marines",
-            "color": [
-                2,
-                119,
-                189
-            ]
+            "factionName": "S.Marines"
         },{
             "name": "Space Wolf Secondaries",
             "file": "SecondaryBooks/ArmySpecific/SpaceWolvesSecondaries",
-            "army": "S. Wolves",
-            "color": [
-                217,
-                198,
-                255
-            ]
+            "factionName": "S. Wolves"
         },
         {
             "name": "TAU-E Secondaries",
             "file": "SecondaryBooks/ArmySpecific/TauSecondaries",
-            "army": "TAU-E",
-            "color": [
-                230,
-                230,
-                230
-            ]
+            "factionName": "TAU-E"
         },
         {
             "name": "Thounsand children",
             "file": "SecondaryBooks/ArmySpecific/ThousandSonsSecondaries",
-            "army": "Thousand",
-            "color": [
-                30,
-                30,
-                255
-            ]
+            "factionName": "Thousand S"
         },
         {
             "name": "Tyranidons Secondaries",
             "file": "SecondaryBooks/ArmySpecific/TyranidsSecondaries",
-            "army": "Tyranidons",
-            "color": [
-                204,
-                0,
-                0
-            ]
+            "factionName": "Tyranidons"
         }
     ]
 }
