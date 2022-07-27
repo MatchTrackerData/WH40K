@@ -1,0 +1,126 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "pathofdestruction",
+            "missionName": "Path of Destruction",
+            "shortDescription": "Score 1 point (max 3) if either 1+ enemy unit(s) were destroyed by a CHAOS KNIGHTS model within your deployment zone; 1+ enemy unit(s) destroyed by CHAOS KNIGHT model 3''+ away from any deployment zone; 1+ enemy unit(s) destroyed by a CHAOS KNIGHTS within enemy deployment zone",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "CHAOS KNIGHTS model killed an ennemy unit while being in your deployment zone",
+                    "score": 1
+                },
+                {
+                    "description": "CHAOS KNIGHTS model killed an ennemy unit while being in your enemy deployment zone",
+                    "score": 1
+                },
+                {
+                    "description": "CHAOS KNIGHTS model killed an ennemy unit while being 3''+ away from any deployment zone",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "ruthlesstyranny",
+            "missionName": "Ruthless Tyranny",
+            "shortDescription": "At the end of your turn, score up to 4 points. 2 for controlling 1/2+ of the objectives with CHAOS KNIGHTS, 1 if 1/2+ objectives are in Dread range, 1 if ALL objectives are in Dread range",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control 1/2+ of the objectives markers with 1+ CHAOS KNIGHTS within range of the marker",
+                    "score": 2
+                },
+                {
+                    "description": "1/2+ of the objectives markers are within Dread range of one of your CHAOS KNIGHT unit",
+                    "score": 1
+                },
+                {
+                    "description": "EVERY objective marker on the battlefield are within Dread range of 1+ CHAOS KNIGHTS models",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "stormofdarkness",
+            "missionName": "Storm Of Darkness",
+            "shortDescription": "Curse objective markers at the end of your moral phase (if no Enemy non-AIRCRAFT unit in range) - Completed at the end of your next Psychic phase",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 30,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Action completed and objective marker is cursed",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Purghe The Enemy",
+            "id": "afittingchallenge",
+            "missionName": "A Fitting Challenge",
+            "shortDescription": "Select the 3 highest points value in your Enemy armies, score points if you destroyed such units with a CHAOS KNIGHT depending on the turn (6 to 2). Recude 1 VP for each unit you haven't destroyed at the end of the game",
+            "scoringPhase": "Any time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Turn 1 - You killed one of the 3 highest point unit of your opponent",
+                    "score": 6,
+                    "turnLimit" : [1,1]
+                },
+                {
+                    "description": "Turn 2 - You killed one of the 3 highest point unit of your opponent",
+                    "score": 5,
+                    "turnLimit" : [2,2]
+                },
+                {
+                    "description": "Turn 3 - You killed one of the 3 highest point unit of your opponent",
+                    "score": 4,
+                    "turnLimit" : [3,3]
+                },
+                {
+                    "description": "Turn 4 - You killed one of the 3 highest point unit of your opponent",
+                    "score": 3,
+                    "turnLimit" : [4,4]
+                },
+                {
+                    "description": "Turn 5 - You killed one of the 3 highest point unit of your opponent",
+                    "score": 2,
+                    "turnLimit" : [5,5]
+                },
+                {
+                    "description": "You HAVE NOT killed one of the 3 highest point unit of your opponent",
+                    "score": -1,
+                    "turnLimit" : [1,5]
+                }
+            ]
+        }
+    ]
+}

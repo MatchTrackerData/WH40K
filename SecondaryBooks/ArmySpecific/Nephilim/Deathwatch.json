@@ -1,0 +1,96 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "cullorder",
+            "missionName": "Cull Order",
+            "shortDescription": "select three Battlefield Roles (HQ, Troops, etc.) from the units in your opponent’s army. If your opponent’s army does not include at least three units with different Battlefield Roles, select as many Battlefield Roles as possible. Score 4 for every unit from your opponent destroyed with that role",
+            "scoringPhase": "End of Battle",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": true,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1+ unit from Role 1 has been destroyed",
+                    "score": 4
+                },
+                {
+                    "description": "1+ unit from Role 2 has been destroyed",
+                    "score": 4
+                },
+                {
+                    "description": "1+ unit from Role 3 has been destroyed",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "suffernotthealien",
+            "missionName": "Death On The Wind",
+            "shortDescription": "Score 1 victory point each time an enemy TYRANIDS, AELDARI, ORKS, Necrons or T’AU EMPIRE unit is destroyed by a DEATHWATCH unit from your army.",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "an enemy TYRANIDS, AELDARI, ORKS, Necrons or T’AU EMPIRE unit is destroyed by a DEATHWATCH unit from your army.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "thelongvigil",
+            "missionName": "The Long Vigil",
+            "shortDescription": "At the start of your Command phase, score 4 victory points if there are no enemy units (excluding AIRCRAFT units) wholly within your deployment zone and there is at least one DEATHWATCH unit (excluding AIRCRAFT units) from your army wholly within your deployment zone.",
+            "scoringPhase": "Start of Command Phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "There are no enemy units (excluding AIRCRAFT units) wholly within your deployment zone and there is at least one DEATHWATCH unit (excluding AIRCRAFT units) from your army wholly within your deployment zone.",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "cripplestronghold",
+            "missionName": "Cripple Stronghold",
+            "shortDescription": "your opponent must select one objective marker on the battlefield not within their deployment zone to be the Stronghold objective marker. DEATHWATCH INFANTRY can then Cripple the Stronghold (Action) and score 4. Roll then a D6, on a 6 opponent loses 1CP",
+            "scoringPhase": "Any Time",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Action Cripple Stronghold is completed",
+                    "score": 4
+                },
+                {
+                    "description": "If you score, Roll a D6. On a 6, your opponent is loosing 1CP",
+                    "score": 0
+                }
+            ]
+        }
+    ]
+}

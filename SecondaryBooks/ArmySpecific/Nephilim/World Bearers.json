@@ -1,0 +1,36 @@
+{
+    "secondaries": [
+        {
+            "type": "Shadow Operations",
+            "id": "exaltthedarkgods",
+            "missionName": "Exalt The Dark Gods",
+            "shortDescription": "If you select this objective, keep an Exalt the Dark Gods tally; add 1 to that tally each time a WORD BEARERS unit from your army completes Exalt The Dark Gods (from end of movement up to next command phase)",
+            "scoringPhase": "Anytime",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Tally is 1",
+                    "score": 2
+                },
+                {
+                    "description": "Tally is 2",
+                    "score": 5
+                },
+                {
+                    "description": "Tally is 3",
+                    "score": 9
+                },
+                {
+                    "description": "Tally is 4+",
+                    "score": 15
+                }
+            ]
+        }
+    ]
+}

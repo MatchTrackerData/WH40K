@@ -1,0 +1,28 @@
+{
+    "secondaries": [
+        {
+            "type": "Shadow Operations",
+            "id": "infiltrateandsubvert",
+            "missionName": "Infiltrate And Subvert",
+            "shortDescription": "ALPHA LEGION INFANTRY can attempt to Subvert (start of movement phase up to end of next command phase)",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Action has been completed",
+                    "score": 3
+                },
+                {
+                    "description": "Action has been completed while wholly within your opponent's deployment zone",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

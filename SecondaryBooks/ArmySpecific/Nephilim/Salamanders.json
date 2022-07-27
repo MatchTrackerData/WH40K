@@ -1,0 +1,44 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "thepromethancreed",
+            "missionName": "The Promethean Creed",
+            "shortDescription": "Select 1 objective marker not within your deployment zone, score points based on what happened around it",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "At the end of each of your Command phases, if you control that objective marker and a SALAMANDERS CORE INFANTRY unit from your army is within range of it",
+                    "score": 2
+                },
+                {
+                    "description": "Each time an enemy unit is selected to shoot or fight, if it selects a SALAMANDERS INFANTRY unit from your army that is within range of that objective marker as the target of one or more of its attacks, but it does not destroy that unit as a result of those attacks, score 1 victory point",
+                    "score": 1
+                },
+                {
+                    "description": "Each time an enemy unit is selected to shoot or fight, if it selects a SALAMANDERS INFANTRY unit from your army that is within range of that objective marker as the target of one or more of its attacks, but it does not destroy that unit as a result of those attacks, score 1 victory point",
+                    "score": 1
+                },
+                {
+                    "description": "Each time an enemy unit is selected to shoot or fight, if it selects a SALAMANDERS INFANTRY unit from your army that is within range of that objective marker as the target of one or more of its attacks, but it does not destroy that unit as a result of those attacks, score 1 victory point",
+                    "score": 1
+                },
+                {
+                    "description": "At the end of each player’s turn, if one or more enemy units were destroyed by attacks made by a SALAMANDERS INFANTRY unit from your army that turn while that SALAMANDERS INFANTRY unit was within range of that objective marker",
+                    "score": 1
+                },
+                {
+                    "description": "ON TOP OF ABOVE...Those destroyed units were destroyed as a result of attacks made with flame or melta weapons that turn",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}

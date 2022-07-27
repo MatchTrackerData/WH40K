@@ -1,0 +1,72 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "auricmortalis",
+            "missionName": "Auric Mortalis",
+            "shortDescription": "During Resolve Pre-battle Abilities, select one PRIMARCH or SUPREME COMMANDER from your opponent's army (or the highest point if neither is there). Score 5 if destroyed, 5 more if melee from ADEPTUS CUSTODES or ANATHEMA PSYKANA, 5 if both are true",
+            "scoringPhase": "End of Game",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Targeted opponent's unit is destroyed",
+                    "score": 5
+                },
+                {
+                    "description": "Targeted opponent's unit is destroyed by a melee attack from an ADEPTUS CUSTODES or ANATHEMA PSYKANA",
+                    "score": 5
+                },
+                {
+                    "description":"Both are true",
+                    "score":5
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "mightofterra",
+            "missionName": "Might Of Terra",
+            "shortDescription": "End of battle round, score 4 if 1+ enemy were destroyed by ADEPTUS CUSTODES unit AND none of your ADEPTUS CUSTODES were destroyed",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1+ ennemy units were destroyed AND no ADEPTUS CUSTODES were destroyed",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "standvigil",
+            "missionName": "Stand Vigil",
+            "shortDescription": "At the end of the battle round, score 3 if you controle more objectives not within either player deployment zone",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Targeted opponent's unit is destroyed",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

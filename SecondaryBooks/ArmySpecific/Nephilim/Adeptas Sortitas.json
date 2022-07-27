@@ -1,0 +1,109 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "aleapoffaith",
+            "missionName": "A Leap Of Faith",
+            "shortDescription": "End of turn, if 2 Acts of faith were performed by ADEPTAS SORTITAS units, score 1 VP if it's your turn, 2 if it's opponents. With 3 acts, score 1 more.",
+            "scoringPhase": "End Of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 12,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You made 2 acts of faith during your turn",
+                    "score": 1
+                },
+                {
+                    "description": "You made 2 acts of faith during your ENEMY turn",
+                    "score": 3
+                },
+                {
+                    "description": "You made 3 acts of faith during any turn",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Purge The Enemy",
+            "id": "slaytheheretic",
+            "missionName": "Slay The Heretic",
+            "shortDescription": "End of Shooting phase score 1 for each enemy unit was destroyed with a bolt weapon OR a flame weapon OR a melta weapon by a ADEPTUS MINISTORUM.",
+            "scoringPhase": "End of Shooting Phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 4,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You destroyed an ENEMY unit with an attach by an ADEPTUS MINITORUM using a bolt weapon (5VP max)",
+                    "score": 1
+                },
+                {
+                    "description": "You destroyed an ENEMY unit with an attach by an ADEPTUS MINITORUM using a flame weapon(5VP max)",
+                    "score": 1
+                },
+                {
+                    "description": "You destroyed an ENEMY unit with an attach by an ADEPTUS MINITORUM using a melta weapon(5VP max)",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "sacredgrounds",
+            "missionName": "Sacred Grounds",
+            "shortDescription": "ADEPTA SORITAS INFANTRY and CULT IMPERIALIS PRIEST can attempt a Sacred Grounds action. Until end of battle, that objective gains INSPIRING terrain trait. Score 1 if the objective was wholly within your deployment zone, otherwise score 5",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "ONCE PER OBJECTIVE Consecrate ground action has been completed wholly inside of your deployment zone objective",
+                    "score": 1
+                },
+                {
+                    "description": "ONCE PER OBJECTIVE Consecrate ground action has been completed outside of your deployment zone objective",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "defendtheshrine",
+            "missionName": "Defend The Shrine",
+            "shortDescription": "During the Resolve Pre-Battle Abilities, choose a marker in your deployment as the Shrine. Score 3 if you controle the Shrine AND an ADEPTUS MINISTORUM is within range of it. At the end of the battle, if your opponent control it you get -3",
+            "scoringPhase": "End of Turn, End of Game",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 100,
+            "maxTurnPoints": 100,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You Control the Sacred Shrine at the end of your turn and have an ADEPTUS MINISTORUM in range",
+                    "score": 3
+                },
+                {
+                    "description": "Your enemy Control the Sacred Shrine at the end of the game",
+                    "score": -3,
+                    "turnLimit":[5,5]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "risetoglory",
+            "missionName": "Rise To Glory",
+            "shortDescription": "At the end of the battle round, score 2 victory points for each CHARACTER, MONSTER or VEHICLE model destroyed that battle round by a melee attack made by a TRAITORIS ASTARTES CHARACTER model from your army. If such a destroyed model had a Wounds characteristic of 10-19, score 1 additional victory point for destroying that model, or 2 additional victory points for destroying that model if it had a Wounds characteristic of 20 or more or it was the enemy WARLORD.",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed CHARACTER, MONSTER OR VEHICLE in MELEE ATTACK by a TRAITORIS ASTARTES CHARACTER",
+                    "score": 2
+                },
+                {
+                    "description": "You killed a CHARACTER, MONSTER or VEHICLE. Roll 2D6. If it's less than the wounds of the model, gain 1 CP",
+                    "score": 0
+                },
+                {
+                    "description": "The model had Wounds of 10-19",
+                    "score": 1
+                },
+                {
+                    "description": "The model had Wounds of 20+ OR is the WARLORD",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "thelongwar",
+            "missionName": "The Long War",
+            "shortDescription": "Score 1 for each enemy unit in range of an objective marker at the start of that turn destroyed by a HERETIC ASTARTES, score 2 if you control 1+ objective that were controlled by your opponent at the start of the turn.",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Killed 1 ennemy unit within range of an objective marker at the start of that turned with a HERETIC ASTARTES unit",
+                    "score": 1
+                },
+                {
+                    "description": "Control 1+ objective that were controlled by your opponent at the start of that turn with a HERETIC ASTARTES fully within the range of the objective",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "forthedarkgods",
+            "missionName": "For The Dark Gods",
+            "shortDescription": "Add 1 to the tally every time a unit dedicated a table quarter to a Chaos God.",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You dedicated 1 quarter to the chaos gods",
+                    "score": 2
+                },
+                {
+                    "description": "You dedicated 2 quarter to the chaos gods",
+                    "score": 5
+                },
+                {
+                    "description": "You dedicated 3 quarter to the chaos gods",
+                    "score": 9
+                },
+                {
+                    "description": "You dedicated 4 quarter to the chaos gods",
+                    "score": 14
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "bolsterbarricades",
+            "missionName": "Bolster Barricades",
+            "shortDescription": "IMPERIAL FISTS can attempt Bolster Barricades in range of an objective marker. 1 point if within your deployment, 4 if not. If your unit is wholly within 6'', it receives Light Cover and Heavy Cover if the marker is barricaded",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Objective Marker was within your deployment zone",
+                    "score": 1
+                },
+                {
+                    "description": "Objective Marker was NOT within your deployment zone",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

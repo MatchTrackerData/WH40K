@@ -1,0 +1,40 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "adornthecanvaseclectic",
+            "missionName": "Adorn The Canvas Eclectic",
+            "shortDescription": "Score points based on what hapenned in the round (objectives, units destroyed, CHARACTER destroyed)",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control more objective markers than your opponent.",
+                    "score": 1
+                },
+                {
+                    "description": "More enemy units were destroyed by ranged attacks made by EMPEROR’S CHILDREN units from your army this battle round than vice vers",
+                    "score": 1
+                },
+                {
+                    "description": "More enemy units were destroyed by melee attacks made by EMPEROR’S CHILDREN units from your army this battle round than vice versa.",
+                    "score": 1
+                },
+                {
+                    "description": "More enemy CHARACTER units were destroyed by attacks made by EMPEROR’S CHILDREN CHARACTER units from your army this battle round than vice versa.",
+                    "score": 1
+                },
+                {
+                    "description": "All the above are completed",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}

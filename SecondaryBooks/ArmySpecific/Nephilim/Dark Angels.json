@@ -1,0 +1,92 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "martialinterdiction",
+            "missionName": "Martial Interdiction",
+            "shortDescription": "Select one CHARACTER model from your opponent’s army. Score 3 if it's destroyed, +3 if it was by a melee from a DARK ANGELS, +3 if it was by a melee from a INNER CIRCLE or DEATHWING, +6 if DARK ANGELS wasn't destryoed in the process",
+            "scoringPhase": "End of Battle",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Selected enemy model is destroyed",
+                    "score": 3
+                },
+                {
+                    "description": "The selected enemy model was destroyed by a melee attack made by a DARK ANGELS model from your army.",
+                    "score": 3
+                },
+                {
+                    "description": "The selected enemy model was destroyed by a melee attack made by an INNER CIRCLE or DEATHWING model from your army.",
+                    "score": 3
+                },
+                {
+                    "description":"the unit of the DARK ANGELS model that destroyed the selected enemy model has not itself been destroyed.",
+                    "score":6
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "deathonthewind",
+            "missionName": "Death On The Wind",
+            "shortDescription": "Score 2 victory points each time an enemy unit is destroyed by a RAVENWING model from your army that moved 12'' or more during the Movement phase of that turn, or made a charge move that turn.",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": " an enemy unit is destroyed by a RAVENWING model from your army that moved 12'' or more during the Movement phase of that turn, or made a charge move that turn.",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "stubborndefiance",
+            "missionName": "Stubborn Defiance",
+            "shortDescription": "In your first Command phase, select one objective marker that is not within your deployment zone. At the end of each of your Command phases, if you control that objective marker and a DARK ANGELS unit from your army with the Objective Secured ability is within range of it, score a number of victory points based on the consecutive number of your Command phases you have controlled that objective marker for and had that unit within range of it",
+            "scoringPhase": "End of Command Phase",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Objective Targeted controle with OBJECTIVE SECURED unit 1 Consecutive Command Phase",
+                    "score": 1
+                },
+                {
+                    "description": "Objective Targeted controle with OBJECTIVE SECURED unit 2 Consecutive Command Phase",
+                    "score": 2
+                },
+                {
+                    "description": "Objective Targeted controle with OBJECTIVE SECURED unit 3 Consecutive Command Phase",
+                    "score": 3
+                },
+                {
+                    "description": "Objective Targeted controle with OBJECTIVE SECURED unit 4 Consecutive Command Phase",
+                    "score": 4
+                },
+                {
+                    "description": "Objective Targeted controle with OBJECTIVE SECURED unit 5 Consecutive Command Phase",
+                    "score": 5
+                }
+            ]
+        }
+    ]
+}
