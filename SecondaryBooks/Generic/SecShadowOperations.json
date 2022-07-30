@@ -3,6 +3,34 @@
     "secondaries": [
         {
             "type": "Shadow Operations",
+            "id": "retrievenephilimdata",
+            "missionName": "Retrieve Niphilim Data",
+            "shortDescription": "Do an action in every quarter and 6\" form any other quarter. Actions number 2 (4pts), 3 (8 pts), 4 (12pts). Actions: Roll <= unit size. -1 bonus to troops",
+            "scoringPhase": "End of turn or End of Game",
+            "fromRound": 2,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Second Niphilim data retrieved",
+                    "score": 4
+                },
+                {
+                    "description": "Third Niphilim data retrieved (8pts)",
+                    "score": 4
+                },
+                {
+                    "description": "Fourth Niphilim data retrieved (12 pts)",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
             "id": "raisethebannershighnephilim",
             "missionName": "Raise the banner high",
             "shortDescription": "One ore more infantry, banner action on point, 1 point per banner in the command phase. Enemies can take banner down.",
