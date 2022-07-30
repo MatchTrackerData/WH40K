@@ -1,5 +1,26 @@
 {
+    
     "secondaries": [
+        {
+            "type": "Shadow Operations",
+            "id": "raisethebannershighnephilim",
+            "missionName": "Raise the banner high",
+            "shortDescription": "One ore more infantry, banner action on point, 1 point per banner in the command phase. Enemies can take banner down.",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Banner raised at your command phase or end of game",
+                    "score": 1
+                }
+            ]
+        },
         {
             "type": "Shadow Operations",
             "id": "deployteleporthomersnachmund",
@@ -16,6 +37,7 @@
             "subObjectives": [
                 {
                     "description": "Repair action done within 12\" of enemy's deployment",
+                    "score": 2
                     "score": 2
                 },
                 {

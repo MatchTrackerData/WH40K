@@ -2,6 +2,26 @@
     "secondaries": [
         {
             "type": "Warpcraft",
+            "id": "psychihcinterrogationnephilim",
+            "missionName": "Psychic Interrogation",
+            "shortDescription": "Psychic action: Warp charge of 4 at 24\" from enemy character (3 points each)",
+            "scoringPhase": "Psychic phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Interrogate: Warp charge of 4, 24\" from enemy character (gain 1CP if the roll is >= the target's leadership)",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
             "id": "psychihcinterrogationnachmund",
             "missionName": "Psychic Interrogation",
             "shortDescription": "Psychic action: Warp charge of 4 at 24\" from enemy character (3 points each)",
