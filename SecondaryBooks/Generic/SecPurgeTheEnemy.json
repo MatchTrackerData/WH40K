@@ -30,7 +30,7 @@
         },
         {
             "type": "Purge the Enemy",
-            "id": "assasination",
+            "id": "assasinationgt2021",
             "missionName": "Assasination",
             "shortDescription": "Kill enemy characters (3pts). Kill the enemy warlord (4pts)",
             "scoringPhase": "After each kill or end of game",
@@ -54,7 +54,7 @@
         },
         {
             "type": "Purge the Enemy",
-            "id": "bringitdown",
+            "id": "bringitdowngt2021",
             "missionName": "Bring it down",
             "shortDescription": "Kill big monster of enemy. 1-10 wounds (1pt), 11-19 wounds (2pts), 20+ (3pts)",
             "scoringPhase": "After each kill or end of game",
@@ -82,7 +82,7 @@
         },
         {
             "type": "Purge the Enemy",
-            "id": "titanhunter",
+            "id": "titanhuntergt2021",
             "missionName": "Titan Hunter",
             "shortDescription": "Kill titanic models: 1 (4 pts) 2 (9 pts) 3 (15 pts)",
             "scoringPhase": "End of game",
@@ -110,7 +110,7 @@
         },
         {
             "type": "Purge the Enemy",
-            "id": "assasinate",
+            "id": "assasinatecorebook",
             "missionName": "Assasinate",
             "shortDescription": "Destroy enemy character (3 pts each)",
             "scoringPhase": "End of turn",
@@ -130,7 +130,7 @@
         },
         {
             "type": "Purge the Enemy",
-            "id": "bringitdown_old",
+            "id": "bringitdowncorebook",
             "missionName": "Bring it down",
             "shortDescription": "Kill monster of enemy: <= 10 wounds (2pts), >10 w (3pts) each",
             "scoringPhase": "Any time",
@@ -154,7 +154,7 @@
         },
         {
             "type": "Purge the Enemy",
-            "id": "slaythewarlord",
+            "id": "slaythewarlordcorebook",
             "missionName": "Slay the warlord",
             "shortDescription": "Kill Warlord (6pts)",
             "scoringPhase": "Any time",
@@ -174,7 +174,7 @@
         },
         {
             "type": "Purge the Enemy",
-            "id": "titanslayers",
+            "id": "titanslayerscorebook",
             "shortDescription": "Kill a Titanic enemy (10pts each)",
             "scoringPhase": "Any time",
             "fromRound": 1,

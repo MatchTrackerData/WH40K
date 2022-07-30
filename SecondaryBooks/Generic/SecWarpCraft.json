@@ -22,7 +22,7 @@
         },
         {
             "type": "Warpcraft",
-            "id": "abhorthewitch",
+            "id": "abhorthewitchgt2021",
             "missionName": "Abhor the Witch",
             "shortDescription": "Kill enemy psychers: characteres (3pts), any other (2pts)",
             "scoringPhase": "Any time or end of game",
@@ -46,7 +46,7 @@
         },
         {
             "type": "Warpcraft",
-            "id": "psychihcinterroagtion",
+            "id": "psychihcinterroagtiongt2021",
             "missionName": "Psychic Interrogation",
             "shortDescription": "Psychic action: Warp charge of 4 at 24\" from visible enemy character (3 points each)",
             "scoringPhase": "Psychic phase",
@@ -66,7 +66,7 @@
         },
         {
             "type": "Warpcraft",
-            "id": "warpritual",
+            "id": "warpritualgt2021",
             "missionName": "Warp Ritual",
             "shortDescription": "Execute psychic ritual 3 times (6\" from the center). Tally: 1 (3pts), 2 (7pts), 3 (12pts)",
             "scoringPhase": "End of game",
@@ -94,7 +94,7 @@
         },
         {
             "type": "Warpcraft",
-            "id": "piercetheveil",
+            "id": "piercetheveilgt2021",
             "missionName": "Pierce the Veil",
             "shortDescription": "Execute the psychic action Veil (warp charge 4) withing 6\" from the enemy's deployment line. Tally 2 (8pts) 4 (15pts)" ,
             "scoringPhase": "Psychic phase",
@@ -118,7 +118,7 @@
         },
         {
             "type": "Warpcraft",
-            "id": "mentalinterrogation",
+            "id": "mentalinterrogationcorebook",
             "missionName": "Mental Interrogation",
             "shortDescription": "Warp charge of 4 18\" from enemy character (3pts)",
             "scoringPhase": "Psychic phase",
@@ -138,7 +138,7 @@
         },
         {
             "type": "Warpcraft",
-            "id": "psychicritual",
+            "id": "psychicritualcorebook",
             "missionName": "Psychic Ritual",
             "shortDescription": "Execute psychic ritual 3 times (6\" from the center) (15pts)",
             "scoringPhase": "Psychic phase",
@@ -158,7 +158,7 @@
         },
         {
             "type": "Warpcraft",
-            "id": "abhorthewitch_old",
+            "id": "abhorthewitchcorebook",
             "missionName": "Abhor the Witch",
             "shortDescription": "Kill enemy psykers (3 pts each)",
             "scoringPhase": "Any phase",

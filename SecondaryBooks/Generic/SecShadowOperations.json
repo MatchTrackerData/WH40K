@@ -74,7 +74,7 @@
         },
         {
             "type": "Shadow Operations",
-            "id": "investigatesignal",
+            "id": "investigatesignalgt2021",
             "missionName": "Investigate Signal",
             "scoringPhase": "End of turn",
             "shortDescription": "3 pts each action wholly within 6\" from center of the battlefield by infantry (no CHARACTERS) when there's no enemies there (excluding AIRCRAFT)",
@@ -94,7 +94,7 @@
         },
         {
             "type": "Shadow Operations",
-            "id": "raisethebannershigh",
+            "id": "raisethebannershighgt2021",
             "missionName": "Raise the banner high",
             "shortDescription": "One ore more infantry, banner action on point, 1 point per banner in the command phase. Enemies can take banner down.",
             "scoringPhase": "Command phase",
@@ -114,7 +114,7 @@
         },
         {
             "type": "Shadow Operations",
-            "id": "deployteleporthomers",
+            "id": "deployteleporthomersgt2021",
             "missionName": "Deploy Teleport Homers",
             "shortDescription": "Do repair action in enemy's deployment",
             "scoringPhase": "Command phase",
@@ -138,7 +138,7 @@
         },
         {
             "type": "Shadow Operations",
-            "id": "retrieveoctopusdata",
+            "id": "retrieveoctopusdatagt2021",
             "missionName": "Retrieve Octopus Data",
             "shortDescription": "Do an action in every quarter and 6\" form any other quarter. Actions number 2 (4pts), 3 (8 pts), 4 (12pts)",
             "scoringPhase": "End of turn or End of Game",
@@ -166,7 +166,7 @@
         },
         {
             "type": "Shadow Operations",
-            "id": "investigatesites",
+            "id": "investigatesitescorebook",
             "missionName": "Investigate Sites",
             "shortDescription": "Action Investigate Site (3pts), 6\" from center with no enemies (exc AIRCRAFT). Completed end of turn.",
             "scoringPhase": "End of turn",
@@ -186,7 +186,7 @@
         },
         {
             "type": "Shadow Operations",
-            "id": "repairteleporthomer",
+            "id": "repairteleporthomercorebook",
             "missionName": "Repair Teleport Homer",
             "description": "",
             "shortDescription": "Do repair action in wholly within enemy's deployment (5pts)",

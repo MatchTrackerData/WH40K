@@ -61,22 +61,22 @@
     "selectableSecondaries":
     [
         "engageonallfrontsnachmund",
-        "behindenemylines",
-        "strangehold",
-        "grindthemdown",
+        "behindenemylinesgt2021",
+        "strangeholdgt2021",
+        "grindthemdowngt2021",
         "noprisionersnachmund",
-        "tothelast",
-        "assasination",
+        "tothelastgt2021",
+        "assasinationgt2021",
         "bringitdownnachmund",
-        "titanhunter",
+        "titanhuntergt2021",
         "investigatesignalnachmund",
-        "raisethebannershigh",
+        "raisethebannershighgt2021",
         "deployteleporthomersnachmund",
         "retrievenachmunddata",
-        "abhorthewitch",
+        "abhorthewitchgt2021",
         "psychihcinterrogationnachmund",
-        "warpritual",
-        "piercetheveil"
+        "warpritualgt2021",
+        "piercetheveilgt2021"
     ],
     "missions": [
         {

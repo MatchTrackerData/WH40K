@@ -34,7 +34,7 @@
         },
         {
             "type": "No mercy, no respite",
-            "id": "grindthemdown",
+            "id": "grindthemdowngt2021",
             "missionName": "Grind them down",
             "shortDescription": "Kill more units than the opponent during the battle round (3pts)",
             "scoringPhase": "End of battle round",
@@ -54,7 +54,7 @@
         },
         {
             "type": "No mercy, no respite",
-            "id": "noprisioners",
+            "id": "noprisionersgt2021",
             "missionName": "No prisioners",
             "shortDescription": "1 point every 10 wounds you inflict. Exclude VEHICLE, MONSTER, CHARACTER",
             "scoringPhase": "End of the game",
@@ -78,7 +78,7 @@
         },
         {
             "type": "No mercy, no respite",
-            "id": "tothelast",
+            "id": "tothelastgt2021",
             "missionName": "To the last",
             "shortDescription": "Pick 3 highest point value models. 5 points for each one surviving at the end of the game",
             "scoringPhase": "End of the game",
@@ -106,7 +106,7 @@
         },
         {
             "type": "No mercy, no respite",
-            "id": "attrition",
+            "id": "attritioncorebook",
             "missionName": "Attrition",
             "shortDescription": "Kill more units than the enemy",
             "scoringPhase": "End of round",
@@ -126,7 +126,7 @@
         },
         {
             "type": "No mercy, no respite",
-            "id": "firststrike",
+            "id": "firststrikecorebook",
             "missionName": "First Strike",
             "shortDescription": "Kill first turn and kill more than enemy first turn. (5/ +3 pts)",
             "scoringPhase": "End of round",
@@ -150,7 +150,7 @@
         },
         {
             "type": "No mercy, no respite",
-            "id": "thintheirranks",
+            "id": "thintheirrankscorebook",
             "missionName": "Think their tanks",
             "shortDescription": "1 point every 10 models killed",
             "scoringPhase": "End of game",
@@ -174,7 +174,7 @@
         },
         {
             "type": "No mercy, no respite",
-            "id": "whilewestandwefight",
+            "id": "whilewestandwefightcorebook",
             "missionName": "While we stand, we fight",
             "shortDescription": "Survive 3 models (5 pts each)",
             "scoringPhase": "End of game",

@@ -26,7 +26,7 @@
         },
         {
             "type": "Battlefield Supremacy",
-            "id": "engageonallfronts",
+            "id": "engageonallfrontsgt2021",
             "missionName": "Engage on all fronts",
             "shortDescription": "Units wholly within 3 (2pts) or 4 (3pts) quarters and 6\" from the center",
             "scoringPhase": "End of your turn",
@@ -50,7 +50,7 @@
         },
         {
             "type": "Battlefield Supremacy",
-            "id": "behindenemylines",
+            "id": "behindenemylinesgt2021",
             "missionName": "Behind enemy lines",
             "shortDescription": " 1 (2pts) or 2 (4pts) units wholly within enemy's deployment (excluding AIRCRAFT)",
             "scoringPhase": "End of your turn",
@@ -74,7 +74,7 @@
         },
         {
             "type": "Battlefield Supremacy",
-            "id": "strangehold",
+            "id": "strangeholdgt2021",
             "missionName": "Strangehold",
             "shortDescription": "Control 3 or more objectives and more objectives than the opponent (3 pts)",
             "scoringPhase": "End of your turn",
@@ -94,7 +94,7 @@
         },
         {
             "type": "Battlefield Supremacy",
-            "id": "domination",
+            "id": "dominationcorebook",
             "missionName": "Domination",
             "shortDescription": "Control more than half objectives",
             "scoringPhase": "End of turn",
@@ -114,7 +114,7 @@
         },
         {
             "type": "Battlefield Supremacy",
-            "id": "linebreaker",
+            "id": "linebreakercorebook",
             "missionName": "Line Breaker",
             "shortDescription": "2 wholly within units in enemy's deployment (4 pts) (excluding Aircraft)",
             "scoringPhase": "End of turn",
