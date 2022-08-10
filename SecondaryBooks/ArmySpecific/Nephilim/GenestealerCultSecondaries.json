@@ -1,0 +1,100 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "ambush",
+            "missionName": "Ambush",
+            "shortDescription": "Score point depending if they had a crossfire marker OR by a unit set up from ambush OR if the target was exposed",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "one or more enemy units were destroyed this turn by units from your army while they had a crossfire marker.",
+                    "score": 1
+                },
+                {
+                    "description": "one or more enemy units were destroyed this turn by units from your army that were set up from ambush or from underground this turn.",
+                    "score": 2
+                },
+                {
+                    "description": "one or more enemy units were destroyed this turn as a result of a ranged attack made by a model from your army, and that enemy unit was Exposed when it was selected as the target of that attack",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "BattleField Supremacy",
+            "id": "broodswarm",
+            "missionName": "BroodSwarm",
+            "shortDescription": "End of turn, score point if you have more models than your opponents (overall and in specific locations)",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You have more models on the battlefield than your opponent does.",
+                    "score": 1
+                },
+                {
+                    "description": "You have more models within your opponent’s deployment zone than your opponent does.",
+                    "score": 1
+                },
+                {
+                    "description": "You have more models within your deployment zone than your opponent does.",
+                    "score": 1
+                },
+                {
+                    "description": "You have more models on the battlefield that are within no man’s land than your opponent does.",
+                    "score": 1
+                },
+                {
+                    "description": "All four of the above bullet points apply.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "broodswarm",
+            "missionName": "BroodSwarm",
+            "shortDescription": "Place 2 critical location on the battlefield (more than 9'' from edge and each other). You can Savotage Critical Location (End of movement step up to end of turn) with a GENESTEALER CULT or BROOD BROTHER unit",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 9,
+            "maxTurnPoints": 9,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You completed the action Round 2",
+                    "score": 9
+                },
+                {
+                    "description": "You completed the action Round 3",
+                    "score": 7
+                },
+                {
+                    "description": "You completed the action Round 4",
+                    "score": 6
+                },
+                {
+                    "description": "You completed the action Round 5",
+                    "score": 5
+                }
+            ]
+        }
+    ]
+}

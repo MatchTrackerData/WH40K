@@ -1,0 +1,84 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "codeofcombat",
+            "missionName": "Code of Combat",
+            "shortDescription": "End of battle, score point depending on how many units your NECRONS NOBLE have killed",
+            "scoringPhase": "End of Battle",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": true,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "for each enemy unit that was destroyed by a ranged attack made by a NECRONS NOBLE unit from your army during the battle.",
+                    "score": 3
+                },
+                {
+                    "description": "for each enemy unit that was destroyed by a melee attack made by a NECRONS NOBLE unit from your army during the battle.",
+                    "score": 2
+                },
+                {
+                    "description": "ach time an enemy CHARACTER unit is destroyed by a melee attack made by a NECRONS NOBLE unit from your army, gain 1 Command point.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "thetreasuresofaeons",
+            "missionName": "The Treasures of Aeons",
+            "shortDescription": "Opponent select 3 objective markers (avoid opponent deployment zone if possible). Score points depending on how many you control",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control 1 objective marker",
+                    "score": 2
+                },
+                {
+                    "description": "You control 2 objective marker",
+                    "score": 3
+                },
+                {
+                    "description": "You control 3 objective marker",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "BattleField Supremacy",
+            "id": "purgethevermine",
+            "missionName": "Purge The Vermine",
+            "shortDescription": "Score 1 for each table quarter with no ennemy and if there are no ennemy units in your deployment zone",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "for each table quarter that has no enemy units (excluding AIRCRAFT units) wholly within it.",
+                    "score": 1
+                },
+                {
+                    "description": "SCORE ONCE - there are no enemy units (excluding AIRCRAFT units) wholly within your deployment zone.",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}
