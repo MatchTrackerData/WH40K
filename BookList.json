@@ -435,6 +435,69 @@
             "factionName": "W. Bearers",
             "group": "Chaos",
             "info": "Nephilim"
+        },
+        {
+            "name": "World Eaters",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/WorldEatersSecondaries",
+            "factionName": "W. Eaters",
+            "group": "Chaos",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Asuryan (Eldar)",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/AsuryaniSecondaries",
+            "factionName": "Asuryani",
+            "group": "Aeldari",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Dark Space Elves",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/DrukhariSecondaries",
+            "factionName": "Dark Elves",
+            "group": "Aeldari",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Genlastir Cult",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/GenestealerCultSecondaries",
+            "factionName": "G. Cult",
+            "group": "Xenos",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Harlequins",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/HarlequinsSecondaries",
+            "factionName": "Harlequins",
+            "group": "Aeldari",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Necronis",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/NecronsSecondaries",
+            "factionName": "Necronis",
+            "group": "Xenos",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Orcs",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/OrksSecondaries",
+            "factionName": "Orcs",
+            "group": "Xenos",
+            "info": "Nephilim"
+        },
+        {
+            "name": "TAU-E",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/T'auSecondaries",
+            "factionName": "TAU-E",
+            "group": "Xenos",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Tyranidons",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/TyranidsSecondaries",
+            "factionName": "Tyranidons",
+            "group": "Xenos",
+            "info": "Nephilim"
         }
     ]
 }
