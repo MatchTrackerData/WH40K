@@ -1,0 +1,88 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "acleanvictory",
+            "missionName": "A Clean Victory",
+            "shortDescription": "End of Batlte Round, score depending on how many units you destroyed this battle round. ONLY SCORE DURING YOUR TACTICAL PHILOSOPHY TURNS ACTIVATION",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "one or more enemy units were destroyed by T’AU EMPIRE units from your army this battle round.",
+                    "score": 1
+                },
+                {
+                    "description": "three or more enemy units were destroyed by T’AU EMPIRE units from your army this battle round.",
+                    "score": 3
+                },
+                {
+                    "description": "If Mont'ka score on turn 1,2,3 only. Kauyon on turn 3,4,5",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "type": "BattleField Supremacy",
+            "id": "decisiveaction",
+            "missionName": "Decisive Action",
+            "shortDescription": "Score when you control half of more the objective markers on the field. SCORE ONLY DURING YOUR TACTICAL PHILOSOPHY TURNS",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "one or more enemy units were destroyed by T’AU EMPIRE units from your army this battle round.",
+                    "score": 4
+                },
+                {
+                    "description": "If Mont'ka selected score on turn 1,2,3 only. With Kauyon on turn 3,4,5",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "aerospacetargetingrelays",
+            "missionName": "Aerospace Targeting Relays",
+            "shortDescription": "T'AU EMPIRE INFANTRY can attempt Install Targeting Relay (end of movement up to next command phase)",
+            "scoringPhase": "End of Game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": true,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "You installed 1 targeting Relay",
+                    "score": 2
+                },
+                {
+                    "description": "You installed 2 targeting Relay",
+                    "score": 6
+                },
+                {
+                    "description": "You installed 3 targeting Relay",
+                    "score": 9
+                },
+                {
+                    "description": "You installed 4 targeting Relay",
+                    "score": 15
+                }
+            ]
+        }
+    ]
+}

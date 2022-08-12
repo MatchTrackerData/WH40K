@@ -1,0 +1,100 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "dabiggestanddabest",
+            "missionName": "Da Biggest And Da Best",
+            "shortDescription": "Socre points when your Warlord wounds, destroy more than 5 models or a whole unit, is in range of an objective marker outside of your deployment zone",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "An enemy CHARACTER, MONSTER or VEHICLE unit lost any wounds as the result of a melee attack made by your WARLORD this battle round.",
+                    "score": 2
+                },
+                {
+                    "description": "5 or more models were destroyed as the result of attacks made by your WARLORD this battle round.",
+                    "score": 2
+                },
+                {
+                    "description": "An enemy unit was destroyed as the result of an attack made by your WARLORD this battle round.",
+                    "score": 2
+                },
+                {
+                    "description": "Your WARLORD is within range of an objective marker you control that is not within your deployment zone.",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "stromp'emgood",
+            "missionName": "Stomp'Em Good",
+            "shortDescription": "End of battle round, score point for each units destroyed by melee attacks by ORKS depending on the GRETCHIN units lost",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "the number of enemy units destroyed by melee attacks made by ORKS units from your army this battle round is more than the number of non-GRETCHIN units from your army destroyed by melee attacks this battle round.",
+                    "score": 1
+                },
+                {
+                    "description": "the number of enemy units destroyed by melee attacks made by ORKS units from your army this battle round is at least 2 and is at least double the number of non-GRETCHIN units from your army destroyed by melee attacks this battle round.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "BattleField Supremacy",
+            "id": "greentide",
+            "missionName": "Green Tide",
+            "shortDescription": "Score 1 point for each table quarter that contains 10 or more ORKS models from your army (Excluding units 6'' within the center)",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You have a table quarter with 10 or more ORK model (Excluding those 6'' within the center)",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "BattleField Supremacy",
+            "id": "getdagoodbitz",
+            "missionName": "Get Da Good Bitz",
+            "shortDescription": "ORKS CODE units can attempt Get da Good Bitz (From end of movement up to end of turn if LOOTAS or Gretchin, otherwise next command phase)",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "a unit from your army completes this action",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

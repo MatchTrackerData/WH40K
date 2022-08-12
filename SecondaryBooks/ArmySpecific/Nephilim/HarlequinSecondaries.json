@@ -1,0 +1,84 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "adeadlyperformance",
+            "missionName": "A Deadly Performance",
+            "shortDescription": "Gain point if 2 of the following are filled : Control a marker you didn't at the start of the turn, a HARLEQUIN in your opponent's deployment and units destroyed by your oponent",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You completed 2 from the below",
+                    "score": 3
+                },
+                {
+                    "description": "You control an objective marker you did not control at the start of the turn and a HARLEQUINS unit from your army is within range of that objective marker.",
+                    "score": 0
+                },
+                {
+                    "description": "A HARLEQUINS unit from your army is wholly within your opponent’s deployment zone.",
+                    "score": 0
+                },
+                {
+                    "description": "Two or more enemy units were destroyed by an attack made with a ranged weapon by a HARLEQUINS model from your army this turn.",
+                    "score": 0
+                },
+                {
+                    "description": "Two or more enemy units were destroyed by an attack made with a melee weapon by a HARLEQUINS model from your army this turn.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "weavevail",
+            "missionName": "Weave Veil",
+            "shortDescription": "SHADOWSEER units can attempt Weave Veil (Psychic Action - Warp Charge 3)",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "each time a unit from your army completes this psychic action.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "takeyourplaces",
+            "missionName": "Take Your Places",
+            "shortDescription": "Set up 1 more objective marker in the opponent deployment zone, opponent does set up one in your deployment + another 6'' from the center, not within 9'' of each other/6'' from edge",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "score 2 victory points if you control two of your Take Your Places objective markers and one or more HARLEQUINS units from your army are within range of each of those objective markers.",
+                    "score": 2
+                },
+                {
+                    "description": " instead if you control all three of your Take Your Places objective markers and one or more HARLEQUINS units from your army are within range of each of those objective markers.",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

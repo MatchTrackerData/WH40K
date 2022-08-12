@@ -1,0 +1,36 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "skullsfortheskullthrone",
+            "missionName": "Skull for the Skull Throne",
+            "shortDescription": " select one WORLD EATERS CHARACTER model from your army to issue the challenge, then select one CHARACTER model from your opponent army. Score points based on how the targeted model was destroyed",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Enemy model has been destroyed",
+                    "score": 5
+                },
+                {
+                    "description": "Enemy model has been destroyed as the result of a melee attack",
+                    "score": 5
+                },
+                {
+                    "description": "Enemy model has been destroyed as the result of a melee attack made by your model",
+                    "score": 5
+                },
+                {
+                    "description": "You completed all the 3 options, gain 1 CP!",
+                    "score": 0
+                }
+            ]
+        }
+    ]
+}
