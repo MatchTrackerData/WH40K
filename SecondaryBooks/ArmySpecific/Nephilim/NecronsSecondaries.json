@@ -20,7 +20,7 @@
                 },
                 {
                     "description": "for each enemy unit that was destroyed by a melee attack made by a NECRONS NOBLE unit from your army during the battle.",
-                    "score": 2
+                    "score": 4
                 },
                 {
                     "description": "ach time an enemy CHARACTER unit is destroyed by a melee attack made by a NECRONS NOBLE unit from your army, gain 1 Command point.",
@@ -77,6 +77,26 @@
                 {
                     "description": "SCORE ONCE - there are no enemy units (excluding AIRCRAFT units) wholly within your deployment zone.",
                     "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "ancientmachineries",
+            "missionName": "Ancient Machineries",
+            "shortDescription": "NECRONS CORE and NECRONS CANOPTEK units can attempt Awaken Ancient Machinery action (from end of movement up to end of turn if objective secured, or next command phase otherwise)",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "A unit completed the action",
+                    "score": 4
                 }
             ]
         }
