@@ -316,6 +316,13 @@
             "group": "Xenos",
             "info": "CODEX"
         },
+        {
+            "name": "Lig Of Voltannes",
+            "file": "SecondaryBooks/ArmySpecific/Codex/LeagueOfVotannSecondaries",
+            "factionName": "L.Of.Volt",
+            "group": "Xenos",
+            "info": "Nephilim"
+        },
         
         {
             "name": "Necronis",

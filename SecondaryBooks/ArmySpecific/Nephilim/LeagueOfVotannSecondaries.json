@@ -1,0 +1,115 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "theancestorsarewatching",
+            "missionName": "The Ancestors are watching",
+            "shortDescription": "Kill an enemy unit with a Judgement Token for 2VP, +1 if the unit had 3 tokens. -1 for each enemy unit with a Judgement token at end of game",
+            "scoringPhase": "End of Phase",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1+ enemy unit died with a Judgement Token or more",
+                    "score": 2,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "The unit slained had 3 Judgement Tokens",
+                    "score": 1,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "There is 1 enemy unit with a Judgement Token left",
+                    "score": -1,
+                    "turnLimit":[6,6]
+                }
+            ]
+        },
+        {
+            "type": "Purge The Enemy",
+            "id": "grudgematch",
+            "missionName": "Grudge Match",
+            "shortDescription": "Choose 5 enemy units, including the warlord. Gain point by killing them (+ if expensive + if in melee)",
+            "scoringPhase": "All the time",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1 Enemy Unit Targeted died",
+                    "score": 1,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "The unit slained cost 150+ points",
+                    "score": 1,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "The unit has been killed in melee",
+                    "score": 1,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "There is an unit (targeted) left on the battlefield",
+                    "score": -1,
+                    "turnLimit":[6,6]
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "layclaim",
+            "missionName": "Lay Claim",
+            "shortDescription": "Opponent set up 3 markers more than 6'' away from their deployment zone and 9'' from each other. 5VP each you control",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control 1 marker",
+                    "score": 5
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "prospectofwealth",
+            "missionName": "Prospect Of Wealth",
+            "shortDescription": "VOTANN INFANTRY or BIKE unit can action (end of movement to end of turn). Gain VP if action completed. D6, on a 6+ 3 more VP. 5+ if unit has a scanner",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 6,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Action has been completed",
+                    "score": 3
+                },
+                {
+                    "description": "You rolled a 6+ on your D6 (or 5+ if unit has a scanner)",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}
