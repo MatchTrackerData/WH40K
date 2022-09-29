@@ -321,9 +321,8 @@
             "file": "SecondaryBooks/ArmySpecific/Codex/LeagueOfVotannSecondaries",
             "factionName": "L.Of.Volt",
             "group": "Xenos",
-            "info": "Nephilim"
+            "info": "CODEX"
         },
-        
         {
             "name": "Necronis",
             "file": "SecondaryBooks/ArmySpecific/Codex/NecronsSecondaries",
