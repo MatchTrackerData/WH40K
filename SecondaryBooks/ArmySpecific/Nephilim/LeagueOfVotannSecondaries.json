@@ -15,13 +15,13 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "1+ enemy unit died with a Judgement Token or more",
+                    "description": "1+ enemy units died with 1+ Judgement Token (once per phase)",
                     "score": 2,
                     "turnLimit":[1,5]
                 },
                 {
-                    "description": "The unit slained had 3 Judgement Tokens",
-                    "score": 1,
+                    "description": "1+ enemy units slained had 3+ Judgement Tokens (once per phase)",
+                    "score": 3,
                     "turnLimit":[1,5]
                 },
                 {
@@ -36,7 +36,7 @@
             "id": "grudgematch",
             "missionName": "Grudge Match",
             "shortDescription": "Choose 5 enemy units, including the warlord. Gain point by killing them (+ if expensive + if in melee)",
-            "scoringPhase": "All the time",
+            "scoringPhase": "Any time",
             "fromRound": 1,
             "untilRound": 6,
             "maxTotalPoints": 15,
@@ -51,13 +51,8 @@
                     "turnLimit":[1,5]
                 },
                 {
-                    "description": "The unit slained cost 150+ points",
-                    "score": 1,
-                    "turnLimit":[1,5]
-                },
-                {
-                    "description": "The unit has been killed in melee",
-                    "score": 1,
+                    "description": "1 Enemy Unit Targeted died that [cost 150+ pts] and/or [killed in melle]",
+                    "score": 2,
                     "turnLimit":[1,5]
                 },
                 {
@@ -77,13 +72,21 @@
             "untilRound": 6,
             "maxTotalPoints": 15,
             "maxTurnPoints": 15,
-            "multiScore": true,
+            "multiScore": false,
             "scoreOnce": false,
-            "exclusive": false,
+            "exclusive": true,
             "subObjectives": [
                 {
-                    "description": "You control 1 marker",
+                    "description": "You control 1 Votan marker",
                     "score": 5
+                },
+                {
+                    "description": "You control 2 Votan marker",
+                    "score": 10
+                },
+                {
+                    "description": "You control 3 Votan marker",
+                    "score": 15
                 }
             ]
         },
@@ -92,7 +95,7 @@
             "id": "prospectofwealth",
             "missionName": "Prospect Of Wealth",
             "shortDescription": "VOTANN INFANTRY or BIKE unit can action (end of movement to end of turn). Gain VP if action completed. D6, on a 6+ 3 more VP. 5+ if unit has a scanner",
-            "scoringPhase": "Anytime",
+            "scoringPhase": "End of turn",
             "fromRound": 1,
             "untilRound": 5,
             "maxTotalPoints": 6,
@@ -102,12 +105,14 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "Action has been completed",
-                    "score": 3
+                    "description": "Action has been completed (roll 6+, on 6 it's a reach objective)",
+                    "score": 3,
+                    "turnLimit":[1,5]
                 },
                 {
-                    "description": "You rolled a 6+ on your D6 (or 5+ if unit has a scanner)",
-                    "score": 3
+                    "description": "You control a rich objective",
+                    "score": 3,
+                    "turnLimit":[6,6]
                 }
             ]
         }
