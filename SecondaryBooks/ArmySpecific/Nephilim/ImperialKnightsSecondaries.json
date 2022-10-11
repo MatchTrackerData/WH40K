@@ -103,6 +103,38 @@
                     "score": 1
                 }
             ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "renewtheoaths",
+            "missionName": "Renew The Oaths",
+            "shortDescription": "IMPERIAL KNIGHTS can perform an action Renew the Oaths at the end of the movement phase at 6'' of the center and complete at the end of turn, 6'' from the center",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "A non-TITANIC model completed the action",
+                    "score": 3
+                },
+                {
+                    "description": "A TITANIC model completed the action",
+                    "score": 4
+                },
+                {
+                    "description": "The action was completed by a CHARACTER",
+                    "score": 1
+                },
+                {
+                    "description": "Do not forget to roll a D6, on a 4+ gain 1 Honour point ;)",
+                    "score": 0
+                }
+            ]
         }
     ]
 }
