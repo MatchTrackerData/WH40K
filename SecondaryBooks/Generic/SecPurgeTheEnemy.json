@@ -26,6 +26,38 @@
         },
         {
             "type": "Purge the Enemy",
+            "id": "bringitdownnephilim",
+            "missionName": "Bring it down",
+            "shortDescription": "Kill big monster of enemy. 1-9 wounds (1pt), 10-14 wounds (2pts), 15-19 (3pts), 20+ (4pts)",
+            "scoringPhase": "After each kill or end of game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill monster or vehicle 1-9 wounds",
+                    "score": 1
+                },
+                {
+                    "description": "Kill monster or vehicle 10-14 wounds",
+                    "score": 2
+                },
+                {
+                    "description": "Kill monster or vehicle 15-19 wounds",
+                    "score": 3
+                },
+                {
+                    "description": "Kill monster or vehicle 20+ wounds",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
             "id": "bringitdownnachmund",
             "missionName": "Bring it down",
             "shortDescription": "Kill big monster of enemy. 1-9 wounds (1pt), 10-14 wounds (2pts), 15+ (3pts)",
