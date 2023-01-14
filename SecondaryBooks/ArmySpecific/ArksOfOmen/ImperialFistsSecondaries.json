@@ -15,11 +15,11 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "Barricade objective Marker was within your deployment zone",
+                    "description": "Objective Marker was within your deployment zone",
                     "score": 1
                 },
                 {
-                    "description": "Barricade objective Marker was NOT within your deployment zone",
+                    "description": "Objective Marker was NOT within your deployment zone",
                     "score": 4
                 }
             ]

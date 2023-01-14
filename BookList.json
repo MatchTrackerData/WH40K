@@ -62,6 +62,13 @@
             "info": "Nephilim"
         },
         {
+            "name": "Adeptus Astartes",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/SpaceMarinesSecondaries",
+            "factionName": "S.Marines",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Adeptus Custodes",
             "file": "SecondaryBooks/ArmySpecific/Codex/AdeptusCustodesSecondaries",
             "factionName": "A. Custod.",
@@ -160,6 +167,13 @@
             "info": "Nephilim"
         },
         {
+            "name": "Black Templars",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/BlackTemplarsSecondaries",
+            "factionName": "B. Templars",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Blood Angels",
             "file": "SecondaryBooks/ArmySpecific/Codex/BloodAngelsSecondaries",
             "factionName": "B. Angels",
@@ -172,6 +186,13 @@
             "factionName": "B. Angels",
             "group": "Imperium",
             "info": "Nephilim"
+        },
+        {
+            "name": "Blood Angels",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/BloodAngelsSecondaries",
+            "factionName": "B. Angels",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
         },
         {
             "name": "Chaos Demons",
@@ -237,6 +258,13 @@
             "info": "Nephilim"
         },
         {
+            "name": "Dark Angels",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/DarkAngelsSecondaries",
+            "factionName": "D. Angels",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Death Guard",
             "file": "SecondaryBooks/ArmySpecific/Codex/DeathGuardSecondaries",
             "factionName": "Death G.",
@@ -263,6 +291,13 @@
             "factionName": "D. Watch",
             "group": "Imperium",
             "info": "Nephilim"
+        },
+        {
+            "name": "Death Watch",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/DeathWatchSecondaries",
+            "factionName": "D. Watch",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
         },
         {
             "name": "Drukhari",
@@ -321,6 +356,13 @@
             "info": "Nephilim"
         },
         {
+            "name": "Imperial Fists",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/ImperialFistsSecondaries",
+            "factionName": "I. Fists",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Imperial Knights",
             "file": "SecondaryBooks/ArmySpecific/Codex/ImperialKnightsSecondaries",
             "factionName": "I. Knights",
@@ -340,6 +382,13 @@
             "factionName": "Iron Hands",
             "group": "Imperium",
             "info": "Nephilim"
+        },
+        {
+            "name": "Iron Hands",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/IronHandsSecondaries",
+            "factionName": "Iron Hands",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
         },
         {
             "name": "Iron Warriors",

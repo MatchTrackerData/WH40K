@@ -89,9 +89,9 @@
             ]
         },
         {
-            "type": "No Mercy, No Respite",
-            "id": "deathfromabove",
-            "missionName": "Death From Above",
+            "type": "Battlefield Supremacy",
+            "id": "relentlessassault",
+            "missionName": "Relentless Assault",
             "shortDescription": "At the end of your turn, score 4 victory points if there are more BLOOD ANGELS units from your army in your opponent’s deployment zone than there are enemy units in your deployment zone.",
             "scoringPhase": "End of Turn",
             "fromRound": 1,

@@ -1,0 +1,72 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "nourishedbyterror",
+            "missionName": "Nourished By Terror",
+            "shortDescription": "Score 1 everytime an enemy model flees the battle field. When enemy unit is destroyed , roll 2D6, if higher than leadership +1VP",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Enemy model flees the battlefield",
+                    "score": 1
+                },
+                {
+                    "description": "You rolled 2D6 with higher Leadership than the enemy unit destroyed by a CHAOS DEAMONS",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "realityrebels",
+            "missionName": "Reality Rebels",
+            "shortDescription": "Score points depending if your Chaos Deamons are within quarters or central to the battlefield",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "each table quarter that has one or more CHAOS DAEMONS units from your army (excluding HERETIC ASTARTES units) wholly within it and not within 6'' of the center of the battlefield, provided your opponent does not have more units wholly within the same table quarter",
+                    "score": 1
+                },
+                {
+                    "description": "Score 1 victory point if one or more CHAOS DAEMONS units from your army (excluding HERETIC ASTARTES units) are wholly within 6'' of the centre of the battlefield.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "despoilersofreality",
+            "missionName": "Despoilers Of Reality",
+            "shortDescription": "CHAOS DEAMONS INFANTRY can attempt Dark Ritual (end of movement phase up to next command phase)",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "A unit from your army completed the action",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

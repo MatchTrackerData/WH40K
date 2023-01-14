@@ -4,7 +4,7 @@
             "type": "Purge The Enemy",
             "id": "cullorder",
             "missionName": "Cull Order",
-            "shortDescription": "select three Battlefield Roles (HQ, Troops, etc.) from the units in your opponent’s army. If your opponent’s army does not include at least three units with different Battlefield Roles, select as many Battlefield Roles as possible. Score 4 for every unit from your opponent destroyed with that role",
+            "shortDescription": "select three Battlefield Roles (HQ, Troops, etc.) from the units in your opponent’s army. If your opponent’s army does not include at least three units with different Battlefield Roles, select as many Battlefield Roles as possible. Score 4 if every unit from your opponent destroyed with that role",
             "scoringPhase": "End of Battle",
             "fromRound": 1,
             "untilRound": 6,
@@ -15,15 +15,15 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "1+ unit from Role 1 has been destroyed",
+                    "description": "Every unit from Role 1 has been destroyed",
                     "score": 4
                 },
                 {
-                    "description": "1+ unit from Role 2 has been destroyed",
+                    "description": "Every unit from Role 2 has been destroyed",
                     "score": 4
                 },
                 {
-                    "description": "1+ unit from Role 3 has been destroyed",
+                    "description": "Every unit from Role 3 has been destroyed",
                     "score": 4
                 }
             ]

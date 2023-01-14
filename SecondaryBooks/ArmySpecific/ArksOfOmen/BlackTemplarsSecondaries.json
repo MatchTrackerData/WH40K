@@ -1,0 +1,69 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "carryoutyourvows",
+            "missionName": "Carry Out Your Vows",
+            "shortDescription": "Score 4 if the number of enemy units destroyed by a melee attack made by BLACK TEMPLARS is greater than the number of BLACK TEMPLARS destroyed. Score 5 at the end of game based on your vow.",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Destroyed more enemy units by melee attacks made by BLACK TEMPLARS than BLACK TEMPLAR units destroyed",
+                    "score": 5,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "You selected the Suffer Not the Unclean to Live vow before the battle, and the enemy WARLORD was destroyed by a melee attack made by a BLACK TEMPLARS CHARACTER unit from your army during the battle.",
+                    "score": 5,
+                    "turnLimit":[6,6]
+                },
+                {
+                    "description": "You selected the Uphold the Honour of the Emperor vow before the battle, and a BLACK TEMPLARS INFANTRY unit (excluding CHARACTER units) from your army that is not below Half-strength is in your opponent’s deployment zone at the end of the battle.",
+                    "score": 5,
+                    "turnLimit":[6,6]
+                },
+                {
+                    "description": "You selected the Abhor the Witch, Destroy the Witch vow before the battle, and one or more enemy PSYKER CHARACTER units were destroyed by a BLACK TEMPLARS unit from your army during the battle.",
+                    "score": 5,
+                    "turnLimit":[6,6]
+                },
+                {
+                    "description": "You selected the Accept Any Challenge, No Matter the Odds vow before the battle, and an enemy unit with a Starting Strength of 20 or more models or an enemy model with a Wounds characteristic of 20 or more was destroyed by a BLACK TEMPLARS unit from your army during the battle.",
+                    "score": 5,
+                    "turnLimit":[6,6]
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "allownottheworshipofuncleanidols",
+            "missionName": "Allow Not The Worship of Unclean Idols",
+            "shortDescription": "At the end of your turn, score 2 victory points for each objective marker you control that was controlled by your opponent at the start of that turn, and that has a BLACK TEMPLARS CORE or BLACK TEMPLARS CHAPLAIN unit from your army within range of it.",
+            "scoringPhase": "End of Game",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 2,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control an objective that was controlled by your opponent at the start of that turn",
+                    "score": 2
+                },
+                {
+                    "description": "BLACK TEMPLARS CORE or BLACK TEMPLARS CHAPLAIN is NOT in range of said objective",
+                    "score": -2
+                }
+            ]
+        }
+    ]
+}

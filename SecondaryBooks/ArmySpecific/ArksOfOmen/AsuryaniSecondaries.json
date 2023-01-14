@@ -1,0 +1,117 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "wrathofkhaine",
+            "missionName": "Wrath of Khaine",
+            "shortDescription": "End of round, score point based on how your ASPECT WARRIOR killed units this turn",
+            "scoringPhase": "End Of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "one or more enemy units were destroyed by a ranged attack made by an ASPECT WARRIOR unit from your army this battle round.",
+                    "score": 1
+                },
+                {
+                    "description": "one or more enemy units were destroyed by a melee attack made by a different ASPECT WARRIOR unit from your army this battle round.",
+                    "score": 1
+                },
+                {
+                    "description": "You did both of the above",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "Warpcraft",
+            "id": "scryfutures",
+            "missionName": "Scry Futures",
+            "shortDescription": "ASURYANI PSYKER can attempt Scry Futures (Psychic Action - Warp Charge 4). Score 3 everytime a unit complete this action",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "A Unit completed the Scry Futures action",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "scouttheenemy",
+            "missionName": "Scout The Enemy",
+            "shortDescription": "ASURYANI units can attempt Scout the Enemy (End of movement phase up to next command phase)",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "the unit performing this action is not wholly within your opponent deployment zone.",
+                    "score": 2
+                },
+                {
+                    "description": " the unit performing the action is wholly within your opponent deployment zone.",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "thehiddenpath",
+            "missionName": "The Hidden Path",
+            "shortDescription": "Choose a Webway Gate unit outside of 6'' of your deployment (Or an objective marker if you don't have any Webway Gate). Score points depending on how long you've been controlling the target for",
+            "scoringPhase": "End of Turn, End of Game",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 100,
+            "maxTurnPoints": 100,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control the target for 1 round (Webway gate require OBJECTIVE SECURED, objective doesn't)",
+                    "score": 1,
+                    "turnLimit":[1,1]
+                },
+                {
+                    "description": "You control the target for 2 rounds (Webway gate require OBJECTIVE SECURED, objective doesn't)",
+                    "score": 2,
+                    "turnLimit":[2,5]
+                },
+                {
+                    "description": "You control the target for 3 rounds (Webway gate require OBJECTIVE SECURED, objective doesn't)",
+                    "score": 3,
+                    "turnLimit":[3,5]
+                },
+                {
+                    "description": "You control the target for 4 rounds (Webway gate require OBJECTIVE SECURED, objective doesn't)",
+                    "score": 4,
+                    "turnLimit":[4,5]
+                },
+                {
+                    "description": "You control the target for 5 rounds (Webway gate require OBJECTIVE SECURED, objective doesn't)",
+                    "score": 5,
+                    "turnLimit":[5,5]
+                }
+            ]
+        }
+    ]
+}

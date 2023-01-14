@@ -1,0 +1,120 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "glorykills",
+            "missionName": "Glory Kills",
+            "shortDescription": "Score points for killing CHARACTER, MONSTER or VEHICLE or wounding them",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Enemy CHARACTER was destroyed",
+                    "score": 2
+                },
+                {
+                    "description": "Enemy CHARACTER was wounded by a SPACE WOLVES unit",
+                    "score": 1
+                },
+                {
+                    "description": "Enemy MONSTER OR VEHICLE was destroyed",
+                    "score": 3
+                },
+                {
+                    "description": "Enemy MONSTER OR VEHICLE was wounded by a SPACE WOLVES unit",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Purge The Enemy",
+            "id": "heroicchallenge",
+            "missionName": "Heroic Challenge",
+            "shortDescription": "Select 1 SPACE WORLVES CHARACTER and 1 CHARACTER of the enemy army. Score 15 depending if you destroyed him and how.",
+            "scoringPhase": "End of Battle",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "The model that accepted the challenge is destroyed.",
+                    "score": 5
+                },
+                {
+                    "description": "The model that accepted the challenge was destroyed as the result of a melee attack.",
+                    "score": 5
+                },
+                {
+                    "description": "The model that accepted the challenge was destroyed as the result of an attack made by the model that issued the challenge.",
+                    "score": 5
+                },
+                {
+                    "description": "If all three of these conditions are satisfied during the battle, you immediately gain 1 Command point.",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "amightysaga",
+            "missionName": "A Mighty Saga",
+            "shortDescription": "Score victory points based on how well your warlord fought",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "An enemy CHARACTER, MONSTER or VEHICLE unit lost any wounds as the result of a melee attack made by your WARLORD this battle round.",
+                    "score": 2
+                },
+                {
+                    "description": "5 or more models were destroyed as the result of attacks made by your WARLORD this battle round.",
+                    "score": 2
+                },
+                {
+                    "description": "An enemy unit was destroyed as the result of an attack made by your WARLORD this battle round.",
+                    "score": 2
+                },
+                {
+                    "description": "Your WARLORD is within range of an objective marker you control that is not within your deployment zone.",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "BattleField Supremacy",
+            "id": "warriorpride",
+            "missionName": "Warrior Pride",
+            "shortDescription": "At the end of your turn, score 3 victory points if two or more SPACE WOLVES units from your army are within Engagement Range of any enemy units or completed a charge move this turn, and neither of those units are within your deployment zone.",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "two or more SPACE WOLVES units from your army are within Engagement Range of any enemy units or completed a charge move this turn, and neither of those units are within your deployment zone.",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

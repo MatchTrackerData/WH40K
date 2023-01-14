@@ -1,0 +1,24 @@
+{
+    "secondaries": [
+        {
+            "type": "Shadow Operations",
+            "id": "secureorsabotage",
+            "missionName": "Secure Or Sabotage",
+            "shortDescription": "RAVEN GUARD INFANTRY units can attempt to Plant Explosives, if your enemy controls it roll a D6, on 2+ units around suffers 3Mortal Wounds",
+            "scoringPhase": "End of Turn",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Score 3 victory points for each objective marker that still has explosives planted on it by your army.",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}

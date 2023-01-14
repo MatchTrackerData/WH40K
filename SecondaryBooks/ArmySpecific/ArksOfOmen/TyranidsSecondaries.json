@@ -1,0 +1,93 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "cranialfeasting",
+            "missionName": "Cranial Feasting",
+            "shortDescription": "When a CHARACTER or unit champion is destroyed by a melee made by a HIVE TENDRIL, gain a command point dependning on a D6 roll and score victory points",
+            "scoringPhase": "End of Game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": true,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Roll D6 if you killed a CHARACTER or UNIT CHAMPION with a HIVE TENDRIL melee attack. Add 2 if FEEDER TENDRILS keyword, 2 if CHARACTER. On 6+ gain a CP",
+                    "score": 0
+                },
+                {
+                    "description": "you gained 1 or more Command points during the battle due to this secondary objective.",
+                    "score": 3
+                },
+                {
+                    "description": "for each enemy unit champion that is destroyed, if it was destroyed by a melee attack made by a HIVE TENDRIL model from your army.",
+                    "score": 1
+                },
+                {
+                    "description": "for each enemy CHARACTER unit that is destroyed, if it was destroyed by a melee attack made by a HIVE TENDRIL model from your army.",
+                    "score": 3
+                },
+                {
+                    "description": "if the enemy WARLORD is destroyed, if it was destroyed by a melee attack made by a FEEDER TENDRILS model from your army.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "synapticinsight",
+            "missionName": "Synaptic Insight",
+            "shortDescription": "Keep a Synaptic Kill tally, reset to 0 at the start of the battle round. Gain points based on the wound of the enemy model you killed",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 12,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "If enemy model destroyed by a SYNAPSE model from your army had a Wounds characteristic of 3-5, gain 1 Synaptic Kill point.",
+                    "score": 0
+                },
+                {
+                    "description": "If enemy model destroyed by a SYNAPSE model from your army had a Wounds characteristic of 6-9, gain 2 Synaptic Kill point.",
+                    "score": 0
+                },
+                {
+                    "description": "If enemy model destroyed by a SYNAPSE model from your army had a Wounds characteristic of 10+, gain 3 Synaptic Kill point.",
+                    "score": 0
+                },
+                {
+                    "description": " score 3 victory points if your Synaptic Kill points tally is 4 or more.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "sporenodes",
+            "missionName": "Spore Nodes",
+            "shortDescription": "HIVE TENDRIL troops can attempt Seed Spore Node (From end of movement up to end of turn)",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "a unit from your army completes this action",
+                    "score": 4,
+                    "turnLimit": [2,5]
+                }
+            ]
+        }
+    ]
+}

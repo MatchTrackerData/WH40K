@@ -1,0 +1,36 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "coldfury",
+            "missionName": "Cold Fury",
+            "shortDescription": "Score up to 4 VP per turn based on where your units are on the field",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "One or more IRON HANDS VEHICLE units (excluding AIRCRAFT units) from your army are wholly within your opponent’s deployment zone.",
+                    "score": 1
+                },
+                {
+                    "description": "One or more IRON HANDS VEHICLE units (excluding AIRCRAFT units) from your army are wholly within 6'' of the centre of the battlefield.",
+                    "score": 1
+                },
+                {
+                    "description": "One or more enemy units were destroyed by ranged attacks made by IRON HANDS VEHICLE units from your army this turn.",
+                    "score": 1
+                },
+                {
+                    "description": "One or more enemy units were destroyed by melee attacks made by IRON HANDS VEHICLE units from your army this turn.",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}

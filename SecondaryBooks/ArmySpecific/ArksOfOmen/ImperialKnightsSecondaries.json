@@ -1,0 +1,140 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "duelofhonour",
+            "missionName": "Duel of Honour",
+            "shortDescription": "Select the enemy WARLORD and the 2 highest units he has. For each destroyed, score VP and Honour Point when achieving those.",
+            "scoringPhase": "Anytime",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Honour to the King (+1 Honour Point): The unit was destroyed by a melee attack made by your WARLORD.",
+                    "score": 5
+                },
+                {
+                    "description": "Personal Combat (+1 Honour Point): The unit was destroyed by a melee attack made by any other IMPERIAL KNIGHTS model from your army.",
+                    "score": 4
+                },
+                {
+                    "description": "Cowardly Cur: The unit was destroyed because it was not on the battlefield at the end of the battle and so counted as destroyed (note, this does not apply if the enemy unit is embarked in a TRANSPORT that is itself on the battlefield at the end of the battle).",
+                    "score": 4
+                },
+                {
+                    "description": "Inglorious Demise: The enemy unit was destroyed by any other means.",
+                    "score": 3
+                },
+                {
+                    "description": "A unit targeted hasn't bee destroyed",
+                    "score": -1
+                },
+                {
+                    "description": "A unit targeted hasn't bee destroyed",
+                    "score": -1
+                },
+                {
+                    "description": "A unit targeted hasn't bee destroyed",
+                    "score": -1
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "honourofthehouse",
+            "missionName": "Honour Of The House",
+            "shortDescription": "At the end of the battle round, if you have 6 Honour points or if you have more Honour points than you had at the start of the battle round, score 2 victory points. Score more at the end of the battle",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You have more Honour Point than you had at the start of the round",
+                    "score": 2
+                },
+                {
+                    "description": "Your Army is Virtuous as well",
+                    "score": 3
+                },
+                {
+                    "description": "Your army is Honoured as well",
+                    "score": 2
+                },
+                {
+                    "description": "Your army is Dishonoured",
+                    "score": -3
+                }
+            ]
+        },
+        {
+            "type": "BattleField Supremacy",
+            "id": "yieldnoground",
+            "missionName": "Yield No Ground",
+            "shortDescription": "Score points if half+ of the objective markers are within range of at least 1 IMPERIAL KNIGHT, No enemy unit is within your deployment zone, No IMPERIAL KNIGHTS units from your army ended that turn closer to your battlefield edge than they were at the start of that turn, and no IMPERIAL KNIGHTS units from your army Fell Back that turn.",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control half or more of the total number of objective markers on the battlefield, and one or more IMPERIAL KNIGHTS models from your army are within range of each of those objective markers.",
+                    "score": 1
+                },
+                {
+                    "description": "No enemy units (excluding AIRCRAFT units) are wholly within your deployment zone.",
+                    "score": 1
+                },
+                {
+                    "description": "No IMPERIAL KNIGHTS units from your army ended that turn closer to your battlefield edge than they were at the start of that turn, and no IMPERIAL KNIGHTS units from your army Fell Back that turn.",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "renewtheoaths",
+            "missionName": "Renew The Oaths",
+            "shortDescription": "IMPERIAL KNIGHTS can perform an action Renew the Oaths at the end of the movement phase at 6'' of the center and complete at the end of turn, 6'' from the center",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "A non-TITANIC model completed the action",
+                    "score": 3
+                },
+                {
+                    "description": "A TITANIC model completed the action",
+                    "score": 4
+                },
+                {
+                    "description": "The action was completed by a CHARACTER",
+                    "score": 1
+                },
+                {
+                    "description": "Do not forget to roll a D6, on a 4+ gain 1 Honour point ;)",
+                    "score": 0
+                }
+            ]
+        }
+    ]
+}

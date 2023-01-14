@@ -1,0 +1,40 @@
+{
+    "secondaries": [
+        {
+            "type": "Battlefield Supremacy",
+            "id": "stubborndefiance",
+            "missionName": "Stubborn Defiance",
+            "shortDescription": "In your first Command phase, select one objective marker that is not within your deployment zone. At the end of each of your Command phases, if you control that objective marker and a DARK ANGELS unit from your army with the Objective Secured ability is within range of it, score a number of victory points based on the consecutive number of your Command phases you have controlled that objective marker for and had that unit within range of it",
+            "scoringPhase": "End of Command Phase",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Objective Targeted controle with OBJECTIVE SECURED unit 1 Consecutive Command Phase",
+                    "score": 1
+                },
+                {
+                    "description": "Objective Targeted controle with OBJECTIVE SECURED unit 2 Consecutive Command Phase",
+                    "score": 2
+                },
+                {
+                    "description": "Objective Targeted controle with OBJECTIVE SECURED unit 3 Consecutive Command Phase",
+                    "score": 3
+                },
+                {
+                    "description": "Objective Targeted controle with OBJECTIVE SECURED unit 4 Consecutive Command Phase",
+                    "score": 4
+                },
+                {
+                    "description": "Objective Targeted controle with OBJECTIVE SECURED unit 5 Consecutive Command Phase",
+                    "score": 5
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "secondaries": [
+        {
+            "type": "Purge The Enemy",
+            "id": "takethemalive!",
+            "missionName": "Take Them Alive!",
+            "shortDescription": "Score points based on what you killed thanks to a melee attack (3 for CHARACTER or MONSTER and 1 for anything else)",
+            "scoringPhase": "End of Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 5,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1 enemy CHARACTER or MONSTER unit was destroyed by a melee attack made by a DRUKHARI unit from your army",
+                    "score": 3
+                },
+                {
+                    "description": "1 enemy NON CHARACTER AND NON MONSTER unit was destroyed by a melee attack made by a DRUKHARI unit from your army",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Purge The Enemy",
+            "id": "beastsforthearenas",
+            "missionName": "Beasts For The Arenas",
+            "shortDescription": "Score points based on what type of unit you killed (MONSTER, CAVALRY or BEAST) thanks a melee attack.",
+            "scoringPhase": "End of Game",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1 enemy MONSTER or CHARACTER or BEAST unit was destroyed by a melee attack made by a DRUKHARI unit from your army",
+                    "score": 2
+                },
+                {
+                    "description": "The above was destroyed by a WYCH CULT",
+                    "score": 1
+                },
+                {
+                    "description": "The above was TITANIC",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "No Mercy, No Respite",
+            "id": "fearandterror",
+            "missionName": "Fear And Terror",
+            "shortDescription": "Score point when an enemy unit fails a Morale, falls back or fails an action",
+            "scoringPhase": "Any Time",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Enemy Unit fails a Morale test OR Falls Back OR fails an action",
+                    "score": 1
+                },
+                {
+                    "description": "each time an enemy unit is destroyed by a melee attack made by a DRUKHARI model from your army, before removing the last model in that enemy unit from the battlefield, roll 2D6: if the result equals or exceeds the Leadership characteristic of that enemy model",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "BattleField Supremacy",
+            "id": "herdtheprey",
+            "missionName": "Herd The Prey",
+            "shortDescription": "At the end of your turn, score 1 victory point for each table quarter that does not have any enemy units (excluding AIRCRAFT units) wholly within it.",
+            "scoringPhase": "End of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 4,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "For each table quarter that does not have any enemy units (excluding AIRCRAFT units) wholly within it.",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}

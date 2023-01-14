@@ -5,12 +5,12 @@
             "id": "pathofdestruction",
             "missionName": "Path of Destruction",
             "shortDescription": "Score 1 point (max 3) if either 1+ enemy unit(s) were destroyed by a CHAOS KNIGHTS model within your deployment zone; 1+ enemy unit(s) destroyed by CHAOS KNIGHT model 3''+ away from any deployment zone; 1+ enemy unit(s) destroyed by a CHAOS KNIGHTS within enemy deployment zone",
-            "scoringPhase": "Any tinme",
+            "scoringPhase": "Any time",
             "fromRound": 1,
             "untilRound": 5,
             "maxTotalPoints": 15,
             "maxTurnPoints": 3,
-            "multiScore": true,
+            "multiScore": false,
             "scoreOnce": false,
             "exclusive": false,
             "subObjectives": [
@@ -36,18 +36,18 @@
             "scoringPhase": "Any time",
             "fromRound": 1,
             "untilRound": 5,
-            "maxTotalPoints": 20,
+            "maxTotalPoints": 15,
             "maxTurnPoints": 4,
             "multiScore": false,
             "scoreOnce": false,
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "You control 1/2+ of the objectives markers with 1+ CHAOS KNIGHTS within range of the marker",
+                    "description": "You control half of the objectives markers with 1+ CHAOS KNIGHTS within range of the marker",
                     "score": 2
                 },
                 {
-                    "description": "1/2+ of the objectives markers are within Dread range of one of your CHAOS KNIGHT unit",
+                    "description": "Half of the objectives markers are within Dread range of one of your CHAOS KNIGHT unit",
                     "score": 1
                 },
                 {
@@ -64,7 +64,7 @@
             "scoringPhase": "Any time",
             "fromRound": 1,
             "untilRound": 5,
-            "maxTotalPoints": 15,
+            "maxTotalPoints": 30,
             "maxTurnPoints": 15,
             "multiScore": true,
             "scoreOnce": false,
@@ -85,7 +85,7 @@
             "fromRound": 1,
             "untilRound": 5,
             "maxTotalPoints": 15,
-            "maxTurnPoints": 18,
+            "maxTurnPoints": 15,
             "multiScore": true,
             "scoreOnce": false,
             "exclusive": false,
