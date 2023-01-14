@@ -2,6 +2,30 @@
     "secondaries": [
         {
             "type": "Purge the Enemy",
+            "id": "assasinationarksofomen",
+            "missionName": "Assasination",
+            "shortDescription": "Kill enemy character unit (3pts). Kill the enemy warlord (4pts). (Gain 1CP if scored with Toops, Armiger or Wardog).",
+            "scoringPhase": "End of game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Kill a character unit (killing a character twice doesn't score twice). (Gain 1CP if scored with Toops, Armiger or Wardog).",
+                    "score": 3
+                },
+                {
+                    "description": "Kill the warlord unit (same extra rules)",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Purge the Enemy",
             "id": "assasinationnephilim",
             "missionName": "Assasination",
             "shortDescription": "Kill enemy character unit (3pts). Kill the enemy warlord (4pts)",

@@ -10,8 +10,8 @@
             "untilRound": 6,
             "maxTotalPoints": 15,
             "maxTurnPoints": 15,
-            "multiScore": false,
-            "scoreOnce": true,
+            "multiScore": true,
+            "scoreOnce": false,
             "exclusive": false,
             "subObjectives": [
                 {
@@ -19,47 +19,7 @@
                     "score": 2
                 },
                 {
-                    "description": "Enemy unit that was destroyed as the result of an attack made with a Heavy or Grenade weapon by an ADEPTUS ASTARTES unit from your army while the Devastator Doctrine was active for your army.",
-                    "score": 2
-                },
-                {
-                    "description": "Enemy unit that was destroyed as the result of an attack made with a Heavy or Grenade weapon by an ADEPTUS ASTARTES unit from your army while the Devastator Doctrine was active for your army.",
-                    "score": 1
-                },
-                {
                     "description": "enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.",
-                    "score": 1
-                },
-                {
-                    "description": "enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.",
-                    "score": 1
-                },
-                {
-                    "description": "enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.",
-                    "score": 1
-                },
-                {
-                    "description": "enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.",
-                    "score": 1
-                },
-                {
-                    "description": "enemy unit that was destroyed as the result of an attack made with a Rapid Fire or Assault weapon by an ADEPTUS ASTARTES unit from your army while the Tactical Doctrine was active for your army.",
-                    "score": 1
-                },
-                {
-                    "description": "enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an ADEPTUS ASTARTES unit from your army while the Assault Doctrine was active for your army.",
-                    "score": 1
-                },
-                {
-                    "description": "enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an ADEPTUS ASTARTES unit from your army while the Assault Doctrine was active for your army.",
-                    "score": 1
-                },
-                {
-                    "description": "enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an ADEPTUS ASTARTES unit from your army while the Assault Doctrine was active for your army.",
-                    "score": 1
-                },
-                {
-                    "description": "enemy unit that was destroyed as the result of an attack made with a Pistol or Melee weapon by an ADEPTUS ASTARTES unit from your army while the Assault Doctrine was active for your army.",
                     "score": 1
                 },
                 {

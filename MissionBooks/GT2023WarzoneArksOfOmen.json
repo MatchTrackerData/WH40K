@@ -1,0 +1,840 @@
+{
+    "sizes": [
+        {
+            "id": "combatpatrol",
+            "gameSizeName": "Combat Patrol",
+            "description": "up to 500 pts (using incursion missions)",
+            "descriptionSize": "44'' x 30''",
+            "missionsIds": [
+                "cleansetheland",
+                "deliverance",
+                "desperateraid",
+                "sacredground",
+                "ascension",
+                "surgeoffaith",
+                "riseofthemachinespirit",
+                "displayofspiritualmight",
+                "reconnaissancemission"
+            ],
+            "commandPointsGivenStart": 2,
+            "commandPointsGivenYourTurn": 1,
+            "commandPointsGivenTheirTurn": 1
+        },
+        {
+            "id": "incursion",
+            "gameSizeName": "Incursion",
+            "description": "up to 1000 pts",
+            "descriptionSize": "44'' x 30''",
+            "missionsIds": [
+                "cleansetheland",
+                "deliverance",
+                "desperateraid",
+                "sacredground",
+                "ascension",
+                "surgeoffaith",
+                "riseofthemachinespirit",
+                "displayofspiritualmight",
+                "reconnaissancemission"
+            ],
+            "commandPointsGivenStart": 3,
+            "commandPointsGivenYourTurn": 1,
+            "commandPointsGivenTheirTurn": 1
+        },
+        {
+            "id": "strikeforce",
+            "gameSizeName": "Strike Force",
+            "description": "up to 2000 pts",
+            "descriptionSize": "44'' x 60''",
+            "missionsIds": [
+                "securemissingartefacts",
+                "recovertherelics",
+                "teardowntheiricons",
+                "datascrysalvage",
+                "abandonedsanctuaries",
+                "conversion",
+                "thescouring",
+                "tideofconviction",
+                "deathandzeal"
+            ],
+            "commandPointsGivenStart": 6,
+            "commandPointsGivenYourTurn": 1,
+            "commandPointsGivenTheirTurn": 1
+        }
+    ],
+    "selectableSecondaries": 
+    [
+        "assasinationarksofomen",
+        "bringitdownnephilim",
+        "grindthemdowngtarksofomen",
+        "noprisionersnachmund",
+        "engageonallfrontsarksofomen",
+        "behindenemylinesarksofomen",
+        "retrievebattlefielddata",
+        "raisethebannershighnephilim",
+        "abhorthewitchgt2021",
+        "psychihcinterrogationarksofomen",
+        "warpritualgt2021"
+    ],
+    "missions": [
+        {
+            "id": "securemissingartefacts",
+            "missionName": "Secure Missing Artefacts",
+            "primaryId": "takeandhold",
+            "subPrimariesIds":
+            [
+                "preciousartefact"
+            ],
+            "map": "",
+            "link": ""
+        },
+        {
+            "id": "recovertherelics",
+            "missionName": "Recover the Relics",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "breakthembodyandsoul"
+            ],
+            "map": "",
+            "askForCPs":
+            [
+                {
+                    "reason": "Control an objective on no-man land or the opponent's territory",
+                    "value": 1
+                },
+                {
+                    "reason": "Control and objective in the opponent's DEPLOYMENT zone",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "teardowntheiricons",
+            "missionName": "Tear Down Their Icons",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "detonation"
+            ],
+            "map": ""
+        },
+        {
+            "id": "datascrysalvage",
+            "missionName": "Data Scry-Salvage",
+            "primaryId": "domination",
+            "subPrimariesIds": 
+            [
+                "dataintercept"
+            ],
+            "map": ""
+        },
+        {
+            "id": "abandonedsanctuaries",
+            "missionName": "Abandoned Sanctuaries",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "securethesanctuaries"
+            ],
+            "map": ""
+        },
+        {
+            "id": "conversion",
+            "missionName": "Conversion",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "corruptedground"
+            ],
+            "map": "",
+            "askForCPs":
+            [
+                {
+                    "reason": "Your WARLORD is on the battlefield or embarked in a transport",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "thescouring",
+            "missionName": "The Scouring",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "strategicscan"
+            ],
+            "map": ""
+        },
+        {
+            "id": "tideofconviction",
+            "missionName": "Tide Of Conviction",
+            "primaryId": "domination",
+            "subPrimariesIds": 
+            [
+                "overrun"
+            ],
+            "map": "",
+            "askForCPs":
+            [
+                {
+                    "reason": "Control the objective marker in your deployment zone",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "deathandzeal",
+            "missionName": "Death And Zeal",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "directassault"
+            ],
+            "map": ""
+        },
+        {
+            "id": "cleansetheland",
+            "missionName": "Cleanse The Land",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "directassault"
+            ],
+            "map": ""
+        },
+        {
+            "id": "deliverance",
+            "missionName": "Deliverance",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "securelandingsites"
+            ],
+            "map": ""
+        },
+        {
+            "id": "desperateraid",
+            "missionName": "Desperate Raid",
+            "primaryId": "domination",
+            "subPrimariesIds": 
+            [
+                "raidsupplylines"
+            ],
+            "map": "",
+            "askForCPs":
+            [
+                {
+                    "reason": "Battle CP bonus (always scored)",
+                    "value": 1
+                },
+                {
+                    "reason": "Control the 2 objectives markers in opponent's deployment zone",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "sacredground",
+            "missionName": "SacredGround",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "wisdomisthecornerstoneoffaith"
+            ],
+            "map": "",
+            "askForCPs":
+            [
+                {
+                    "reason": "You Control your objective marker in your deployment zone",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "ascension",
+            "missionName": "Ascension",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "ascend"
+            ],
+            "map": "",
+            "askForCPs":
+            [
+                {
+                    "reason": "Your warlord is still on the battlefield OR in a transport",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "surgeoffaith",
+            "missionName": "Surge of Faith",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "surgeoffaith"
+            ],
+            "map": ""
+        },
+        {
+            "id": "riseofthemachinespirit",
+            "missionName": "Rise of The Machine Spirit",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "inloaddatapsalm"
+            ],
+            "map": ""
+        },
+        {
+            "id": "displayofspiritualmight",
+            "missionName": "Display of Spiritual Might",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "breakthembodyandsould"
+            ],
+            "map": "",
+            "CPOverride":
+            [
+                1,0,0,2,2
+            ]
+        },
+        {
+            "id": "reconnaissancemission",
+            "missionName": "Reconnaissance Mission",
+            "primaryId": "takeandhold",
+            "subPrimariesIds": 
+            [
+                "reconsweep"
+            ],
+            "map": ""
+        }
+    ],
+    "missionSubPrimaries": 
+    [
+        {
+            "type": "Mission Primary",
+            "id": "preciousartefact",
+            "missionName": "Precious Artifacts",
+            "shortDescription": "Control the priority objective in your territory",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control the priority objective in your territory",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "reconsweep",
+            "missionName": "Recon Sweep",
+            "shortDescription": "Each player score a number of point depending on the objective markers on the battlefield that have been reconnoitred by their army",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "You reconnoitred 1 objective marker",
+                    "score": 3
+                },
+                {
+                    "description": "You reconnoitred 2 objective marker",
+                    "score": 6
+                },
+                {
+                    "description": "You reconnoitred 3 objective marker",
+                    "score": 10
+                },
+                {
+                    "description": "You reconnoitred 4 objective marker",
+                    "score": 15
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "breakthembodyandsould",
+            "missionName": "Break Them, Body and Sould",
+            "shortDescription": "Score 1 point for each enemy unit destroyed this round (up to 3). Unit resurected count as potential new units to destroy and can score this objective multiple times",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You destroyed an opponent unit this round",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "inloaddatapsalm",
+            "missionName": "Inload Data-Psalm",
+            "shortDescription": "Score point (up to 3) for each objective marker you control if a unit did the Inload Data-psalm action",
+            "scoringPhase": "End of turn",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Inload Data-psalm action completed and control 1 different objective marker",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "surgeoffaith",
+            "missionName": "Surge of Faith",
+            "shortDescription": "If you complete the Surge of Faith action, gain point depending on which objective you did the action",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 9,
+            "maxTotalPoints": 45,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Do the Surge of Faith action on the closest objective from your deployment zone (Not the one ON it, the closest)",
+                    "score": 2
+                },
+                {
+                    "description": "Do the Surge of Faith action on the closest objective from your opponent deployment zone (Not the one ON it, the closest)",
+                    "score": 3
+                },
+                {
+                    "description": "Do the Surge of Faith action on the objective which is on your opponent deployment zone",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "ascend",
+            "missionName": "Ascend",
+            "shortDescription": "End of Turn, Score 2 point if you either control the objective marker at the center OR destroyed an unit 6/'' near it; End of Game score 3 points if you have your warlord within range of the center objective AND 3 points if opponent warlord is destroyed",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control Objective marker in the centre of Battlefield OR Destroy an opponent unit 6/'' near it",
+                    "score": 2,
+                    "turnLimit" : [1,5]
+                },
+                {
+                    "description": "Your WARLORD is in range of the center objective",
+                    "score": 3,
+                    "turnLimit" : [6,6]
+                },
+                {
+                    "description": "Your opponent's WARLORD is destroyed",
+                    "score": 3,
+                    "turnLimit" : [6,6]
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "wisdomisthecornerstoneoffaith",
+            "missionName": "Wisdom Is The Cornerstone of Faith",
+            "shortDescription": "Score point depending on which objective marker you control, loses point if you don't control the one in your deployment zone",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 6,
+            "maxTotalPoints": 30,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control objective marker in your opponent deployment zone",
+                    "score": 2
+                },
+                {
+                    "description": "Do not control the objective in your own deployment zone",
+                    "score": -1
+                },
+                {
+                    "description": "Control a objective marker (any other)",
+                    "score": 1
+                },
+                {
+                    "description": "Control a objective marker (any other)",
+                    "score": 1
+                },
+                {
+                    "description": "Control a objective marker (any other)",
+                    "score": 1
+                },
+                {
+                    "description": "Control a objective marker (any other)",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "raidsupplylines",
+            "missionName": "Raid Supply Lines",
+            "shortDescription": "End of Turn, score 3 if you control 1+ objective marker in opponent deployment zone",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control 1+ objective marker in the opponent's deployment zone",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "securelandingsites",
+            "missionName": "Secure Landing Sites",
+            "shortDescription": "Control objective in no-man lands (except no turn 1-2), (2pts) per obj in turn 3, (3pts) per obj in 4, (4pts) per obj in 5",
+            "scoringPhase": "End of turn",
+            "fromRound": 3,
+            "untilRound": 5,
+            "maxTurnPoints": 12,
+            "maxTotalPoints": 27,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control 1 objective in no-man's land",
+                    "score": 2,
+                    "turnLimit" : [3,3]
+                },
+                {
+                    "description": "Control 1 objective in no-man's land",
+                    "score": 3,
+                    "turnLimit" : [4,4]
+                },
+                {
+                    "description": "Control 1 objective in no-man's land",
+                    "score": 4,
+                    "turnLimit" : [5,5]
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "directassault",
+            "missionName": "Direct Assault",
+            "shortDescription": "End of each turn, score 2 if satisfy control every objective marker on the battlefield/control one objective the control wasn't theirs OR if destroyed 1+ enemy unit in range of an objective marker",
+            "scoringPhase": "Progressive",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Control every objective marker on the battlefield or control one objective which wasn't yours at the start of the turn",
+                    "score": 2
+                },
+                {
+                    "description": "Destroyed 1+ enemy unit within the range of an objective marker",
+                    "score": 2
+                },
+                {
+                    "description": "Satisfy the previous 2 conditions (control and destroy enemy)",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "overrun",
+            "missionName": "Overrun",
+            "shortDescription": "End the of turn 1,2,3,4 the player whose turn is scores 2 points if they control 1+ marker in opponent territory. End of game, score 4 if control the objective in deployment zone and 2 per objective in their territory",
+            "scoringPhase": "End of turn and End of Game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTurnPoints": 8,
+            "maxTotalPoints": 16,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control 1+ objectives in opponent's territory on (turn 1,2,3 or 4)",
+                    "score": 2,
+                    "turnLimit": [1,4]
+                },
+                {
+                    "description": "Objective on opponent's deployment zone",
+                    "score": 4,
+                    "turnLimit": [6,6]
+                },
+                {
+                    "description": "Any other objective in opponent's territoy",
+                    "score": 2,
+                    "turnLimit": [6,6]
+                },
+                {
+                    "description": "Any other objective in opponent's territory",
+                    "score": 2,
+                    "turnLimit": [6,6]
+                },
+                {
+                    "description": "Any other objective in opponent's territory",
+                    "score": 2,
+                    "turnLimit": [6,6]
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "breakthembodyandsoul",
+            "missionName": "Break them, body and soul",
+            "shortDescription": "Gain 1 pts per enemy unit destroyed (max 3pts per round)",
+            "scoringPhase": "End of battle round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Destroy 1 enemy unit",
+                    "score": 1
+                },
+                {
+                    "description": "Destroy 2 enemy units",
+                    "score": 2
+                },
+                {
+                    "description": "Destroy 3+ enemy units",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "detonation",
+            "missionName": "Detonation",
+            "shortDescription": "At the end of the battle, score 4 for each Primed Explosive objective within opponent territory (maximum of 15)",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTurnPoints": 15,
+            "maxTotalPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Primed Explosive objective marker within opponent territory",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "dataintercept",
+            "missionName": "Data Intercept",
+            "shortDescription": "Every time a unit from your army succesfully complete Data Intercept action, score 1 point per objectives you control (up to 3 per ACTION)",
+            "scoringPhase": "End of Battle Round",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 100,
+            "maxTotalPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Action Data Intercept completed with 1 objective controlled",
+                    "score": 1
+                },
+                {
+                    "description": "Action Data Intercept completed with 2 objectives controlled",
+                    "score": 2
+                },
+                {
+                    "description": "Action Data Intercept completed with 3+ objectives controlled",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "securethesanctuaries",
+            "missionName": "Secure The Sanctuaries",
+            "shortDescription": "End of each player turn, score 2 point if EITHER control the objective in the centre of the battlefield EITHER destroyed at least one enemy unit within 6'' of the center. At the end, the player controlling the center objective mark 5 points.",
+            "scoringPhase": "End of turn / End of game",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTurnPoints": 7,
+            "maxTotalPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You Control the objective in the center OR destroyed at least 1 unit within 6\" of the center",
+                    "score": 2,
+                    "turnLimit": [1,5]
+                },
+                {
+                    "description": "End of the game, you control the center objective",
+                    "score": 5,
+                    "turnLimit": [6,6]
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "corruptedground",
+            "missionName": "Corrupted Ground",
+            "shortDescription": "End of each player turn, score 4 if control the objective in opponent deployment zone, 2 if control 1+ marker in no man's land, -1 point if not control the objective marker in their own deployment zone",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 6,
+            "maxTotalPoints": 20,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control the objective marker in opponent's deployment zone",
+                    "score": 4
+                },
+                {
+                    "description": "Control 1+ objective in the no man's land",
+                    "score": 2
+                },
+                {
+                    "description": "You don't control the objective marker in your deployment zone",
+                    "score": -1
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "strategicscan",
+            "missionName": "Strategic Scan",
+            "shortDescription": "Score 3 for each objective scanned by your army",
+            "scoringPhase": "Command phase or End of battle",
+            "fromRound": 2,
+            "untilRound": 6,
+            "maxTurnPoints": 7,
+            "maxTotalPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Score 3 for each different objective you scanned",
+                    "score": 3
+                }
+            ]
+        }
+    ],
+
+
+    "missionPrimaries": [
+        {
+            "type": "Mission Primary",
+            "id": "domination",
+            "missionName": "Domination",
+            "description": "",
+            "shortDescription": "Control 2, 3 or more objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 12,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control two or more objectives",
+                    "score": 4
+                },
+                {
+                    "description": "Control three or more objectives",
+                    "score": 4
+                },
+                {
+                    "description": "Control more objectives than opponent",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Mission Primary",
+            "id": "takeandhold",
+            "missionName": "Take and Hold",
+            "shortDescription": "Control 1, 2 or more objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 45,
+            "maxTurnPoints": 12,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control one or more objectives ",
+                    "score": 4
+                },
+                {
+                    "description": "Control two or more objectives ",
+                    "score": 4
+                },
+                {
+                    "description": "Control more objectives than the opponent ",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

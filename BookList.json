@@ -1,7 +1,11 @@
 {
     "missionBooks": [
         {
-            "name": "GT 2022 Niphilim Missions",
+            "name": "GT 2023 Arks of Omen Missions",
+            "file": "MissionBooks/GT2023WarzoneArksOfOmen"
+        },
+        {
+            "name": "GT 2022 Nephilim Missions",
             "file": "MissionBooks/GT2022WarzoneNephilim"
         },
         {
@@ -9,7 +13,7 @@
             "file": "MissionBooks/TempestOfWar"
         },
         {
-            "name": "GT 2022 Nochmund Missions",
+            "name": "GT 2022 Nachmund Missions",
             "file": "MissionBooks/GT2022WarzoneNachmund"
         },
         {
@@ -44,42 +48,56 @@
     ],
     "secondaryBooks": [
         {
-            "name": "Adeptus Custodians",
+            "name": "Adeptus Astartes",
+            "file": "SecondaryBooks/ArmySpecific/Codex/SpaceMarinesSecondaries",
+            "factionName": "S.Marines",
+            "group": "Imperium",
+            "info": "CODEX"
+        },
+        {
+            "name": "Adeptus Astartes",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/SpaceMarinesSecondaries",
+            "factionName": "S.Marines",
+            "group": "Imperium",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Adeptus Custodes",
             "file": "SecondaryBooks/ArmySpecific/Codex/AdeptusCustodesSecondaries",
             "factionName": "A. Custod.",
             "group": "Imperium",
             "info": "CODEX"
         },
         {
-            "name": "Adeptus Custodians",
+            "name": "Adeptus Custodes",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/AdeptusCustodesSecondaries",
             "factionName": "A. Custod.",
             "group": "Imperium",
             "info": "Nephilim"
         },
         {
-            "name": "Adeptus Mechanica",
+            "name": "Adeptus Mechanicus",
             "file": "SecondaryBooks/ArmySpecific/Codex/AdeptusMechanicusSecondaries",
             "factionName": "A. Mech.",
             "group": "Imperium",
             "info": "CODEX"
         },
         {
-            "name": "Adeptus Mechanica",
+            "name": "Adeptus Mechanicus",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/AdeptusMechanicusSecondaries",
             "factionName": "A. Mech.",
             "group": "Imperium",
             "info": "Nephilim"
         },
         {
-            "name": "Adeptas Sortitas",
+            "name": "Adepta Sororitas",
             "file": "SecondaryBooks/ArmySpecific/Codex/AdeptasSororitasSecondaries",
             "factionName": "A. Sor.",
             "group": "Imperium",
             "info": "CODEX"
         },
         {
-            "name": "Adeptas Sortitas",
+            "name": "Adepta Sororitas",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/AdeptasSororitasSecondaries",
             "factionName": "A. Sor.",
             "group": "Imperium",
@@ -93,14 +111,14 @@
             "info": "Nephilim"
         },
         {
-            "name": "Astral militarum",
+            "name": "Astra Militarum",
             "file": "SecondaryBooks/ArmySpecific/Codex/AstraMilitarumSecondaries",
             "factionName": "A. Militarum",
             "group": "Imperium",
             "info": "CODEX"
         },
         {
-            "name": "Astral militarum",
+            "name": "Astra Militarum",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/AstraMilitarumSecondaries",
             "factionName": "A. Militarum",
             "group": "Imperium",
@@ -114,49 +132,56 @@
             "info": "Nephilim"
         }, 
         {
-            "name": "Asuryan (Eldar)",
+            "name": "Craftworld Eldar",
             "file": "SecondaryBooks/ArmySpecific/Codex/AsuryaniSecondaries",
             "factionName": "Eldar",
             "group": "Aeldari",
             "info": "CODEX"
         },
         {
-            "name": "Black Templaris",
+            "name": "Craftworld Eldar",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/AsuryaniSecondaries",
+            "factionName": "Asuryani",
+            "group": "Aeldari",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Black Templars",
             "file": "SecondaryBooks/ArmySpecific/Codex/BlackTemplarsSecondaries",
             "factionName": "B. Templars",
             "group": "Imperium",
             "info": "CODEX"
         },
         {
-            "name": "Black Templaris",
+            "name": "Black Templars",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/BlackTemplarsSecondaries",
             "factionName": "B. Templars",
             "group": "Imperium",
             "info": "Nephilim"
         },
         {
-            "name": "Blood Angelus",
+            "name": "Blood Angels",
             "file": "SecondaryBooks/ArmySpecific/Codex/BloodAngelsSecondaries",
             "factionName": "B. Angels",
             "group": "Imperium",
             "info": "CODEX"
         },
         {
-            "name": "Blood Angelus",
+            "name": "Blood Angels",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/BloodAngelsSecondaries",
             "factionName": "B. Angels",
             "group": "Imperium",
             "info": "Nephilim"
         },
         {
-            "name": "Chaos Daemons",
+            "name": "Chaos Demons",
             "file": "SecondaryBooks/ArmySpecific/Codex/ChaosDaemonsSecondaries",
             "factionName": "Chaos Daemons",
             "group": "Chaos",
             "info": "CODEX"
         },
         {
-            "name": "Chaos Daemons",
+            "name": "Chaos Demons",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/ChaosDaemonsSecondaries",
             "factionName": "Chaos Daemons",
             "group": "Chaos",
@@ -198,56 +223,63 @@
             "info": "Nephilim"
         },
         {
-            "name": "Dark Angelus",
+            "name": "Dark Angels",
             "file": "SecondaryBooks/ArmySpecific/Codex/DarkAngelsSecondaries",
             "factionName": "D. Angels",
             "group": "Imperium",
             "info": "CODEX"
         },
         {
-            "name": "Dark Angelus",
+            "name": "Dark Angels",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/DarkAngelsSecondaries",
             "factionName": "D. Angels",
             "group": "Imperium",
             "info": "Nephilim"
-        }, 
-        {
-            "name": "Dark Space Elves",
-            "file": "SecondaryBooks/ArmySpecific/Codex/DrukhariSecondaries",
-            "factionName": "Dark Elves",
-            "group": "Aeldari",
-            "info": "CODEX"
         },
         {
-            "name": "Death Guardians",
+            "name": "Death Guard",
             "file": "SecondaryBooks/ArmySpecific/Codex/DeathGuardSecondaries",
             "factionName": "Death G.",
             "group": "Chaos",
             "info": "CODEX"
         },
         {
-            "name": "Death Guardians",
+            "name": "Death Guard",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/DeathGuardSecondaries",
             "factionName": "Death G.",
             "group": "Chaos",
             "info": "Nephilim"
         },
         {
-            "name": "Death Watchers",
+            "name": "Death Watch",
             "file": "SecondaryBooks/ArmySpecific/Codex/DeathWatchSecondaries",
             "factionName": "D. Watch",
             "group": "Imperium",
             "info": "CODEX"
         },
         {
-            "name": "Death Watchers",
+            "name": "Death Watch",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/DeathWatchSecondaries",
             "factionName": "D. Watch",
             "group": "Imperium",
             "info": "Nephilim"
         },
         {
-            "name": "Emperor Childs",
+            "name": "Drukhari",
+            "file": "SecondaryBooks/ArmySpecific/Codex/DrukhariSecondaries",
+            "factionName": "Dark Elves",
+            "group": "Aeldari",
+            "info": "CODEX"
+        },
+        {
+            "name": "Drukhari",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/DrukhariSecondaries",
+            "factionName": "Dark Elves",
+            "group": "Aeldari",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Emperor Children",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/EmperorsChildrenSecondaries",
             "factionName": "E. Childs",
             "group": "Chaos",
@@ -275,21 +307,28 @@
             "info": "CODEX"
         },
         {
-            "name": "Imperium Fists",
+            "name": "Harlequins",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/HarlequinSecondaries",
+            "factionName": "Harlequins",
+            "group": "Aeldari",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Imperial Fists",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/ImperialFistsSecondaries",
             "factionName": "I. Fists",
             "group": "Imperium",
             "info": "Nephilim"
         },
         {
-            "name": "Imperium Knights",
+            "name": "Imperial Knights",
             "file": "SecondaryBooks/ArmySpecific/Codex/ImperialKnightsSecondaries",
             "factionName": "I. Knights",
             "group": "Imperium",
             "info": "CODEX"
         },
         {
-            "name": "Imperium Knights",
+            "name": "Imperial Knights",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/ImperialKnightsSecondaries",
             "factionName": "I. Knights",
             "group": "Imperium",
@@ -310,25 +349,39 @@
             "info": "Nephilim"
         },
         {
-            "name": "Genlastir Cult",
+            "name": "Genstealer Cult",
             "file": "SecondaryBooks/ArmySpecific/Codex/GenestealersSecondaries",
             "factionName": "G. Cult.",
             "group": "Xenos",
             "info": "CODEX"
         },
         {
-            "name": "Lig Of Voltannes",
+            "name": "Genstealer Cult",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/GenestealerCultSecondaries",
+            "factionName": "G. Cult",
+            "group": "Xenos",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Leagues Of Votan",
             "file": "SecondaryBooks/ArmySpecific/Codex/LeagueOfVotannSecondaries",
             "factionName": "L.Of.Volt",
             "group": "Xenos",
             "info": "CODEX"
         },
         {
-            "name": "Necronis",
+            "name": "Necrons",
             "file": "SecondaryBooks/ArmySpecific/Codex/NecronsSecondaries",
             "factionName": "Necronis",
             "group": "Xenos",
             "info": "CODEX"
+        },
+        {
+            "name": "Necrons",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/NecronsSecondaries",
+            "factionName": "Necronis",
+            "group": "Xenos",
+            "info": "Nephilim"
         },
         {
             "name": "Night Lords",
@@ -343,6 +396,13 @@
             "factionName": "Orcs",
             "group": "Xenos",
             "info": "CODEX"
+        },
+        {
+            "name": "Orcs",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/OrksSecondaries",
+            "factionName": "Orcs",
+            "group": "Xenos",
+            "info": "Nephilim"
         },
         {
             "name": "Raven Guards",
@@ -366,61 +426,61 @@
             "info": "Nephilim"
         },
         {
-            "name": "Space marines",
-            "file": "SecondaryBooks/ArmySpecific/Codex/SpaceMarinesSecondaries",
-            "factionName": "S.Marines",
-            "group": "Imperium",
-            "info": "CODEX"
-        },
-        {
-            "name": "Space marines",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/SpaceMarinesSecondaries",
-            "factionName": "S.Marines",
-            "group": "Imperium",
-            "info": "Nephilim"
-        },
-        {
-            "name": "Space Wolf",
+            "name": "Space Wolves",
             "file": "SecondaryBooks/ArmySpecific/Codex/SpaceWolvesSecondaries",
             "factionName": "S. Wolves",
             "group": "Imperium",
             "info": "CODEX"
         },
         {
-            "name": "Space Wolf",
+            "name": "Space Wolves",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/SpaceWolvesSecondaries",
             "factionName": "S. Wolves",
             "group": "Imperium",
             "info": "Nephilim"
         },
         {
-            "name": "TAU-E",
+            "name": "TAU Empire",
             "file": "SecondaryBooks/ArmySpecific/Codex/TauSecondaries",
             "factionName": "TAU-E",
             "group": "Xenos",
             "info": "CODEX"
         },
         {
-            "name": "Thounsand children",
+            "name": "TAU Empire",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/TauSecondaries",
+            "factionName": "TAU-E",
+            "group": "Xenos",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Thounsand sons",
             "file": "SecondaryBooks/ArmySpecific/Codex/ThousandSonsSecondaries",
             "factionName": "Thousand S",
             "group": "Chaos",
             "info": "CODEX"
         },
         {
-            "name": "Thounsand children",
+            "name": "Thounsand sons",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/ThousandSonsSecondaries",
             "factionName": "Thousand S",
             "group": "Chaos",
             "info": "Nephilim"
         },
         {
-            "name": "Tyranidons",
+            "name": "Tyranids",
             "file": "SecondaryBooks/ArmySpecific/Codex/TyranidsSecondaries",
             "factionName": "Tyranidons",
             "group": "Xenos",
             "info": "CODEX"
         },
+        {
+            "name": "Tyranids",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/TyranidsSecondaries",
+            "factionName": "Tyranidons",
+            "group": "Xenos",
+            "info": "Nephilim"
+        }
         {
             "name": "Ultramarines",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/UltramarinesSecondaries",
@@ -447,62 +507,6 @@
             "file": "SecondaryBooks/ArmySpecific/Nephilim/WorldEatersSecondaries",
             "factionName": "W. Eaters",
             "group": "Chaos",
-            "info": "Nephilim"
-        },
-        {
-            "name": "Asuryan (Eldar)",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/AsuryaniSecondaries",
-            "factionName": "Asuryani",
-            "group": "Aeldari",
-            "info": "Nephilim"
-        },
-        {
-            "name": "Dark Space Elves",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/DrukhariSecondaries",
-            "factionName": "Dark Elves",
-            "group": "Aeldari",
-            "info": "Nephilim"
-        },
-        {
-            "name": "Genlastir Cult",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/GenestealerCultSecondaries",
-            "factionName": "G. Cult",
-            "group": "Xenos",
-            "info": "Nephilim"
-        },
-        {
-            "name": "Harlequins",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/HarlequinSecondaries",
-            "factionName": "Harlequins",
-            "group": "Aeldari",
-            "info": "Nephilim"
-        },
-        {
-            "name": "Necronis",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/NecronsSecondaries",
-            "factionName": "Necronis",
-            "group": "Xenos",
-            "info": "Nephilim"
-        },
-        {
-            "name": "Orcs",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/OrksSecondaries",
-            "factionName": "Orcs",
-            "group": "Xenos",
-            "info": "Nephilim"
-        },
-        {
-            "name": "TAU-E",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/TauSecondaries",
-            "factionName": "TAU-E",
-            "group": "Xenos",
-            "info": "Nephilim"
-        },
-        {
-            "name": "Tyranidons",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/TyranidsSecondaries",
-            "factionName": "Tyranidons",
-            "group": "Xenos",
             "info": "Nephilim"
         }
     ]

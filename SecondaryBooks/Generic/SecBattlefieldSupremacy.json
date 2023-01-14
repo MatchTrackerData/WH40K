@@ -2,6 +2,54 @@
     "secondaries": [
         {
             "type": "Battlefield Supremacy",
+            "id": "engageonallfrontsarksofomen",
+            "missionName": "Engage on all fronts",
+            "shortDescription": "Units wholly within 3 (2pts) or 4 (3pts) quarters and 6\" or 3\" from the other table quarters. Only units of starting strenth of 3+ models, monsters or vehicles",
+            "scoringPhase": "End of your turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "Units wholly within 3 quarters and 6 \" from the other table quarters. (units of starting strength of 3+ models, monster or vehicle (exc. Aircraft))",
+                    "score": 2
+                },
+                {
+                    "description": "Units wholly within 4 quarters and 3\" from the other table quarters. (same as above)",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "behindenemylinesarksofomen",
+            "missionName": "Behind enemy lines",
+            "shortDescription": " 1 (3pts) or 2 (4pts) units wholly within enemy's deployment (excluding AIRCRAFT)",
+            "scoringPhase": "End of your turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "1 unit wholly within enemy's deployment (excluding AIRCRAFT)",
+                    "score": 3
+                },
+                {
+                    "description": "2 units wholly within enemy's deployment (excluding AIRCRAFT)",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
             "id": "engageonallfrontsnephilim",
             "missionName": "Engage on all fronts",
             "shortDescription": "Units wholly within 3 (2pts) or 4 (3pts) quarters and 6\" from the other table quarters. Only units of starting strenth of 3+ models, monsters or vehicles",
