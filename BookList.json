@@ -545,6 +545,13 @@
             "info": "Nephilim"
         },
         {
+            "name": "White Scars",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/WhiteScarsSecondaries",
+            "factionName": "W. Scars",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "World Bearers",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/WorldBearersSecondaries",
             "factionName": "W. Bearers",
