@@ -19,7 +19,7 @@
                     "score": 1
                 },
                 {
-                    "description": " If seven or more of those enemy models were destroyed by attacks made with plague weapons that turn",
+                    "description": "If the the above condition was accomplish with Plague Weapons score this aditional point",
                     "score": 1
                 },
                 {
@@ -27,7 +27,7 @@
                     "score": 2
                 },
                 {
-                    "description": "Moral Phase: If any of those enemy units had one or more models destroyed by attacks made with plague weapons this turn, score 1 additional victory point.",
+                    "description": "Moral Phase: If any of those enemy units had one or more models destroyed by attacks made with plague weapons this turn, add this aditional point.",
                     "score": 1
                 }
             ]
@@ -37,7 +37,7 @@
             "id": "spreadthesickness",
             "missionName": "Spread The Sickness",
             "shortDescription": "DEATH GUARD INFANTRY can attempt to spread the sickness (end of movement phase up to end of turn)",
-            "scoringPhase": "End of Round",
+            "scoringPhase": "End of Turn",
             "fromRound": 1,
             "untilRound": 5,
             "maxTotalPoints": 15,
@@ -61,7 +61,7 @@
             "id": "despoiledground",
             "missionName": "Despoiled Ground",
             "shortDescription": "Score points based on where your units are at the end of the battle",
-            "scoringPhase": "End of Turn",
+            "scoringPhase": "End of Battle",
             "fromRound": 6,
             "untilRound": 6,
             "maxTotalPoints": 15,

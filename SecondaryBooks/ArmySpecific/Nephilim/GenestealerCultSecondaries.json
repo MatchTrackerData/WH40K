@@ -80,19 +80,23 @@
             "subObjectives": [
                 {
                     "description": "You completed the action Round 2",
-                    "score": 9
+                    "score": 9,
+                    "turnLimit": [2,2]
                 },
                 {
                     "description": "You completed the action Round 3",
-                    "score": 7
+                    "score": 7,
+                    "turnLimit": [3,3]
                 },
                 {
                     "description": "You completed the action Round 4",
                     "score": 6
+                    "turnLimit": [4,4]
                 },
                 {
                     "description": "You completed the action Round 5",
-                    "score": 5
+                    "score": 5,
+                    "turnLimit": [5,5]
                 }
             ]
         }

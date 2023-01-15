@@ -19,7 +19,7 @@
                     "score": 1
                 },
                 {
-                    "description": "You rolled 2D6 with higher Leadership than the enemy unit destroyed by a CHAOS DEAMONS",
+                    "description": "You rolled 2D6 with higher Leadership than the enemy unit destroyed by a LEGIONES DAEMONICA",
                     "score": 1
                 }
             ]
@@ -39,11 +39,11 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "each table quarter that has one or more CHAOS DAEMONS units from your army (excluding HERETIC ASTARTES units) wholly within it and not within 6'' of the center of the battlefield, provided your opponent does not have more units wholly within the same table quarter",
+                    "description": "each table quarter that has one or more LEGIONES DAEMONICA wholly within it and not within 6'' of the center of the battlefield, provided your opponent does not have more units wholly within the same table quarter",
                     "score": 1
                 },
                 {
-                    "description": "Score 1 victory point if one or more CHAOS DAEMONS units from your army (excluding HERETIC ASTARTES units) are wholly within 6'' of the centre of the battlefield.",
+                    "description": "Score 1 victory point if one or more LEGIONES DAEMONICA units are wholly within 6'' of the centre of the battlefield.",
                     "score": 1
                 }
             ]
@@ -52,7 +52,7 @@
             "type": "Shadow Operations",
             "id": "despoilersofreality",
             "missionName": "Despoilers Of Reality",
-            "shortDescription": "CHAOS DEAMONS INFANTRY can attempt Dark Ritual (end of movement phase up to next command phase)",
+            "shortDescription": "LEGIONES DAEMONICA INFANTRY can attempt Dark Ritual (end of movement phase up to next command phase)",
             "scoringPhase": "Anytime",
             "fromRound": 1,
             "untilRound": 5,

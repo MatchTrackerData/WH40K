@@ -9,14 +9,14 @@
             "fromRound": 1,
             "untilRound": 5,
             "maxTotalPoints": 15,
-            "maxTurnPoints": 4,
+            "maxTurnPoints": 5,
             "multiScore": false,
             "scoreOnce": false,
             "exclusive": false,
             "subObjectives": [
                 {
                     "description": "one or more enemy units were destroyed this turn by units from your army while they had a crossfire marker.",
-                    "score": 1
+                    "score": 2
                 },
                 {
                     "description": "one or more enemy units were destroyed this turn by units from your army that were set up from ambush or from underground this turn.",
@@ -66,33 +66,37 @@
         },
         {
             "type": "Shadow Operations",
-            "id": "broodswarm",
-            "missionName": "BroodSwarm",
+            "id": "sabotageCriticalLocation",
+            "missionName": "Sabotage Critical Location",
             "shortDescription": "Place 2 critical location on the battlefield (more than 9'' from edge and each other). You can Savotage Critical Location (End of movement step up to end of turn) with a GENESTEALER CULT or BROOD BROTHER unit",
             "scoringPhase": "End of Turn",
-            "fromRound": 1,
+            "fromRound": 2,
             "untilRound": 5,
             "maxTotalPoints": 9,
             "maxTurnPoints": 9,
-            "multiScore": false,
+            "multiScore": true,
             "scoreOnce": false,
             "exclusive": false,
             "subObjectives": [
                 {
                     "description": "You completed the action Round 2",
-                    "score": 9
+                    "score": 10,
+                    "turnLimit": [2,2]
                 },
                 {
                     "description": "You completed the action Round 3",
-                    "score": 7
+                    "score": 8,
+                    "turnLimit": [3,3]
                 },
                 {
                     "description": "You completed the action Round 4",
-                    "score": 6
+                    "score": 7
+                    "turnLimit": [4,4]
                 },
                 {
                     "description": "You completed the action Round 5",
-                    "score": 5
+                    "score": 6,
+                    "turnLimit": [5,5]
                 }
             ]
         }

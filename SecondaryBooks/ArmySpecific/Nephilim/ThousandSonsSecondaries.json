@@ -77,9 +77,9 @@
             ]
         },
         {
-            "type": "Warpcraft",
-            "id": "mutatelandscape",
-            "missionName": "Mutate Landscape",
+            "type": "Shdow Operations",
+            "id": "burnempires",
+            "missionName": "Burn Empires",
             "shortDescription": "THOUSAND SONS INFANTRY units can attempt Burn Empires (From end of Movement phase to next command phase)",
             "scoringPhase": "Anytime",
             "fromRound": 1,

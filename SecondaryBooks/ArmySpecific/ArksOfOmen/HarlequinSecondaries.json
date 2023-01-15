@@ -46,7 +46,7 @@
             "untilRound": 5,
             "maxTotalPoints": 15,
             "maxTurnPoints": 15,
-            "multiScore": true,
+            "multiScore": false,
             "scoreOnce": false,
             "exclusive": false,
             "subObjectives": [
@@ -66,9 +66,9 @@
             "untilRound": 5,
             "maxTotalPoints": 15,
             "maxTurnPoints": 15,
-            "multiScore": true,
+            "multiScore": false,
             "scoreOnce": false,
-            "exclusive": false,
+            "exclusive": true,
             "subObjectives": [
                 {
                     "description": "score 2 victory points if you control two of your Take Your Places objective markers and one or more HARLEQUINS units from your army are within range of each of those objective markers.",

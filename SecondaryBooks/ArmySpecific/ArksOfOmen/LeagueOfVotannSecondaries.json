@@ -1,0 +1,89 @@
+{
+    "secondaries": [
+        {
+            "type": "No Mercy, No Respite",
+            "id": "theancestorsarewatching",
+            "missionName": "The Ancestors are watching",
+            "shortDescription": "Kill an enemy unit with a Judgement Token for 2VP, +1 if the unit had 3 tokens. -1 for each enemy unit with a Judgement token at end of game",
+            "scoringPhase": "End of Phase",
+            "fromRound": 1,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 15,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "1+ enemy units died with 1+ Judgement Token (once per phase)",
+                    "score": 2,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "1+ enemy units slained had 3+ Judgement Tokens (once per phase)",
+                    "score": 3,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "There is 1 enemy unit with a Judgement Token left",
+                    "score": -1,
+                    "turnLimit":[6,6]
+                }
+            ]
+        },
+        {
+            "type": "Battlefield Supremacy",
+            "id": "layclaim",
+            "missionName": "Lay Claim",
+            "shortDescription": "Opponent set up 3 markers more than 6'' away from their deployment zone and 9'' from each other. 5VP each you control",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "You control 1 Votan marker",
+                    "score": 5
+                },
+                {
+                    "description": "You control 2 Votan marker",
+                    "score": 10
+                },
+                {
+                    "description": "You control 3 Votan marker",
+                    "score": 15
+                }
+            ]
+        },
+        {
+            "type": "Shadow Operations",
+            "id": "prospectofwealth",
+            "missionName": "Prospect Of Wealth",
+            "shortDescription": "VOTANN INFANTRY or BIKE unit can action (end of movement to end of turn). Gain VP if action completed. D6, on a 6+ 3 more VP. 5+ if unit has a scanner",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 6,
+            "maxTurnPoints": 15,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Action has been completed (roll 6+, on 6 it's a reach objective)",
+                    "score": 3,
+                    "turnLimit":[1,5]
+                },
+                {
+                    "description": "You control a rich deposit objective",
+                    "score": 3,
+                    "turnLimit":[6,6]
+                }
+            ]
+        }
+    ]
+}

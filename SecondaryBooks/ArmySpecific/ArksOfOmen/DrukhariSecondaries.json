@@ -25,34 +25,6 @@
             ]
         },
         {
-            "type": "Purge The Enemy",
-            "id": "beastsforthearenas",
-            "missionName": "Beasts For The Arenas",
-            "shortDescription": "Score points based on what type of unit you killed (MONSTER, CAVALRY or BEAST) thanks a melee attack.",
-            "scoringPhase": "End of Game",
-            "fromRound": 1,
-            "untilRound": 5,
-            "maxTotalPoints": 15,
-            "maxTurnPoints": 15,
-            "multiScore": true,
-            "scoreOnce": false,
-            "exclusive": false,
-            "subObjectives": [
-                {
-                    "description": "1 enemy MONSTER or CHARACTER or BEAST unit was destroyed by a melee attack made by a DRUKHARI unit from your army",
-                    "score": 2
-                },
-                {
-                    "description": "The above was destroyed by a WYCH CULT",
-                    "score": 1
-                },
-                {
-                    "description": "The above was TITANIC",
-                    "score": 3
-                }
-            ]
-        },
-        {
             "type": "No Mercy, No Respite",
             "id": "fearandterror",
             "missionName": "Fear And Terror",

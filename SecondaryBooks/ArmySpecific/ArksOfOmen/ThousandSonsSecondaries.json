@@ -29,34 +29,6 @@
             ]
         },
         {
-            "type": "No Mercy, No Respite",
-            "id": "wrathofmagnus",
-            "missionName": "Wrath Of Magnus",
-            "shortDescription": "Only if your opponent's army includes 1+ PSYKER unit. Block his actions.",
-            "scoringPhase": "End of Round",
-            "fromRound": 1,
-            "untilRound": 5,
-            "maxTotalPoints": 15,
-            "maxTurnPoints": 3,
-            "multiScore": false,
-            "scoreOnce": false,
-            "exclusive": false,
-            "subObjectives": [
-                {
-                    "description": "THOUSAND SONS PSYKER units from your army manifested at least one Witchfire power this battle round, and manifested more Witchfire powers than enemy units did this battle round.",
-                    "score": 1
-                },
-                {
-                    "description": "THOUSAND SONS PSYKER units from your army manifested at least one Blessing power this battle round, and manifested more Blessing powers than enemy units did this battle round.",
-                    "score": 1
-                },
-                {
-                    "description": "THOUSAND SONS PSYKER units from your army manifested at least one Malediction power this battle round, and manifested more Malediction powers than enemy units did this battle round.",
-                    "score": 1
-                }
-            ]
-        },
-        {
             "type": "Warpcraft",
             "id": "mutatelandscape",
             "missionName": "Mutate Landscape",
@@ -77,9 +49,9 @@
             ]
         },
         {
-            "type": "Warpcraft",
-            "id": "mutatelandscape",
-            "missionName": "Mutate Landscape",
+            "type": "Shdow Operations",
+            "id": "burnempires",
+            "missionName": "Burn Empires",
             "shortDescription": "THOUSAND SONS INFANTRY units can attempt Burn Empires (From end of Movement phase to next command phase)",
             "scoringPhase": "Anytime",
             "fromRound": 1,

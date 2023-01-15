@@ -48,7 +48,7 @@
             "subObjectives": [
                 {
                     "description": "the number of enemy units destroyed by melee attacks made by ORKS units from your army this battle round is more than the number of non-GRETCHIN units from your army destroyed by melee attacks this battle round.",
-                    "score": 1
+                    "score": 3
                 },
                 {
                     "description": "the number of enemy units destroyed by melee attacks made by ORKS units from your army this battle round is at least 2 and is at least double the number of non-GRETCHIN units from your army destroyed by melee attacks this battle round.",

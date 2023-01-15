@@ -1,38 +1,6 @@
 {
     "secondaries": [
         {
-            "type": "Purge The Enemy",
-            "id": "dabiggestanddabest",
-            "missionName": "Da Biggest And Da Best",
-            "shortDescription": "Socre points when your Warlord wounds, destroy more than 5 models or a whole unit, is in range of an objective marker outside of your deployment zone",
-            "scoringPhase": "Anytime",
-            "fromRound": 1,
-            "untilRound": 5,
-            "maxTotalPoints": 15,
-            "maxTurnPoints": 5,
-            "multiScore": false,
-            "scoreOnce": false,
-            "exclusive": false,
-            "subObjectives": [
-                {
-                    "description": "An enemy CHARACTER, MONSTER or VEHICLE unit lost any wounds as the result of a melee attack made by your WARLORD this battle round.",
-                    "score": 2
-                },
-                {
-                    "description": "5 or more models were destroyed as the result of attacks made by your WARLORD this battle round.",
-                    "score": 2
-                },
-                {
-                    "description": "An enemy unit was destroyed as the result of an attack made by your WARLORD this battle round.",
-                    "score": 2
-                },
-                {
-                    "description": "Your WARLORD is within range of an objective marker you control that is not within your deployment zone.",
-                    "score": 2
-                }
-            ]
-        },
-        {
             "type": "No Mercy, No Respite",
             "id": "stromp'emgood",
             "missionName": "Stomp'Em Good",
@@ -48,7 +16,7 @@
             "subObjectives": [
                 {
                     "description": "the number of enemy units destroyed by melee attacks made by ORKS units from your army this battle round is more than the number of non-GRETCHIN units from your army destroyed by melee attacks this battle round.",
-                    "score": 1
+                    "score": 3
                 },
                 {
                     "description": "the number of enemy units destroyed by melee attacks made by ORKS units from your army this battle round is at least 2 and is at least double the number of non-GRETCHIN units from your army destroyed by melee attacks this battle round.",
@@ -60,7 +28,7 @@
             "type": "BattleField Supremacy",
             "id": "greentide",
             "missionName": "Green Tide",
-            "shortDescription": "Score 1 point for each table quarter that contains 10 or more ORKS models from your army (Excluding units 6'' within the center)",
+            "shortDescription": "Score 1 point for each table quarter that contains 10 or more ORKS models from your army (Excluding units 3'' within any other table quarter)",
             "scoringPhase": "End of Turn",
             "fromRound": 1,
             "untilRound": 5,
@@ -71,7 +39,7 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "You have a table quarter with 10 or more ORK model (Excluding those 6'' within the center)",
+                    "description": "You have a table quarter with 10 or more ORK model (Excluding those 3'' within any other table quarter)",
                     "score": 1
                 }
             ]
@@ -85,14 +53,14 @@
             "fromRound": 1,
             "untilRound": 5,
             "maxTotalPoints": 15,
-            "maxTurnPoints": 5,
+            "maxTurnPoints": 6,
             "multiScore": true,
             "scoreOnce": false,
             "exclusive": false,
             "subObjectives": [
                 {
                     "description": "a unit from your army completes this action",
-                    "score": 3
+                    "score (max at 6pts)": 4
                 }
             ]
         }

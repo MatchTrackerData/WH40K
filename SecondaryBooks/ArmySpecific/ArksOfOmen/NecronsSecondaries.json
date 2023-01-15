@@ -1,34 +1,6 @@
 {
     "secondaries": [
         {
-            "type": "Purge The Enemy",
-            "id": "codeofcombat",
-            "missionName": "Code of Combat",
-            "shortDescription": "End of battle, score point depending on how many units your NECRONS NOBLE have killed",
-            "scoringPhase": "End of Battle",
-            "fromRound": 1,
-            "untilRound": 6,
-            "maxTotalPoints": 15,
-            "maxTurnPoints": 15,
-            "multiScore": false,
-            "scoreOnce": true,
-            "exclusive": false,
-            "subObjectives": [
-                {
-                    "description": "for each enemy unit that was destroyed by a ranged attack made by a NECRONS NOBLE unit from your army during the battle.",
-                    "score": 3
-                },
-                {
-                    "description": "for each enemy unit that was destroyed by a melee attack made by a NECRONS NOBLE unit from your army during the battle.",
-                    "score": 4
-                },
-                {
-                    "description": "ach time an enemy CHARACTER unit is destroyed by a melee attack made by a NECRONS NOBLE unit from your army, gain 1 Command point.",
-                    "score": 0
-                }
-            ]
-        },
-        {
             "type": "No Mercy, No Respite",
             "id": "thetreasuresofaeons",
             "missionName": "The Treasures of Aeons",
@@ -52,7 +24,7 @@
                 },
                 {
                     "description": "You control 3 objective marker",
-                    "score": 5
+                    "score": 4
                 }
             ]
         },

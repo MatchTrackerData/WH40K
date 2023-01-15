@@ -72,53 +72,7 @@
             "subObjectives": [
                 {
                     "description": "Action completed and objective marker is cursed",
-                    "score": 3
-                }
-            ]
-        },
-        {
-            "type": "Purge The Enemy",
-            "id": "afittingchallenge",
-            "missionName": "A Fitting Challenge",
-            "shortDescription": "Select the 3 highest points value in your Enemy armies, score points if you destroyed such units with a CHAOS KNIGHT depending on the turn (6 to 2). Recude 1 VP for each unit you haven't destroyed at the end of the game",
-            "scoringPhase": "Any time",
-            "fromRound": 1,
-            "untilRound": 5,
-            "maxTotalPoints": 15,
-            "maxTurnPoints": 15,
-            "multiScore": true,
-            "scoreOnce": false,
-            "exclusive": false,
-            "subObjectives": [
-                {
-                    "description": "Turn 1 - You killed one of the 3 highest point unit of your opponent",
-                    "score": 6,
-                    "turnLimit" : [1,1]
-                },
-                {
-                    "description": "Turn 2 - You killed one of the 3 highest point unit of your opponent",
-                    "score": 5,
-                    "turnLimit" : [2,2]
-                },
-                {
-                    "description": "Turn 3 - You killed one of the 3 highest point unit of your opponent",
-                    "score": 4,
-                    "turnLimit" : [3,3]
-                },
-                {
-                    "description": "Turn 4 - You killed one of the 3 highest point unit of your opponent",
-                    "score": 3,
-                    "turnLimit" : [4,4]
-                },
-                {
-                    "description": "Turn 5 - You killed one of the 3 highest point unit of your opponent",
-                    "score": 2,
-                    "turnLimit" : [5,5]
-                },
-                {
-                    "description": "You HAVE NOT killed one of the 3 highest point unit of your opponent",
-                    "score": -1,
-                    "turnLimit" : [1,5]
+                    "score": 4
                 }
             ]
         }

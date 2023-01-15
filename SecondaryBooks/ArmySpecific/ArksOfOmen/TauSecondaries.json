@@ -15,16 +15,12 @@
             "exclusive": true,
             "subObjectives": [
                 {
-                    "description": "one or more enemy units were destroyed by T’AU EMPIRE units from your army this battle round.",
+                    "description": "one or more enemy units were destroyed by T’AU EMPIRE units from your army this battle round.If Mont'ka score on turn 1,2,3 only. Kauyon on turn 3,4,5",
                     "score": 1
                 },
                 {
-                    "description": "three or more enemy units were destroyed by T’AU EMPIRE units from your army this battle round.",
+                    "description": "three or more enemy units were destroyed by T’AU EMPIRE units from your army this battle round.If Mont'ka score on turn 1,2,3 only. Kauyon on turn 3,4,5",
                     "score": 3
-                },
-                {
-                    "description": "If Mont'ka score on turn 1,2,3 only. Kauyon on turn 3,4,5",
-                    "score": 0
                 }
             ]
         },
@@ -43,12 +39,8 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "one or more enemy units were destroyed by T’AU EMPIRE units from your army this battle round.",
+                    "description": "Control half or more of the total number of objective markers on the battlefield. If Mont'ka selected score on turn 1,2,3 only. With Kauyon on turn 3,4,5",
                     "score": 4
-                },
-                {
-                    "description": "If Mont'ka selected score on turn 1,2,3 only. With Kauyon on turn 3,4,5",
-                    "score": 0
                 }
             ]
         },
