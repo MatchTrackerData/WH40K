@@ -90,7 +90,7 @@
                 },
                 {
                     "description": "You completed the action Round 4",
-                    "score": 7
+                    "score": 7,
                     "turnLimit": [4,4]
                 },
                 {

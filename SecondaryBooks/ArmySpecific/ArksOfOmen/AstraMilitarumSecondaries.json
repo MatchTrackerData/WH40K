@@ -63,7 +63,7 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "Score 1 for each table quarter with a PLATOON infantry wholy within it (and 3'' from center),
+                    "description": "Score 1 for each table quarter with a PLATOON infantry wholy within it (and 3'' from center)",
                     "score": 1
                 },
                 {
