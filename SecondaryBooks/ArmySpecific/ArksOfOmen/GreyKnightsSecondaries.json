@@ -4,9 +4,9 @@
             "type": "Purge The Enemy",
             "id": "destroythedaemon",
             "missionName": "Destroy The Daemon",
-            "shortDescription": "Score points by type of units destroyed by a GREY KNIGHT unit : 5 for a DEAMON PRIMARCH, 3 for a DEAMON MONSTER, 3 for a DAEMON VEHICLE, 1 for any other DAEMON. -1 for each unit not below half strength",
+            "shortDescription": "Score points by type of units destroyed by a GREY KNIGHT unit : 5 for a DEAMON PRIMARCH, 3 for a DEAMON MONSTER, 3 for a DAEMON VEHICLE, 1 for any other DAEMON.",
             "scoringPhase": "End of Battle",
-            "fromRound": 6,
+            "fromRound": 1,
             "untilRound": 6,
             "maxTotalPoints": 15,
             "maxTurnPoints": 15,
@@ -15,24 +15,20 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "DAEMON PRIMARCH was destroyed - Score ONCE",
+                    "description": "DAEMON PRIMARCH was destroyed",
                     "score": 5
                 },
                 {
-                    "description": "DAEMON MONSTER was destroyed- Score ONCE",
+                    "description": "DAEMON MONSTER was destroyed",
                     "score": 3
                 },
                 {
-                    "description": "DAEMON VEHICLE was destroyed- Score ONCE",
+                    "description": "DAEMON VEHICLE was destroyed",
                     "score": 3
                 },
                 {
-                    "description": "DAEMON unit was destroyed- Score ONCE",
+                    "description": "DAEMON unit was destroyed",
                     "score": 1
-                },
-                {
-                    "description": "A unit of DAEMON was not under half strength",
-                    "score": -1
                 }
             ]
         },
@@ -40,7 +36,7 @@
             "type": "No Mercy, No Respite",
             "id": "teleportassault",
             "missionName": "Teleport Assault",
-            "shortDescription": "score 4 victory points if one or more enemy units were destroyed by a GREY KNIGHTS model from your army that was set up on the battlefield using the Teleport Strike ability, the Teleportation Shunt Stratagem or the Gate of Infinity psychic power this battle round.",
+            "shortDescription": "score 5 victory points if one or more enemy units were destroyed by a GREY KNIGHTS model from your army that was set up on the battlefield using the Teleport Strike ability, the Teleportation Shunt Stratagem or the Gate of Infinity psychic power this battle round.",
             "scoringPhase": "End of Round",
             "fromRound": 1,
             "untilRound": 5,
@@ -52,7 +48,7 @@
             "subObjectives": [
                 {
                     "description": "one or more enemy units were destroyed by a GREY KNIGHTS model from your army that was set up on the battlefield using the Teleport Strike ability, the Teleportation Shunt Stratagem or the Gate of Infinity psychic power this battle round.",
-                    "score": 4
+                    "score": 5
                 }
             ]
         },
@@ -60,7 +56,7 @@
             "type": "Warpcraft",
             "id": "purifyingritual",
             "missionName": "Purifying Ritual",
-            "shortDescription": "A GREY KNIGHT PSYKER can perform Purifying Ritual (Psychic Action - Warp Charge 5) on an objective. Score points based on the number purifyed this turn",
+            "shortDescription": "A GREY KNIGHT PSYKER can perform Purifying Ritual (Psychic Action - Warp Charge 6) on an objective. Score points based on the number purifyed this turn",
             "scoringPhase": "End of Turn",
             "fromRound": 1,
             "untilRound": 5,
@@ -71,19 +67,19 @@
             "exclusive": true,
             "subObjectives": [
                 {
-                    "description": "1 objective purified",
+                    "description": "1 objective purified this turn",
                     "score": 1
                 },
                 {
-                    "description": "2 objective purified",
+                    "description": "2 objective purified this turn",
                     "score": 2
                 },
                 {
-                    "description": "3 objective purified",
+                    "description": "3 objective purified this turn",
                     "score": 4
                 },
                 {
-                    "description": "4+ objective purified",
+                    "description": "4+ objective purified this turn",
                     "score": 5
                 }
             ]

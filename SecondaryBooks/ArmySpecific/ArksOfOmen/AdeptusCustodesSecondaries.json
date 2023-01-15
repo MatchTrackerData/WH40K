@@ -63,7 +63,7 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "Targeted opponent's unit is destroyed",
+                    "description": "Control more `no man land`objectives than the opponent",
                     "score": 3
                 }
             ]

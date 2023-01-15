@@ -15,8 +15,8 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "A unit from your army completes this action.",
-                    "score": 2
+                    "description": "A unit from your army completes CLAIMED MACGRAGGE action.",
+                    "score": 4
                 }
             ]
         }

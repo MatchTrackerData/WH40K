@@ -24,7 +24,7 @@
             "type": "No Mercy, No Respite",
             "id": "inflexiblecommand",
             "missionName": "Inflexible Command",
-            "shortDescription": "Score 2 if every ASTRA MILITARUM INFANTRY is near 6'' of a friendly OFFICER, 1 if all ASTRA MILITARUM VEHICLE is within 12'' of a friendly VEHICLE OFFICER, 1 if enemy units destroyed by ASTRA MILITARUM while that unit is affected by any Order",
+            "shortDescription": "Score 2 if every PLATOON INFANTRY is near 6'' of a friendly OFFICER, 1 if all SQUADRON is within 12'' of a friendly OFFICER, 2 if enemy units destroyed by ASTRA MILITARUM while that unit is affected by any Order",
             "scoringPhase": "End of Turn",
             "fromRound": 1,
             "untilRound": 5,
@@ -35,16 +35,16 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "Every ASTRA MILITARUM INFANTRY is within 6'' of a friendly OFFICER unit",
+                    "description": "Every PLATOON INFANTRY is within 6'' of a friendly OFFICER unit",
                     "score": 2
                 },
                 {
-                    "description": "Every ASTRA MILITARUM VEHICLE is within 6'' of a friendly VEHICLE OFFICER unit",
+                    "description": "Every SQUADRON is within 12'' of a friendly OFFICER unit",
                     "score": 1
                 },
                 {
-                    "description": "Enemy unit destroyed by ASTRA MILITARUM unit while being affect by an Order or Tank Order",
-                    "score": 1
+                    "description": "Enemy unit destroyed by ASTRA MILITARUM unit while being affected by an Order",
+                    "score": 2
                 }
             ]
         },
@@ -52,76 +52,23 @@
             "type": "Battlefield Supremacy",
             "id": "bootsontheground",
             "missionName": "Boots On The Ground",
-            "shortDescription": "End of turn, score 1 for each table quarter with 1+ <REGIMENT> INFANTRY wholly within it, 1 if 1+ with a regimental standard are wholly within 6'' of the center or within opponent's deplyment zone",
+            "shortDescription": "Score 1pt for each table quarter with a PLATOON infantry wholy within it (and 3'' from center) AND Score 1 for each REGIMENTAL STANDARD unity from your army wholy within 6'' form center or in the opponents deployment",
             "scoringPhase": "End of Turn",
-            "fromRound": 1,
+            "fromRound": 2,
             "untilRound": 5,
             "maxTotalPoints": 15,
             "maxTurnPoints": 15,
-            "multiScore": false,
+            "multiScore": true,
             "scoreOnce": false,
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "1 Quarter Table has one or more <REGIMENT> INFANTRY wholly within it",
+                    "description": "Score 1 for each table quarter with a PLATOON infantry wholy within it (and 3'' from center),
                     "score": 1
                 },
                 {
-                    "description": "1 Quarter Table has one or more <REGIMENT> INFANTRY wholly within it",
+                    "description": "Score 1 for each REGIMENTAL STANDARD unity from your army wholy within 6'' form center or in the opponents deployment",
                     "score": 1
-                },
-                {
-                    "description": "1 Quarter Table has one or more <REGIMENT> INFANTRY wholly within it",
-                    "score": 1
-                },
-                {
-                    "description": "1 Quarter Table has one or more <REGIMENT> INFANTRY wholly within it",
-                    "score": 1
-                },
-                {
-                    "description": "1+ units from the army with a regiment standard are within 6'' of the centre or within opponent's deployment zone",
-                    "score": 1
-                }
-            ]
-        },
-        {
-            "type": "Shadow Operations",
-            "id": "specialorders",
-            "missionName": "Special Orders",
-            "shortDescription": "ASTRA MILITARUM INFANTRY can perform the action when within 12'' of an OFFICER unit within range of an objective marker not in deployment zone. Roll a D6 if successful, gain a command point on a 6",
-            "scoringPhase": "End of Battle",
-            "fromRound": 1,
-            "untilRound": 6,
-            "maxTotalPoints": 15,
-            "maxTurnPoints": 15,
-            "multiScore": false,
-            "scoreOnce": false,
-            "exclusive": true,
-            "subObjectives": [
-                {
-                    "description": "You have 1 expunged objective marker",
-                    "score": 2,
-                    "turnLimit":[6,6]
-                },
-                {
-                    "description": "You have 2 expunged objective marker",
-                    "score": 5,
-                    "turnLimit":[6,6]
-                },
-                {
-                    "description": "You have 3 expunged objective marker",
-                    "score": 10,
-                    "turnLimit":[6,6]
-                },
-                {
-                    "description": "You have 4+ expunged objective marker",
-                    "score": 15,
-                    "turnLimit":[6,6]
-                },
-                {
-                    "description": "I hope you haven't forgotten the D6 every time :), on a 6 you make 1 CP back",
-                    "score": 0,
-                    "turnLimit":[1,5]
                 }
             ]
         }

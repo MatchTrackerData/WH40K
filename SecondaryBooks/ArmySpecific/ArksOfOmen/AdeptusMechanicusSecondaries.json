@@ -4,7 +4,7 @@
             "type": "Purge the Enemy",
             "id": "accretionofknowledge",
             "missionName": "Accretion of Knowledge",
-            "shortDescription": "3pts for killing with ADEPTUS MECHANICUS: model with relic or model with warlords trait or has a relic or vehicle with 14+ wounds",
+            "shortDescription": "3pts for killing with ADEPTUS MECHANICUS: model with relic or model with warlords trait or has a relic or vehicle with 8+ wounds",
             "scoringPhase": "Any tinme",
             "fromRound": 5,
             "untilRound": 5,
@@ -23,7 +23,7 @@
                     "score": 3
                 },
                 {
-                    "description": "Killed model with VEHICLE with 14+ wounds",
+                    "description": "Killed model with VEHICLE with 8+ wounds",
                     "score": 3
                 }
             ]
@@ -32,7 +32,7 @@
             "type": "No mercy, no respite",
             "id": "eradicationofflesh",
             "missionName": "Eradication of Flesh",
-            "shortDescription": "3pts if: ADEPTUS MECHANICUS VEHICLE alive and killed more infantry units than enemy killed ADEPTUS MECHANICUS VEHICLE",
+            "shortDescription": "4pts if: More enemy units were destroyed by MECHANICUS VEHICLES than MECHANICUS VEHICLES were destroyed this battle round.",
             "scoringPhase": "End of Round",
             "fromRound": 1,
             "untilRound": 5,
@@ -43,28 +43,8 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "There's a vehicle alive and killed more enemy INFANTRY units than enemy killed VEHICLE units",
-                    "score": 3
-                }
-            ]
-        },
-        {
-            "type": "Battlefield Supremacy",
-            "id": "unchartedsequencing",
-            "missionName": "Uncharted Sequencing",
-            "shortDescription": "Assign in objective to each round. 3pts if you control the right objective the right round AND have an ADEPTUS MECHANICUS within range",
-            "scoringPhase": "End of Round",
-            "fromRound": 1,
-            "untilRound": 5,
-            "maxTotalPoints": 15,
-            "maxTurnPoints": 3,
-            "multiScore": false,
-            "scoreOnce": false,
-            "exclusive": false,
-            "subObjectives": [
-                {
-                    "description": "You control the right objective at the end of this round",
-                    "score": 3
+                    "description": "More enemy units were destroyed by MECHANICUS VEHICLES than MECHANICUS VEHICLES were destroyed this battle round.",
+                    "score": 4
                 }
             ]
         },
@@ -72,7 +52,7 @@
             "type": "Battlefield Supremacy",
             "id": "hiddenarcheovault",
             "missionName": "Hidden Archeovault",
-            "shortDescription": "Enemy chose objective (not in his deployment), earn pts for controlling it (4pts) end of round with an ADEPTUS MECHANICUS model in range",
+            "shortDescription": "Enemy chose objective (not in his deployment), earn pts for controlling it (5pts) end of round with an ADEPTUS MECHANICUS model in range",
             "scoringPhase": "End of Round",
             "fromRound": 1,
             "untilRound": 5,
@@ -84,7 +64,7 @@
             "subObjectives": [
                 {
                     "description": "Control enemy chosen objective at end of round",
-                    "score": 4
+                    "score": 5
                 }
             ]
         }

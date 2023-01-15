@@ -5,9 +5,9 @@
             "id": "mastersofdemolition",
             "missionName": "Masters Of Demolition",
             "shortDescription": "Opponent must set up 3 objective marker on ground level. IRON WARRIORS INFANTRY can attempt the Total Demolition action (start of movement up to end of round)",
-            "scoringPhase": "Anytime",
+            "scoringPhase": "End of Game",
             "fromRound": 1,
-            "untilRound": 5,
+            "untilRound": 6,
             "maxTotalPoints": 15,
             "maxTurnPoints": 15,
             "multiScore": true,
@@ -20,7 +20,7 @@
                 },
                 {
                     "description": "ADDITIONNAL :  if a demolition site objective marker that was within 6'' of your opponent’s deployment zone was demolished by your army",
-                    "score": 2
+                    "score": 4
                 }
             ]
         }

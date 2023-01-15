@@ -1,50 +1,6 @@
 {
     "secondaries": [
         {
-            "type": "Purge The Enemy",
-            "id": "duelofhonour",
-            "missionName": "Duel of Honour",
-            "shortDescription": "Select the enemy WARLORD and the 2 highest units he has. For each destroyed, score VP and Honour Point when achieving those.",
-            "scoringPhase": "Anytime",
-            "fromRound": 1,
-            "untilRound": 5,
-            "maxTotalPoints": 15,
-            "maxTurnPoints": 15,
-            "multiScore": false,
-            "scoreOnce": false,
-            "exclusive": false,
-            "subObjectives": [
-                {
-                    "description": "Honour to the King (+1 Honour Point): The unit was destroyed by a melee attack made by your WARLORD.",
-                    "score": 5
-                },
-                {
-                    "description": "Personal Combat (+1 Honour Point): The unit was destroyed by a melee attack made by any other IMPERIAL KNIGHTS model from your army.",
-                    "score": 4
-                },
-                {
-                    "description": "Cowardly Cur: The unit was destroyed because it was not on the battlefield at the end of the battle and so counted as destroyed (note, this does not apply if the enemy unit is embarked in a TRANSPORT that is itself on the battlefield at the end of the battle).",
-                    "score": 4
-                },
-                {
-                    "description": "Inglorious Demise: The enemy unit was destroyed by any other means.",
-                    "score": 3
-                },
-                {
-                    "description": "A unit targeted hasn't bee destroyed",
-                    "score": -1
-                },
-                {
-                    "description": "A unit targeted hasn't bee destroyed",
-                    "score": -1
-                },
-                {
-                    "description": "A unit targeted hasn't bee destroyed",
-                    "score": -1
-                }
-            ]
-        },
-        {
             "type": "No Mercy, No Respite",
             "id": "honourofthehouse",
             "missionName": "Honour Of The House",

@@ -4,55 +4,27 @@
             "type": "No Mercy, No Respite",
             "id": "aleapoffaith",
             "missionName": "A Leap Of Faith",
-            "shortDescription": "End of turn, if 2 Acts of faith were performed by ADEPTAS SORTITAS units, score 1 VP if it's your turn, 2 if it's opponents. With 3 acts, score 1 more.",
-            "scoringPhase": "End Of Turn",
+            "shortDescription": "Discard miracle dices to gain VP depending on the dice number. (1/2/3 pts)",
+            "scoringPhase": "End Of Round",
             "fromRound": 1,
             "untilRound": 5,
             "maxTotalPoints": 12,
             "maxTurnPoints": 4,
             "multiScore": false,
             "scoreOnce": false,
-            "exclusive": false,
+            "exclusive": true,
             "subObjectives": [
                 {
-                    "description": "You made 2 acts of faith during your turn",
+                    "description": "Discard a 1-3 value miracle dice",
                     "score": 1
                 },
                 {
-                    "description": "You made 2 acts of faith during your ENEMY turn",
+                    "description": "Discard a 4-5 value miracle dice",
+                    "score": 2
+                },
+                {
+                    "description": "Discard a 6 value miracle dice",
                     "score": 3
-                },
-                {
-                    "description": "You made 3 acts of faith during any turn",
-                    "score": 1
-                }
-            ]
-        },
-        {
-            "type": "Purge The Enemy",
-            "id": "slaytheheretic",
-            "missionName": "Slay The Heretic",
-            "shortDescription": "End of Shooting phase score 1 for each enemy unit was destroyed with a bolt weapon OR a flame weapon OR a melta weapon by a ADEPTUS MINISTORUM.",
-            "scoringPhase": "End of Shooting Phase",
-            "fromRound": 1,
-            "untilRound": 5,
-            "maxTotalPoints": 4,
-            "maxTurnPoints": 15,
-            "multiScore": false,
-            "scoreOnce": false,
-            "exclusive": false,
-            "subObjectives": [
-                {
-                    "description": "You destroyed an ENEMY unit with an attach by an ADEPTUS MINITORUM using a bolt weapon (5VP max)",
-                    "score": 1
-                },
-                {
-                    "description": "You destroyed an ENEMY unit with an attach by an ADEPTUS MINITORUM using a flame weapon(5VP max)",
-                    "score": 1
-                },
-                {
-                    "description": "You destroyed an ENEMY unit with an attach by an ADEPTUS MINITORUM using a melta weapon(5VP max)",
-                    "score": 1
                 }
             ]
         },
@@ -60,7 +32,7 @@
             "type": "Shadow Operations",
             "id": "sacredgrounds",
             "missionName": "Sacred Grounds",
-            "shortDescription": "ADEPTA SORITAS INFANTRY and CULT IMPERIALIS PRIEST can attempt a Sacred Grounds action. Until end of battle, that objective gains INSPIRING terrain trait. Score 1 if the objective was wholly within your deployment zone, otherwise score 5",
+            "shortDescription": "ADEPTA SORITAS INFANTRY and CULT IMPERIALIS PRIEST can attempt a Sacred Grounds action. Until end of battle, that objective gains INSPIRING terrain trait. Score 1 if the objective was wholly within your deployment zone, otherwise score 4",
             "scoringPhase": "Any Time",
             "fromRound": 1,
             "untilRound": 5,
@@ -76,7 +48,7 @@
                 },
                 {
                     "description": "ONCE PER OBJECTIVE Consecrate ground action has been completed outside of your deployment zone objective",
-                    "score": 5
+                    "score": 4
                 }
             ]
         },
@@ -88,7 +60,7 @@
             "scoringPhase": "End of Turn, End of Game",
             "fromRound": 1,
             "untilRound": 5,
-            "maxTotalPoints": 100,
+            "maxTotalPoints": 15,
             "maxTurnPoints": 100,
             "multiScore": false,
             "scoreOnce": false,

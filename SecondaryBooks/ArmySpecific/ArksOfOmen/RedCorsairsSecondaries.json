@@ -30,13 +30,13 @@
                     "turnLimit":[1,5]
                 },
                 {
-                    "description": " for each RED CORSAIRS unit from your army that is carrying spoils of war",
+                    "description": "For each RED CORSAIRS unit from your army that is carrying spoils of war",
                     "score": 1,
                     "turnLimit":[6,6]
                 },
                 {
-                    "description": "For each RED CORSAIRS unit WHOLLY within your deployment zone from your army that is carrying spoils of war",
-                    "score": 1,
+                    "description": "(OR)For each RED CORSAIRS unit WHOLLY within your deployment zone from your army that is carrying spoils of war",
+                    "score": 2,
                     "turnLimit":[6,6]
                 }
             ]

@@ -16,7 +16,7 @@
             "subObjectives": [
                 {
                     "description": "Score 3 victory points for each objective marker that still has explosives planted on it by your army.",
-                    "score": 1
+                    "score": 3
                 }
             ]
         }

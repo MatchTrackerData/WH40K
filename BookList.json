@@ -83,6 +83,13 @@
             "info": "Nephilim"
         },
         {
+            "name": "Adeptus Custodes",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/AdeptusCustodesSecondaries",
+            "factionName": "A. Custod.",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Adeptus Mechanicus",
             "file": "SecondaryBooks/ArmySpecific/Codex/AdeptusMechanicusSecondaries",
             "factionName": "A. Mech.",
@@ -95,6 +102,13 @@
             "factionName": "A. Mech.",
             "group": "Imperium",
             "info": "Nephilim"
+        },
+        {
+            "name": "Adeptus Mechanicus",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/AdeptusMechanicusSecondaries",
+            "factionName": "A. Mech.",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
         },
         {
             "name": "Adepta Sororitas",
@@ -111,11 +125,25 @@
             "info": "Nephilim"
         },
         {
+            "name": "Adepta Sororitas",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/AdeptasSororitasSecondaries",
+            "factionName": "A. Sor.",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Alpha Legion",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/AlphaLegionSecondaries",
             "factionName": "A. Legion.",
             "group": "Chaos",
             "info": "Nephilim"
+        },
+        {
+            "name": "Alpha Legion",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/AlphaLegionSecondaries",
+            "factionName": "A. Legion.",
+            "group": "Chaos",
+            "info": "Arks Of Omen"
         },
         {
             "name": "Astra Militarum",
@@ -132,23 +160,37 @@
             "info": "Nephilim"
         },
         {
+            "name": "Astra Militarum",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/AstraMilitarumSecondaries",
+            "factionName": "A. Militarum",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Black Legion",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/BlackLegionSecondaries",
             "factionName": "B. Legion",
             "group": "Imperium",
             "info": "Nephilim"
-        }, 
+        },
+        {
+            "name": "Black Legion",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/BlackLegionSecondaries",
+            "factionName": "B. Legion",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
         {
             "name": "Craftworld Eldar",
             "file": "SecondaryBooks/ArmySpecific/Codex/AsuryaniSecondaries",
-            "factionName": "Eldar",
+            "factionName": "C. Eldar",
             "group": "Aeldari",
             "info": "CODEX"
         },
         {
             "name": "Craftworld Eldar",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/AsuryaniSecondaries",
-            "factionName": "Asuryani",
+            "factionName": "C. Eldar",
             "group": "Aeldari",
             "info": "Nephilim"
         },
@@ -223,25 +265,39 @@
             "info": "Nephilim"
         },
         {
-            "name": "Chaos Marines",
+            "name": "Traitoris Astartes",
             "file": "SecondaryBooks/ArmySpecific/Codex/ChaosSpaceMarinesSecondaries",
-            "factionName": "Chaos Marines",
+            "factionName": "Traitoris",
             "group": "Chaos",
             "info": "CODEX"
         },
         {
-            "name": "Chaos Marines",
+            "name": "Traitoris Astartes",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/ChaosSpaceMarinesSecondaries",
-            "factionName": "Chaos Marines",
+            "factionName": "Traitoris",
+            "group": "Chaos",
+            "info": "Nephilim"
+        },
+        {
+            "name": "Traitoris Astartes",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/ChaosSpaceMarinesSecondaries",
+            "factionName": "Traitoris",
+            "group": "Chaos",
+            "info": "Arks Of Omen"
+        },
+        {
+            "name": "Creations Of Bile",
+            "file": "SecondaryBooks/ArmySpecific/Nephilim/CreationsOfBileSecondaries",
+            "factionName": "C. Bile",
             "group": "Chaos",
             "info": "Nephilim"
         },
         {
             "name": "Creations Of Bile",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/CreationsOfBileSecondaries",
-            "factionName": "Chaos Marines",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/CreationsOfBileSecondaries",
+            "factionName": "C. Bile",
             "group": "Chaos",
-            "info": "Nephilim"
+            "info": "Arks Of Omen"
         },
         {
             "name": "Dark Angels",
@@ -302,14 +358,14 @@
         {
             "name": "Drukhari",
             "file": "SecondaryBooks/ArmySpecific/Codex/DrukhariSecondaries",
-            "factionName": "Dark Elves",
+            "factionName": "Drukhari",
             "group": "Aeldari",
             "info": "CODEX"
         },
         {
             "name": "Drukhari",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/DrukhariSecondaries",
-            "factionName": "Dark Elves",
+            "factionName": "Drukhari",
             "group": "Aeldari",
             "info": "Nephilim"
         },
@@ -319,6 +375,13 @@
             "factionName": "E. Childs",
             "group": "Chaos",
             "info": "Nephilim"
+        },
+        {
+            "name": "Emperor Children",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/EmperorsChildrenSecondaries",
+            "factionName": "E. Childs",
+            "group": "Chaos",
+            "info": "Arks Of Omen"
         },
         {
             "name": "Grey Knights",
@@ -333,6 +396,13 @@
             "factionName": "Grey K.",
             "group": "Imperium",
             "info": "Nephilim"
+        },
+        {
+            "name": "Grey Knights",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/GreyKnightsSecondaries",
+            "factionName": "Grey K.",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
         },
         {
             "name": "Harlequins",
@@ -377,6 +447,13 @@
             "info": "Nephilim"
         },
         {
+            "name": "Imperial Knights",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/ImperialKnightsSecondaries",
+            "factionName": "I. Knights",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Iron Hands",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/IronHandsSecondaries",
             "factionName": "Iron Hands",
@@ -385,7 +462,7 @@
         },
         {
             "name": "Iron Hands",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/IronHandsSecondaries",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/IronHandsSecondaries",
             "factionName": "Iron Hands",
             "group": "Imperium",
             "info": "Arks Of Omen"
@@ -396,6 +473,13 @@
             "factionName": "Iron W.",
             "group": "Imperium",
             "info": "Nephilim"
+        },
+        {
+            "name": "Iron Warriors",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/IronWarriorsSecondaries",
+            "factionName": "Iron W.",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
         },
         {
             "name": "Genstealer Cult",
@@ -440,6 +524,13 @@
             "info": "Nephilim"
         },
         {
+            "name": "Night Lords",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/NightLordsSecondaries",
+            "factionName": "N. Lords",
+            "group": "Chaos",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Orcs",
             "file": "SecondaryBooks/ArmySpecific/Codex/OrksSecondaries",
             "factionName": "Orcs",
@@ -461,6 +552,13 @@
             "info": "Nephilim"
         },
         {
+            "name": "Raven Guards",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/RavenGuardSecondaries",
+            "factionName": "Raven G.",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Red Corsairs",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/RedCorsairsSecondaries",
             "factionName": "R. Corsairs",
@@ -468,11 +566,25 @@
             "info": "Nephilim"
         },
         {
+            "name": "Red Corsairs",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/RedCorsairsSecondaries",
+            "factionName": "R. Corsairs",
+            "group": "Chaos",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "Salamanders",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/SalamandersSecondaries",
             "factionName": "Salamanders",
             "group": "Imperium",
             "info": "Nephilim"
+        },
+        {
+            "name": "Salamanders",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/SalamandersSecondaries",
+            "factionName": "Salamanders",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
         },
         {
             "name": "Space Wolves",
@@ -487,6 +599,13 @@
             "factionName": "S. Wolves",
             "group": "Imperium",
             "info": "Nephilim"
+        },
+        {
+            "name": "Space Wolves",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/SpaceWolvesSecondaries",
+            "factionName": "S. Wolves",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
         },
         {
             "name": "TAU Empire",
@@ -519,14 +638,14 @@
         {
             "name": "Tyranids",
             "file": "SecondaryBooks/ArmySpecific/Codex/TyranidsSecondaries",
-            "factionName": "Tyranidons",
+            "factionName": "Tyranids",
             "group": "Xenos",
             "info": "CODEX"
         },
         {
             "name": "Tyranids",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/TyranidsSecondaries",
-            "factionName": "Tyranidons",
+            "factionName": "Tyranids",
             "group": "Xenos",
             "info": "Nephilim"
         },
@@ -538,6 +657,13 @@
             "info": "Nephilim"
         },
         {
+            "name": "Ultramarines",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/UltramarinesSecondaries",
+            "factionName": "Ultrmarines",
+            "group": "Imperium",
+            "info": "Arks Of Omen"
+        },
+        {
             "name": "White Scars",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/WhiteScarsSecondaries",
             "factionName": "W. Scars",
@@ -546,17 +672,24 @@
         },
         {
             "name": "White Scars",
-            "file": "SecondaryBooks/ArmySpecific/Nephilim/WhiteScarsSecondaries",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/WhiteScarsSecondaries",
             "factionName": "W. Scars",
             "group": "Imperium",
             "info": "Arks Of Omen"
         },
         {
-            "name": "World Bearers",
+            "name": "Word Bearers",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/WorldBearersSecondaries",
             "factionName": "W. Bearers",
             "group": "Chaos",
             "info": "Nephilim"
+        },
+        {
+            "name": "Word Bearers",
+            "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/WorldBearersSecondaries",
+            "factionName": "W. Bearers",
+            "group": "Chaos",
+            "info": "Arks Of Omen"
         },
         {
             "name": "World Eaters",

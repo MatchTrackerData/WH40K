@@ -27,7 +27,7 @@
                     "score": 1
                 },
                 {
-                    "description": "each time an enemy unit is destroyed by a melee attack made by a NIGHT LORDS model from your army, before removing the last model in that enemy unit from the battlefield, roll 2D6: if the result equals or exceeds the Leadership characteristic of that enemy model, score 1 victory point.",
+                    "description": "each time an enemy unit is destroyed by a melee attack made by a NIGHT LORDS model from your army, before removing the last model in that enemy unit from the battlefield, roll 2D6: score if the result equals or exceeds the Leadership characteristic of that enemy model",
                     "score": 1
                 }
             ]
