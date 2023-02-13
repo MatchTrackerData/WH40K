@@ -170,14 +170,14 @@
             "name": "Black Legion",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/BlackLegionSecondaries",
             "factionName": "B. Legion",
-            "group": "Imperium",
+            "group": "Chaos",
             "info": "Nephilim"
         },
         {
             "name": "Black Legion",
             "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/BlackLegionSecondaries",
             "factionName": "B. Legion",
-            "group": "Imperium",
+            "group": "Chaos",
             "info": "Arks Of Omen"
         },
         {
@@ -513,14 +513,14 @@
             "name": "Iron Warriors",
             "file": "SecondaryBooks/ArmySpecific/Nephilim/IronWarriorsSecondaries",
             "factionName": "Iron W.",
-            "group": "Imperium",
+            "group": "Chaos",
             "info": "Nephilim"
         },
         {
             "name": "Iron Warriors",
             "file": "SecondaryBooks/ArmySpecific/ArksOfOmen/IronWarriorsSecondaries",
             "factionName": "Iron W.",
-            "group": "Imperium",
+            "group": "Chaos",
             "info": "Arks Of Omen"
         },
         {
