@@ -1,7 +1,7 @@
 {
     "secondaries": [
         {
-            "type": "No Mercy, No Respite",
+            "type": "Purge The Enemy",
             "id": "stromp'emgood",
             "missionName": "Stomp'Em Good",
             "shortDescription": "End of battle round, score point for each units destroyed by melee attacks by ORKS depending on the GRETCHIN units lost",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "type": "BattleField Supremacy",
+            "type": "Shadow Operations",
             "id": "getdagoodbitz",
             "missionName": "Get Da Good Bitz",
             "shortDescription": "ORKS CODE units can attempt Get da Good Bitz (From end of movement up to end of turn if LOOTAS or Gretchin, otherwise next command phase)",
