@@ -28,7 +28,7 @@
             "type": "No Mercy, No Respite",
             "id": "thebloodgodsdue",
             "missionName": "The blood God's due",
-            "shortDescription": "Destroy a MONSTER, CHARACTER,VEHICLE with a WORLD EATER unit for 2pts OR destroy any other unity type with a WORLD EATER unit for 1pts",
+            "shortDescription": "An objective was drown in blood this turn (a NON VEHICLE unit was destroed in range of the objective) for 1 point each time",
             "scoringPhase": "End of each Turn",
             "fromRound": 1,
             "untilRound": 5,
@@ -48,7 +48,7 @@
             "type": "Battlefield Supremacy",
             "id": "piletheskulls",
             "missionName": "Blood for the blood god",
-            "shortDescription": "",
+            "shortDescription": "Discard blood tithe points to gain victory point (1, 2, 3) for 2VP each up to 5 VP per Battle Round",
             "scoringPhase": "End of round",
             "fromRound": 1,
             "untilRound": 5,
@@ -64,7 +64,7 @@
                 },
                 {
                     "description": "Discard 2 Blood Tithe Points",
-                    "score": 2
+                    "score": 4
                 },
                 {
                     "description": "Discard 3 Blood Tithe Points",
