@@ -16,7 +16,7 @@
                 "displayofspiritualmight",
                 "reconnaissancemission"
             ],
-            "commandPointsGivenStart": 2,
+            "commandPointsGivenStart": 6,
             "commandPointsGivenYourTurn": 1,
             "commandPointsGivenTheirTurn": 1
         },
@@ -36,7 +36,7 @@
                 "displayofspiritualmight",
                 "reconnaissancemission"
             ],
-            "commandPointsGivenStart": 3,
+            "commandPointsGivenStart": 6,
             "commandPointsGivenYourTurn": 1,
             "commandPointsGivenTheirTurn": 1
         },
